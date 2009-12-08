@@ -1,0 +1,47 @@
+body#resume div#content a {
+  text-decoration: underline;
+}
+body#resume div#content a:hover {
+  text-decoration: none;
+}
+body#resume div#content h1 {
+  color: white;
+  font-size: 18px;
+  line-height: 18px;
+  background: #5E5E5E;
+  padding: 10px 16px;
+}
+body#resume div#content div.section {
+  margin: 0 0 22px 16px;
+  background: #363636;
+  padding: 10px 16px;
+}
+body#resume div#content h2 {
+  font-size: 16px;
+}
+body#resume div#content div.section p,
+body#resume div#content div.section ul {
+  color: #D4D4D4;
+}
+body#resume div#content div.section p.technologies,
+body#resume div#content div.section h2 span.url,
+body#resume div#content div.section h2 span.location,
+body#resume div#content div.section h3 span.date {
+  font-family: Verdana;
+  font-size: 10px;
+  color: #898989;
+}
+body#resume div#content div.section h2 span.url,
+body#resume div#content div.section h2 span.location {
+  margin-left: 7px;
+}
+body#resume div#content div.section h3 {
+  font-size: 14px;
+}
+body#resume div#content div.section h3 span.date {
+  float: right;
+}
+body#resume div#content div.section p.technologies strong {
+  font-weight: normal;
+  color: #4C4C4C;
+}

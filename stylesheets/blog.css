@@ -1,0 +1,92 @@
+body#blog div#post {
+  color: #d4d4d4;
+  background: #2b2b2b;
+  width: 594px;
+  padding: 18px;
+}
+body#blog div#post h1 {
+  color: #fff;
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+body#blog div#post h2 {
+  color: #fff;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 10px;
+}
+body#blog div#post p {
+  margin-bottom: 10px;
+}
+body#blog div#post a {
+  text-decoration: underline;
+}
+body#blog div#post a:hover {
+  text-decoration: none;
+}
+body#blog div#post img {
+  border: 8px solid #000;
+  display: block;
+  margin: 0 auto;
+}
+body#blog div#post table {
+  margin-bottom: 10px;
+  width: 100%;
+}
+body#blog div#post div.highlight {
+  margin: 0 12px 12px;
+  padding: 8px;
+}
+body#blog div#post blockquote {
+  margin: 0 0 10px 12px;
+  padding: 4px 0 4px 12px;
+  border-left: 8px solid black;
+}
+body#blog div#details,
+body#blog div#related-posts,
+body#blog div#subscribe {
+  float: right;  
+  background: #1f1f1f;
+  width: 220px;
+  margin-bottom: 22px;
+  padding: 10px;
+}
+body#blog div#details {
+  padding-left: 40px;
+}
+body#blog div#details p {
+  color: #767676;
+  font-family: Verdana;
+  font-size: 10px;
+}
+body#blog div#details p strong {
+  font-weight: normal;
+  color: #363636;
+}
+body#blog div#subscribe,
+body#blog div#related-posts {
+  clear: right;
+}
+body#blog div#related-posts {
+  border-top: 4px solid #bf0000;
+}
+body#blog div#subscribe {
+  background-image: url(/images/posts/rss.png);
+  background-repeat: no-repeat;
+  background-position: 200px 10px;
+}
+body#blog div#related-posts h2,
+body#blog div#subscribe h2 {
+  font-size: 16px;
+  line-height: 16px;
+}
+body#blog div#related-posts h2 {
+  margin-bottom: 8px;
+}
+body#blog div#subscribe h2 {
+  margin: 8px 0 7px 0;
+}
+body#blog div#related-posts p a {
+  color: #999999;
+}

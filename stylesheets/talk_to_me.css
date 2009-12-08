@@ -1,0 +1,33 @@
+body#talk-to-me div#wufoo,
+body#talk-to-me div.third-party {
+  margin-left: 90px;
+  float: left;
+}
+body#talk-to-me div#wufoo {
+  width: 343px;
+  height: 439px;
+  background: #363636;
+  padding: 12px 5px 12px 12px;
+}
+body#talk-to-me div#wufoo iframe {
+  background: #363636 !important;
+  height: 100% !important;
+}
+body#talk-to-me div.third-party {
+  padding: 10px;
+  float: left;
+  margin-left: 90px;
+  width: 250px;
+  margin-bottom: 22px;
+  background: #1f1f1f;
+}
+body#talk-to-me div.third-party img {
+  float: left;
+}
+body#talk-to-me div.third-party h1 {
+  font-size: 16px;
+  margin: 2px 0 6px 43px;
+}
+body#talk-to-me div.third-party p {
+  color: #959595;
+}

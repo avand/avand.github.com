@@ -1,0 +1,101 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code,
+del, dfn, em, img, q, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+em {
+  font-style: italic;
+}
+
+/* Tables still need 'cellspacing="0"' in the markup. */
+table { border-collapse: separate; border-spacing: 0; }
+caption, th, td { text-align: left; font-weight: normal; }
+table, td, th { vertical-align: middle; }
+
+/* Remove possible quote marks (") from <q>, <blockquote>. */
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+
+/* Remove annoying border on linked images. */
+a img { border: none; }
+
+html, a {
+  color: white;
+}
+html {
+  background: black url('../images/common/red.png') repeat-x;
+  font-family: "Lucida Grande", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+}
+body {
+  width: 900px;
+  margin: 0 auto;
+  background: transparent url('../images/common/black_square.png') 271px 0 no-repeat;
+  padding-top: 8px;
+  line-height: 1.7; 
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+code {
+  font-family: "Courier New";
+  font-size: 12px;
+}
+li {
+  list-style-type: square;
+}
+div#header,
+div#menu,
+div#content {
+  margin-top: 22px;
+  width: 900px;
+}
+div#header {
+  background: black url('../images/common/avand.png') no-repeat;
+  height: 33px;
+  text-indent: -3000px;
+}
+div#menu,
+div#content {
+  display: inline-block;
+}
+div#menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 10px;
+}
+div#menu ul li {
+  margin: 0 22px 0 0;
+  display: inline;
+}
+div#menu ul li a {
+  color: #636363;
+}
+div#menu ul li a.active {
+  color: #FFF;
+}
+div#content {
+  margin-bottom: 50px;
+}
+
+.right {
+  float: right !important;
+}
+.left {
+  float: left !important;
+}
+.hidden {
+  display: none !important;
+}

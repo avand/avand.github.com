@@ -1,0 +1,199 @@
+
+body#in-a-nutshell {
+  
+}
+body#in-a-nutshell dl {
+  margin: 0;
+}
+body#in-a-nutshell dl dt {
+  float: left;
+  font-size: 24px;
+  line-height: 24px;
+  padding-left: 45px;
+}
+body#in-a-nutshell dl dd {
+  margin: 0;
+}
+body#in-a-nutshell dl dd ul {
+  padding: 0;
+}
+body#in-a-nutshell dl dd ul li {
+  display: block;
+  border: 8px solid #3A3A3A;
+  width: 120px;
+  height: 120px;
+  background: black url('../images/in_a_nutshell/spinner.gif') center center no-repeat;
+}
+body#in-a-nutshell dl dd ul li:hover {
+  border-color: #5B5B5B;
+}
+body#in-a-nutshell dl dt.play,
+body#in-a-nutshell dl dd.play,
+body#in-a-nutshell dl dt.write,
+body#in-a-nutshell dl dd.write,
+body#in-a-nutshell dl dt.bike {
+  margin-top: 22px;
+}
+body#in-a-nutshell dl dd.work,
+body#in-a-nutshell dl dd.play,
+body#in-a-nutshell dl dd.write {
+  float: right;
+}
+body#in-a-nutshell dl dd.work ul li,
+body#in-a-nutshell dl dd.play ul li,
+body#in-a-nutshell dl dd.write ul li {
+  float: right;
+}
+body#in-a-nutshell dl dt.work,
+body#in-a-nutshell dl dt.play {
+  width: 225px;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+body#in-a-nutshell dl dd.work,
+body#in-a-nutshell dl dd.play {
+  width: 630px;
+}
+body#in-a-nutshell dl dd.work ul li,
+body#in-a-nutshell dl dd.play ul li {
+  margin-left: 28px;
+  text-indent: -3000px;
+  cursor: pointer;
+}
+body#in-a-nutshell dl dd.work ul li.first,
+body#in-a-nutshell dl dd.play ul li.first {
+  margin-left: 29px;
+}
+body#in-a-nutshell dl dd.work ul li.last,
+body#in-a-nutshell dl dd.play ul li.last {
+  margin-left: 0;
+  margin-right: 1px;
+}
+body#in-a-nutshell dl dd.work ul li.fave {
+  background: transparent url('../images/in_a_nutshell/fave.png') no-repeat;
+}
+body#in-a-nutshell dl dd.work ul li.crate-and-barrel {
+  background: transparent url('../images/in_a_nutshell/crate_and_barrel.png') no-repeat;
+}
+body#in-a-nutshell dl dd.work ul li.william-lawrence-camp {
+  background: transparent url('../images/in_a_nutshell/william_lawrence_camp.png') no-repeat;
+}
+body#in-a-nutshell dl dd.work ul li.piggy-back {
+  background: transparent url('../images/in_a_nutshell/piggy_back.png') no-repeat;
+}
+body#in-a-nutshell dl dd.play ul li.racing {
+  background: transparent url('../images/in_a_nutshell/racing.png') no-repeat;
+}
+body#in-a-nutshell dl dd.play ul li.fashion {
+  background: transparent url('../images/in_a_nutshell/fashion.png') no-repeat;
+}
+body#in-a-nutshell dl dd.play ul li.design {
+  background: transparent url('../images/in_a_nutshell/design.png') no-repeat;
+}
+body#in-a-nutshell dl dt.write {
+  width: 315px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+body#in-a-nutshell dl dd.write {
+  width: 540px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+body#in-a-nutshell dl dd.write a {
+  display: block;
+  background-color: #3A3A3A;
+  padding: 18px;
+  font-size: 18px;
+  line-height: 18px;
+}
+body#in-a-nutshell dl dd.write a:hover {
+  background-color: #5B5B5B;
+}
+body#in-a-nutshell dl dt.bike,
+body#in-a-nutshell dl dd.bike {
+  float: left;
+}
+body#in-a-nutshell dl dd.bike {
+  margin-top: 28px;
+}
+body#in-a-nutshell dl dd.bike ul li {
+  margin-right: 55px;
+  float: left;
+}
+body#in-a-nutshell dl dd.bike ul li.last {
+  margin-right: 0;
+}
+body#in-a-nutshell div.lightbox {
+  display: none;
+  background: black;
+  border: 8px solid #5B5B5B;
+  margin: 70px 90px;
+  padding: 28px;
+  position: absolute;
+  width: 664px;
+}
+body#in-a-nutshell div.lightbox h1 {
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+body#in-a-nutshell div.lightbox p {
+  font-size: 14px;
+  color: #d4d4d4;
+}
+body#in-a-nutshell div.lightbox p.more {
+  font-size: 12px;
+  color: #646464;
+  text-align: right;
+}
+body#in-a-nutshell div.lightbox div.close {
+  height: 16px;
+  width: 16px;
+  float: right;
+  cursor: pointer;
+  background: url('../images/in_a_nutshell/lightboxes/close.png');
+  margin-left: 28px;
+  text-indent: -3000px;
+}
+body#in-a-nutshell div.lightbox.fave img {
+  margin-left: 28px;
+  float: right;
+}
+body#in-a-nutshell div.lightbox.fave p.more {
+  margin-top: 21px;
+}
+body#in-a-nutshell div.lightbox.crate-and-barrel img {
+  margin-right: 28px;
+  float: left;
+}
+body#in-a-nutshell div.lightbox.crate-and-barrel p.more {
+  margin-top: 21px;
+}
+body#in-a-nutshell div.lightbox.william-lawrence-camp img {
+  margin: 0 69px;
+  float: right;
+}
+body#in-a-nutshell div.lightbox.william-lawrence-camp p.more {
+  margin-top: -21px;
+}
+body#in-a-nutshell div.lightbox.piggy-back img {
+  margin-right: 28px;
+  float: left;
+}
+body#in-a-nutshell div.lightbox.piggy-back p.more {
+  margin-top: 8px;
+}
+body#in-a-nutshell div.lightbox.racing img {
+  margin-right: 28px;
+  float: left;
+}
+body#in-a-nutshell div.lightbox.fashion img {
+  margin-left: 28px;
+  float: right;
+}
+body#in-a-nutshell div.lightbox.design img {
+  margin: 0 90px;
+  float: left;
+}
+
