@@ -8,6 +8,6 @@ But at the same time, I find it very frustrating. Both rounded corners and drop 
 
 Every since I signed up for [LinkedIn](http://www.linkedin.com/), I've been dying for them to do a redesign. After logging in I felt totally inundated with information, and found it very challenging to navigate. Aside from the fact that a few months back they totally overhauled the design, they added a really slick design paradigm I've never seen before and I was really impressed. I'm referring to this:
 
-![picture alt](/assets/posts/2008-04-15-peeling-up/screenshot.png "LinkedIn Peeling Up Screenshot")
+![LinkedIn Peeling Up Screenshot](http://farm3.static.flickr.com/2562/4169458440_fcd4a28052_o.png)
 
 Do you see what I'm referring to? It's the peeling up effect below the "Add Connections" button. It doesn't solve _all_ the problems, but it definitely makes it easier than extending a drop shadow all the way up one side of that floating box. They actually call the class on that div "sticky-box" which I think embodies that "peel up" perfectly. Bravo LinkedIn!
