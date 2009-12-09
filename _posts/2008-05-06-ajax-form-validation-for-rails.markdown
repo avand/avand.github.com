@@ -65,7 +65,7 @@ You may have noticed some code in there referring to <code>:success</code> and <
 
 The best part of the whole thing, is it’s really DRY (Don’t Repeat Yourself), and therefore simple. Change your validation rules, and the UI updates dynamically. In addition the same approach can be used on any form that has an underlying model associated with it.
 
-[Download an example.](http://avandamiri.com.s3.amazonaws.com/assets/2008-05-06-ajax-form-validation-for-rails/AjaxFormValidationExample.zip)
+[Download an example from GitHub.](http://github.com/avand/RailsAjaxFormValidationExample/zipball/master)
 
  [1]: http://chicagoruby.org/
  [2]: http://www.ineightydays.com/archives/validating-an-ajax-form-in-ruby-on-rails
