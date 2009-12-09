@@ -10,7 +10,7 @@ body {
 .wufoo .info {
   border: none;
   margin-bottom: 14px;
-  width: 97%;
+  width: 100%;
 }
 .wufoo .info h2 {
   display: none;
@@ -68,6 +68,8 @@ form.wufoo {
 }
 .wufoo textarea.textarea {
   height: 250px;
+  min-width: 328px;
+  width: 328px;
 }
 .wufoo input.submit {
   color: white;
