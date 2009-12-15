@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "Rebuilding Fave (Part 2): Authentication, Authorization, and Tests"
+title: "Rebuilding Fave (Part 3): Authentication, Authorization, and Tests"
 ---
 One of the biggest deficiencies in the old application was being able to lock down access to the site based on users. Originally, there were two special users, Admin and Guest. The former had complete control, the later had none. Anyone else was a normal user and had the same level of access.
 
