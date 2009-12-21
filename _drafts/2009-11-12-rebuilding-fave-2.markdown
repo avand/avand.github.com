@@ -59,7 +59,9 @@ Just like authentication, we add a <code>before_filter</code> and catch the Auth
 
 ## Permissions
 
+Our entire authorization system now covers us up to the controller action. But there's still one more step. Does that user have permission to do that action _on a particular object_. In our case, can a user edit a specific business?
 
+What we have actually looks a lot like [Ryan Bate's CanCan plugin](http://github.com/ryanb/cancan).
 
 ## Testing
 
@@ -97,7 +99,7 @@ end
 
 There's a few issues here. First of all, there's a lot of duplication. More importantly, we duplicate the <code>get</code>, which is really a common procedure to all these tests. Secondly, we're retesting that this action <code>should_do_all_sorts_of_great_stuff</code> and binding those assertions to the setup of the test. Gross.
 
-[Shoulda controller macros](http://dev.thoughtbot.com/shoulda/classes/Shoulda/ActionController/Macros.html) encourage you to avoid duplicating the setup block over and over again, so I dove into creating a custom macro. I knew that if I followed the macro pattern, I was going to be able to figure out a way to get the implementation just the way I wanted. So I defined that first.
+[Shoulda controller macros](http://dev.thoughtbot.com/shoulda/classes/Shoulda/ActionController/Macros.html) encourage you to avoid duplicating the setup block over and over again, so I dove into creating a custom macro, designing it by implementation first:
 
 {% highlight ruby %}
 class UsersControllerTest < ActionController::TestCase
