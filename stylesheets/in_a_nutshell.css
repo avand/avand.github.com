@@ -30,6 +30,11 @@ body#in-a-nutshell dl dd.write,
 body#in-a-nutshell dl dt.bike {
   margin-top: 22px;
 }
+body#in-a-nutshell dl dd.work ul li,
+body#in-a-nutshell dl dd.play ul li,
+body#in-a-nutshell dl dd.bike ul li {
+  cursor: pointer;
+}
 body#in-a-nutshell dl dd.work,
 body#in-a-nutshell dl dd.play,
 body#in-a-nutshell dl dd.write {
@@ -54,7 +59,6 @@ body#in-a-nutshell dl dd.work ul li,
 body#in-a-nutshell dl dd.play ul li {
   margin-left: 28px;
   text-indent: -3000px;
-  cursor: pointer;
 }
 body#in-a-nutshell dl dd.work ul li.first,
 body#in-a-nutshell dl dd.play ul li.first {
