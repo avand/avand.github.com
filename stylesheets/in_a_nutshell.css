@@ -1,7 +1,3 @@
-
-body#in-a-nutshell {
-  
-}
 body#in-a-nutshell dl {
   margin: 0;
 }
@@ -116,6 +112,9 @@ body#in-a-nutshell dl dd.bike {
 }
 body#in-a-nutshell dl dd.bike {
   margin-top: 28px;
+}
+body#in-a-nutshell dl dd.bike ul {
+  margin: 0;
 }
 body#in-a-nutshell dl dd.bike ul li {
   margin-right: 55px;
