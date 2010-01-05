@@ -128,9 +128,10 @@ body#in-a-nutshell div.lightbox {
   display: none;
   background: black;
   border: 8px solid #5B5B5B;
-  margin: 70px 90px;
+  margin: auto 90px;
   padding: 28px;
   position: absolute;
+  top: 121px;
   width: 664px;
 }
 body#in-a-nutshell div.lightbox h1 {

@@ -20,7 +20,7 @@ $(document).ready(function() {
   
   var dl = $('dl');
   $('dd.work > ul > li, dd.play > ul > li').click(function() {
-    dl.css('opacity', 0.3);
+    dl.css('opacity', 0.0);
     
     var lightbox = $('div.lightbox.' + $(this).attr('class').split(' ')[0]);
     lightbox.show();
