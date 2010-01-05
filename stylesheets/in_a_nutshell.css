@@ -198,4 +198,6 @@ body#in-a-nutshell div.lightbox.design img {
   margin: 0 90px;
   float: left;
 }
-
+body#in-a-nutshell div.lightbox.bike p {
+  text-align: center;
+}
