@@ -111,6 +111,7 @@ body#in-a-nutshell dl dd.bike {
   float: left;
 }
 body#in-a-nutshell dl dd.bike {
+  width: 100%;
   margin-top: 28px;
 }
 body#in-a-nutshell dl dd.bike ul {
