@@ -151,6 +151,7 @@ body#in-a-nutshell div.lightbox p.more {
 body#in-a-nutshell div.lightbox div.close {
   height: 16px;
   width: 16px;
+  line-height: 16px;
   float: right;
   cursor: pointer;
   background: url('../images/in_a_nutshell/lightboxes/close.png');
