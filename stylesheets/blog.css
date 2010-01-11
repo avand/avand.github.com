@@ -20,6 +20,7 @@ body#blog div#post p {
   margin-bottom: 10px;
 }
 body#blog div#post a {
+  color: white;
   text-decoration: underline;
 }
 body#blog div#post a:hover {
