@@ -69,9 +69,6 @@ body#in-a-nutshell dl dd.play ul li.last {
   margin-left: 0;
   margin-right: 1px;
 }
-body#in-a-nutshell dl dd.work ul li.fave {
-  background: transparent url('../images/in_a_nutshell/fave.png') no-repeat;
-}
 body#in-a-nutshell dl dd.work ul li.crate-and-barrel {
   background: transparent url('../images/in_a_nutshell/crate_and_barrel.png') no-repeat;
 }
@@ -161,13 +158,6 @@ body#in-a-nutshell div.lightbox div.close {
   background: url('../images/in_a_nutshell/lightboxes/close.png');
   margin-left: 28px;
   text-indent: -3000px;
-}
-body#in-a-nutshell div.lightbox.fave img {
-  margin-left: 28px;
-  float: right;
-}
-body#in-a-nutshell div.lightbox.fave p.more {
-  margin-top: 21px;
 }
 body#in-a-nutshell div.lightbox.crate-and-barrel img {
   margin-right: 28px;
