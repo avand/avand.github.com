@@ -32,16 +32,13 @@ html, a {
   color: white;
 }
 html {
-  background: black url('../images/common/red.png') repeat-x;
+  background: black;
   font-family: "Lucida Grande", Arial, sans-serif;
   font-size: 12px;
   line-height: 20px;
+  height: 101%;
 }
 body {
-  width: 900px;
-  margin: 0 auto;
-  background: transparent url('../images/common/black_square.png') 271px 0 no-repeat;
-  padding-top: 8px;
   line-height: 1.7; 
 }
 a {
@@ -58,17 +55,28 @@ li {
 div#header,
 div#menu,
 div#content {
-  margin-top: 22px;
+  margin: 0 auto;
   width: 900px;
+  margin-top: 22px;
+}
+div#red-line {
+  height: 8px;
+  width: 100%;
+  background: #C81919;
+}
+div#red-line div#black-square {
+  height: 8px;
+  width: 9px;
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 385px;
 }
 div#header {
   background: black url('../images/common/avand.png') no-repeat;
   height: 33px;
   text-indent: -3000px;
-}
-div#menu,
-div#content {
-  display: inline-block;
+  margin-top: 30px;
 }
 div#menu ul {
   margin: 0;
@@ -88,6 +96,17 @@ div#menu ul li a.active {
 }
 div#content {
   margin-bottom: 50px;
+}
+div#content div.box {
+  background: #303030;
+  color: #999999;
+  text-shadow: 0 1px 1px #000000;
+}
+div#content div.box a {
+  color: #DDDDDD;
+}
+div#content div.box a:hover {
+  border-bottom: 1px solid red;
 }
 
 .right {

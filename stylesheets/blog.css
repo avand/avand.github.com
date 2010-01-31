@@ -1,6 +1,4 @@
 body#blog div#post {
-  color: #d4d4d4;
-  background: #2b2b2b;
   width: 594px;
   padding: 18px;
 }
@@ -18,13 +16,6 @@ body#blog div#post h2 {
 }
 body#blog div#post p {
   margin-bottom: 10px;
-}
-body#blog div#post a {
-  color: white;
-  text-decoration: underline;
-}
-body#blog div#post a:hover {
-  text-decoration: none;
 }
 body#blog div#post img {
   border: 8px solid #000;
@@ -69,9 +60,6 @@ body#blog div#subscribe,
 body#blog div#related-posts {
   clear: right;
 }
-body#blog div#related-posts {
-  border-top: 4px solid #bf0000;
-}
 body#blog div#subscribe {
   background-image: url(/images/posts/rss.png);
   background-repeat: no-repeat;
@@ -90,4 +78,7 @@ body#blog div#subscribe h2 {
 }
 body#blog div#related-posts p a {
   color: #999999;
+}
+body#blog div#related-posts p a:hover {
+  border-bottom: 1px solid red;
 }
