@@ -1,11 +1,11 @@
-function displayLightbox(lightbox, background) {
-  background.hide();
+function showLightbox(lightbox) {
+  $('dl').hide();
   lightbox.fadeIn();
-  
-  lightbox.children('div.close').click(function() {
-    lightbox.fadeOut();
-    background.fadeIn();
-  });
+}
+
+function hideLightbox(close) {
+  close.parent('div.lightbox').fadeOut();
+  $('dl').show()
 }
 
 function extractDate(date) {
@@ -17,7 +17,6 @@ function extractDate(date) {
 
 $(document).ready(function() {
   var flickr_url = "http://api.flickr.com/services/feeds/photoset.gne?set=72157622591314010&nsid=10385270@N02&lang=en-us&format=json&jsoncallback=?"
-  var dl = $('dl');
   
   $.getJSON(flickr_url, function(data) {
     var bikeUnorderedList = $('dd.bike > ul');
@@ -34,7 +33,7 @@ $(document).ready(function() {
       var bikeListElement = $("<li />").css('background-image', "url(\"" + src + "\")");
       var bikeLightbox = $(
         "<div class='lightbox bike'>" +
-          "<div class='close'>Close</div>" +
+          "<div class='close' onclick='hideLightbox($(this))'>Close</div>" +
           "<h1>" + dateTaken + "</h1>" +
           "<p><img src='" + src.replace('_m.jpg', '_d.jpg') + "' /></p>" +
         "</div>"
@@ -44,7 +43,7 @@ $(document).ready(function() {
       bikeUnorderedList.append(bikeListElement);
       
       bikeListElement.click(function() {
-        displayLightbox(bikeLightbox, dl);
+        showLightbox(bikeLightbox);
       });
     });
     
@@ -55,7 +54,10 @@ $(document).ready(function() {
   
   $('dd.work > ul > li, dd.play > ul > li').click(function() {
     var lightbox = $('div.lightbox.' + $(this).attr('class').split(' ')[0]);
-    
-    displayLightbox(lightbox, dl);
+    showLightbox(lightbox);
+  });
+  
+  $('div.close').click(function() {
+    hideLightbox($(this))
   });
 });
