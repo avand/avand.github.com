@@ -25,9 +25,9 @@ body {
 form.wufoo {
   margin: 0;
   padding: 0;
+  text-shadow: 0 1px 1px #000000;
 }
 .wufoo li {
-  color: #D4D4D4;
   padding: 0;
   margin-bottom: 10px;
 }
@@ -40,7 +40,6 @@ form.wufoo {
 }
 .wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label {
   color: #999999;
-  text-shadow: 0 1px 1px #000000;
 }
 .wufoo label.desc {
   font-size: 12px;
