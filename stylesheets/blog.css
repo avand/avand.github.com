@@ -13,6 +13,7 @@ body#blog div#post h2 {
   font-size: 16px;
   line-height: 16px;
   margin-bottom: 10px;
+  margin-top: 20px;
 }
 body#blog div#post p {
   margin-bottom: 10px;
@@ -22,10 +23,20 @@ body#blog div#post img {
   display: block;
   margin: 0 auto;
 }
+body#blog div#post img.no-border {
+  border: none;
+}
 body#blog div#post table {
   margin-bottom: 10px;
   width: 100%;
 }
+body#blog div#post .right {
+  margin: 0 0 15px 15px;
+}
+body#blog div#post .left {
+  margin: 0 15px 15px 0;
+}
+
 body#blog div#post div.highlight {
   margin: 0 12px 12px;
   padding: 8px;
