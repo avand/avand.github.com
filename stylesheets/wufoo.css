@@ -38,6 +38,10 @@ form.wufoo {
 .wufoo li div {
   margin-right: 0;
 }
+.wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label {
+  color: #999999;
+  text-shadow: 0 1px 1px #000000;
+}
 .wufoo label.desc {
   font-size: 12px;
   font-family: inherit;
@@ -45,7 +49,6 @@ form.wufoo {
 }
 .wufoo li label.desc,
 .wufoo li.focused label.desc {
-  color: #6c6c6c;
   float: left;
   padding: 3px 0;
 }
