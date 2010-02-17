@@ -56,6 +56,41 @@ That's how the get-its work. They'll read a simple feature request and think thr
 
 Get-its don't just challenge the products their working on. They also challenge their tools. If it sucks, they build a new one. If they don't like the way so-and-so library handles bla-bla-bla, they make it better and then share it with their peers. They've got their heads up, listening to other get-its, and are always a little uncomfortable because they understand that the only definite is that something's about to change. The best of them are the catalyst for that change.
 
-## Cast a Vote!
+## Update: The Results Are In
 
-<iframe height="145" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="http://avand.wufoo.com/embed/q7x3k1/"><a href="http://avand.wufoo.com/forms/q7x3k1/" title="Get-it or Get-not Survey" rel="nofollow">Fill out my Wufoo form!</a></iframe>
+When this post when up, I asked people whether they "got it" or didn't. Here are the results:
+
+<table class="results">
+  <thead>
+    <tr>
+      <th>&nbsp;</th>
+      <th class="percent">Percentage</th>
+      <th class="count">Count</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td class="empty">&nbsp;</td>
+      <th>Total</th>
+      <td class="count">122</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <th>I don&#039;t get it.</th>
+      <td class="percent">
+        <div style="background: #499CC9; width:54.10%"></div>
+        <var>54.10%</var>
+      </td>
+      <td class="count">66</td>
+    </tr>
+    <tr>
+      <th>I get it!</th>
+      <td class="percent">
+        <div style="background: #E53F11; width:45.90%"></div>
+        <var>45.90%</var>
+      </td>
+      <td class="count">56</td>
+    </tr>
+  </tbody>
+</table>

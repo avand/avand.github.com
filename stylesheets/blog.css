@@ -46,6 +46,13 @@ body#blog div#post blockquote {
   padding: 4px 0 4px 12px;
   border-left: 8px solid black;
 }
+body#blog div#post table.results td {
+  padding: 2px;
+}
+body#blog div#post table.results td.percent var {
+  color: white;
+  text-shadow: none;
+}
 body#blog div#details,
 body#blog div#related-posts,
 body#blog div#subscribe {
