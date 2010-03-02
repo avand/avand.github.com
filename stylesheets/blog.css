@@ -105,9 +105,6 @@ body#blog div#related-posts p a {
 body#blog div#related-posts p a:hover {
   border-bottom: 1px solid red;
 }
-body#blog div#comments a.dsq-brlink {
-  color: #999999;
-}
 
 /* Disqus Styles */
 
