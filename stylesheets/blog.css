@@ -1,12 +1,14 @@
-body#blog div#post {
-  width: 594px;
+body#blog div.box {
   padding: 18px;
 }
-body#blog div#post h1 {
+body#blog div.box h1 {
   color: #fff;
   font-size: 18px;
   line-height: 18px;
   margin-bottom: 10px;
+}
+body#blog div#post {
+  width: 594px;
 }
 body#blog div#post h2 {
   color: #fff;
@@ -75,7 +77,8 @@ body#blog div#details p strong {
   color: #363636;
 }
 body#blog div#subscribe,
-body#blog div#related-posts {
+body#blog div#related-posts,
+body#blog div#comments {
   clear: right;
 }
 body#blog div#subscribe {
@@ -99,4 +102,10 @@ body#blog div#related-posts p a {
 }
 body#blog div#related-posts p a:hover {
   border-bottom: 1px solid red;
+}
+body#blog div#comments {
+  margin-top: 22px;
+}
+body#blog div#comments a.dsq-brlink {
+  color: #999999;
 }
