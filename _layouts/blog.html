@@ -4,6 +4,8 @@ menu: Blog
 body_id: blog
 stylesheet: blog
 ---
+<script type="text/javascript" src="/javascripts/blog.js"></script>
+
 <div id="details">
   <p><strong>Published:</strong> {{ page.date | date_to_string }}</p>
 </div>
@@ -27,8 +29,12 @@ stylesheet: blog
 </div>
 
 <div id="comments" class="box">
-  <h1>Talk It Over</h1>
-  <div id="disqus_thread"></div>
+  <h1>Join the Discussion</h1>
+  <p id="start-comment">
+    Like what you've read? Take issue with something I said?
+    <a href="#">Let's talk about it</a>.
+  </p>
+  <div id="disqus_thread" style="display: none;"></div>
   <script type="text/javascript" src="http://disqus.com/forums/avand/embed.js"></script>
   <noscript>
     <a href="http://disqus.com/forums/avand/?url=ref">View the discussion thread.</a>

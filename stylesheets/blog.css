@@ -1,6 +1,8 @@
 body#blog div.box {
   padding: 18px;
+  margin-bottom: 22px;
 }
+body#blog div#comments div#disqus_thread h3,
 body#blog div.box h1 {
   color: #fff;
   font-size: 18px;
@@ -103,9 +105,9 @@ body#blog div#related-posts p a {
 body#blog div#related-posts p a:hover {
   border-bottom: 1px solid red;
 }
-body#blog div#comments {
-  margin-top: 22px;
-}
 body#blog div#comments a.dsq-brlink {
   color: #999999;
 }
+
+/* Disqus Styles */
+
