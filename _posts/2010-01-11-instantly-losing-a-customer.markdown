@@ -1,8 +1,8 @@
 ---
 layout: blog
-title: Instantly Loosing a Customer
+title: Instantly Losing a Customer
 ---
-A while ago, I wrote a [post about great customer service](http://avandamiri.com/2009/06/08/the-pursuit-of-happiness-through-outstanding-customer-service.html), where it's coming from and where to find more of it. Today, I'd like to take a look in the other direction and talk about the biggest mistake a business can make: loosing a customer.
+A while ago, I wrote a [post about great customer service](http://avandamiri.com/2009/06/08/the-pursuit-of-happiness-through-outstanding-customer-service.html), where it's coming from and where to find more of it. Today, I'd like to take a look in the other direction and talk about the biggest mistake a business can make: losing a customer.
 
 I've used 1-800-flowers.com for several orders over the past few years. Although the majority of the orders were unfulfilled or late, I sympathized with the company's position. They're stuck as the liaison between me, the over expecting customer, and any number of questionable florists. Every time there was an error, I was able to get my money back, although I often had to fight for it. I would never expect them to get every order right, but as you've probably experienced, it's so easy to win back a customer whose had a bad experience with stellar customer service. 1-800-flowers.com certainly left something to be desired.
 
