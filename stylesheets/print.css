@@ -1,0 +1,9 @@
+body {
+  font-family: "Lucida Grande", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+}
+div#header,
+div#menu {
+  display: none;
+}
