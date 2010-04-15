@@ -72,6 +72,9 @@ body#in-a-nutshell dl dd.play ul li.last {
 body#in-a-nutshell dl dd.work ul li.crate-and-barrel {
   background: transparent url('../images/in_a_nutshell/crate_and_barrel.png') no-repeat;
 }
+body#in-a-nutshell dl dd.work ul li.amiri-fine-arts {
+  background: transparent url('../images/in_a_nutshell/amiri_fine_arts.png') no-repeat;
+}
 body#in-a-nutshell dl dd.work ul li.william-lawrence-camp {
   background: transparent url('../images/in_a_nutshell/william_lawrence_camp.png') no-repeat;
 }
@@ -142,12 +145,20 @@ body#in-a-nutshell div.lightbox h1 {
 }
 body#in-a-nutshell div.lightbox p {
   font-size: 14px;
-  color: #d4d4d4;
+  color: #C3C3C3;
+}
+body#in-a-nutshell div.lightbox p a {
+  color: white;
+}
+body#in-a-nutshell div.lightbox p a:hover {
+  border-bottom: 1px solid red;
 }
 body#in-a-nutshell div.lightbox p.more {
+  text-align: right;
+}
+body#in-a-nutshell div.lightbox p.more a {
   font-size: 12px;
   color: #646464;
-  text-align: right;
 }
 body#in-a-nutshell div.lightbox div.close {
   height: 16px;
@@ -174,6 +185,13 @@ body#in-a-nutshell div.lightbox.william-lawrence-camp p.more {
   margin-top: -21px;
 }
 body#in-a-nutshell div.lightbox.piggy-back img {
+  margin-right: 28px;
+  float: left;
+}
+body#in-a-nutshell div.lightbox.piggy-back p.more {
+  margin-top: 8px;
+}
+body#in-a-nutshell div.lightbox.amiri-fine-arts img {
   margin-right: 28px;
   float: left;
 }
