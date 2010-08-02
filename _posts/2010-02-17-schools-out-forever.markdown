@@ -47,3 +47,12 @@ There's a lot of great things out there to learn, but theory is one thing and pr
 ## What About You?
 
 <iframe height="190" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="http://avand.wufoo.com/embed/r7x3p9/"><a href="http://avand.wufoo.com/forms/r7x3p9/" title="Schooling Survey" rel="nofollow">Fill out my Wufoo form!</a></iframe>
+
+## Update (August 1st, 2010)
+
+Since writing, I've found several articles regarding the flaws in the academic system. [Marty Nemko](http://www.martynemko.com/) of U.S. News describes one's undergraduate education as [America's most overrated product](http://www.martynemko.com/articles/americas-most-overrated-product-undergraduate-education_id1234). I thought it was worth highlighting some of my favorite points:
+
+* "What percent of students would you guess graduate from college within six years? Forty percent. Six out of ten never graduate."
+* On the social value of attending university: "Fact: 27% of all undergraduate students binge drink regularly"
+* "We need to capitalize on students' desire to learn what they're excited about and motivated to learn at that point in time. When kids are at eighteen or twenty, they're at their most idealistic. It's a great time to teach them about things that are going to foment that idealism. It's a great time to teach them about relationships. It's a great time to teach them about careers."
+* "Colleges produce a shoddy, overpriced product and it's time we held them accountable."
