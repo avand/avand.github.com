@@ -1,0 +1,41 @@
+---
+layout: blog
+title: Best Code
+---
+For the last 6 months I've been entrenched in the world of startups. Leaving my full-time job in January, I focused all my efforts on [PiggyBack.it][1], a simple way to track debts between friends. I pitched it to [TechStars][2] and went out to Boulder for a day, where I met [Mo Yehia][4]. He was working on dish86, a service that was going to provide exclusive promotions to high-end restaurants. While, neither of our ideas were accepted, we forged a Boulder-bond and started hatching schemes back in Chicago. [DreamIt Ventures][3] a business accelerator in Philadelphia ultimately ended up accepting his idea and he needed a partner in crime. We came to Philly in May and have since changed ideas twice, and built three products.
+
+The summer has been insanity and lessons abound but right now I want to focus on tools and technology that I couldn't have lived without. It's my list of "unfair advantages".
+
+## Ruby on Rails
+
+Duh.
+
+Talk about having an unfair advantage. This web-framework comes out of the box with everything you need to hit the ground running. Ruby is so expressive and user-friendly even non-technical people can understand it. But the real reason I love this framework: you can work at the speed of life. It is rapid iteration at your fingertips; all summer, we've coded features on a need to have basis.
+
+I've been working with [Ruby on Rails][5] for a solid 2 years now, so I'm understandably comfortable with it. However, there's a ridiculous amount of free instruction available. Plugins, gems, screencasts litter any well constructed Google search. I took the plunge with Rails 3 back in beta2 and haven't had any issues. I generally try and stay "on the Rails" for as long as possible, so perhaps that's why I didn't experience too much pain.
+
+## Heroku
+
+Simply put: I can't work with out Heroku. Ruby on Rails is delightful to work in, but getting it up and running isn't always fun. You need a server first, a way to provision it, some form of deployment script, and a way to monitor that everything is going according to plan.
+
+Or... you could just use Heroku.
+
+If you want iterations to happen in hours and not days, you can't spend time as a sys-admin. It takes me less than 5 minutes to completely replicate our production environment for testing and it's practically free to get started. This is how I deploy:
+
+{% highlight bash %}
+$ git push heroku master
+{% endhighlight %}
+
+Or, if I'm working with a testing environment:
+
+{% highlight bash %}
+$ git push heroku-staging staging:master
+{% endhighlight %}
+
+Just don't leave workers running. I made the mistake of running a bunch for a few days and wound up with a ridiculous bill.
+
+[1]: http://piggyback.it/ "PiggyBack.it"
+[2]: http://www.techstars.org/techstars-for-a-day/ "TechStars for a Day"
+[3]: http://www.dreamitventures.com/ "DreamIt Ventures"
+[4]: http://www.linkedin.com/in/moyehia "Mo Yehia"
+[5]: http://rubyonrails.org/ "Ruby on Rails"
