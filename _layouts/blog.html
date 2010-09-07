@@ -4,8 +4,6 @@ menu: Blog
 body_id: blog
 stylesheet: blog
 ---
-<script type="text/javascript" src="/javascripts/blog.js"></script>
-
 <div id="details">
   <p><strong>Published:</strong> {{ page.date | date_to_string }}</p>
 </div>
@@ -28,15 +26,12 @@ stylesheet: blog
   {{ content }}
 </div>
 
+{% if page.hacker_news_link %}
 <div id="comments" class="box">
   <h1>Join the Discussion</h1>
   <p id="start-comment">
     Like what you've read? Take issue with something I said?
-    <a href="#">Let's talk about it</a>.
+    <a href="{{ page.hacker_news_link }}">Let's talk about it</a>.
   </p>
-  <div id="disqus_thread" style="display: none;"></div>
-  <script type="text/javascript" src="http://disqus.com/forums/avand/embed.js"></script>
-  <noscript>
-    <a href="http://disqus.com/forums/avand/?url=ref">View the discussion thread.</a>
-  </noscript>
 </div>
+{% endif %}

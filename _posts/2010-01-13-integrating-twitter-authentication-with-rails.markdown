@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Integrating Twitter Authentication with Rails
+hacker_news_link: http://news.ycombinator.com/item?id=1096473
 ---
 I'm working on a project called [Piggy Back][1], a simple service where friends can keep track of debts between one another. To encourage user registration, I'm lowering the barriers, allowing users to sign up their [Twitter][3] and [Facebook][4] accounts. I'd like share with you how I got this functionality into this Rails app. A shout out to [Chris Powers](http://twitter.com/chrisjpowers) and [Jeff Talbot](http://twitter.com/nevernormal1) for their feedback along the way.
 

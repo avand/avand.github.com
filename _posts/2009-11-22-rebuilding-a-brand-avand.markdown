@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Rebuilding a Brand. Avand.
+hacker_news_link: http://news.ycombinator.com/item?id=1093892
 ---
 Once again, it's been months since my last post. I've been taking some good and some bad classes at DePaul for the last 10 weeks and as a result haven't really had much time to invest in myself. Even Piggy Back has taken the back burner. The one personal priority I did get around to was my new website avandamiri.com. I thought I would take a moment and reflect on the motivations, goals, and end results of the process.
 

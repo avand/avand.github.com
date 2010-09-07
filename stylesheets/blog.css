@@ -2,7 +2,6 @@ body#blog div.box {
   padding: 18px;
   border-bottom: 22px solid black;
 }
-body#blog div#comments div#disqus_thread h3,
 body#blog div.box h1 {
   color: #fff;
   font-size: 18px;
@@ -104,30 +103,4 @@ body#blog div#related-posts p a {
 }
 body#blog div#related-posts p a:hover {
   border-bottom: 1px solid red;
-}
-
-/* Disqus Styles */
-div.dsq-dc-logo a:focus,
-li.dsq-login-button a:focus {
-  border-bottom: none;
-}
-#dsq-content .dsq-textarea .dsq-textarea-wrapper,
-#dsq-content .dsq-post-fields .dsq-input-wrapper {
-  -moz-border-radius: none;
-  -webkit-border-radius: none;
-  font-size: 13px;
-  background: #c2c2c2;
-  border: 1px solid #000;
-  padding: 3px;
-  margin:3px 0;
-  padding:3px 5px;
-}
-button.dsq-button, button.dsq-button-small {
-  -moz-border-radius: none;
-  -webkit-border-radius: none;
-  color: white;
-  background: black;
-  border: none;
-  border-top: 2px solid #bf0000;
-  padding: 4px 9px;
 }
