@@ -14,13 +14,13 @@ The mechanics of a successful agile team vary, commonly differentiated by the le
 
 ## Incedental Reasons
 
-<img src="http://farm5.static.flickr.com/4154/4967913623_fd4868b07c_m_d.jpg" alt="4 Hour Timer" class="right"/>
-
 * Four hours is about the amount of time you can spend in Starbucks without your ass going numb.
 * Four hours is about the amount of time you can actually focus. Hunger is usually my biggest distraction.
 * Four hours is about the amount of time your laptop battery will last without re-charging.
 
 ## For Realzy Reasons
+
+<img src="http://farm5.static.flickr.com/4154/4967913623_fd4868b07c_m_d.jpg" alt="4 Hour Timer" class="right"/>
 
 * You have to manage scope: When you measure your sprints in hours - not days - you have no choice but to seriously question the scope of what you're doing. You have to ship something! So, get your shit together.
 * You can't write garbage code: Let's face it, how much damage can you do to a codebase in four hours? If tests have to pass and a deployment has to happen you just don't have time to fuck around.
