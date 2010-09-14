@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Schools Out Forever
+title: School's Out Forever
 hacker_news_link: http://news.ycombinator.com/item?id=1132024
 ---
 Growing up, I was told that the most important ingredient for my future was an education. Do your homework, study hard and the road ahead will lead to a satisfying career and financial security. That was the promise, anyway. But as it turns out, in the kitchen of education, I cooked up concoction that would make even [Andrew Zimmern](http://www.travelchannel.com/TV_Shows/Bizarre_Foods) cringe.
