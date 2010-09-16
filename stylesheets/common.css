@@ -50,8 +50,8 @@ code {
   font-family: "Courier New";
   font-size: 12px;
 }
-li {
-  list-style-type: square;
+ul li {
+  list-style-image: url("/images/common/red_square.png");
 }
 div#header,
 div#menu,
@@ -90,7 +90,8 @@ div#content div.box {
   color: #999999;
   text-shadow: 0 1px 1px #000000;
 }
-div#content div.box a {
+div#content div.box a,
+div#content div.box strong {
   color: #DDDDDD;
 }
 div#content div.box a:hover {
