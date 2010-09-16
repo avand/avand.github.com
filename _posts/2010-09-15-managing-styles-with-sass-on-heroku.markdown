@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Managing Styles with Sass on Heroku
+hacker_news_link: http://news.ycombinator.com/item?id=1698139
 ---
 I've generally found stylesheets to be the messiest part of any website. And I'm not surprised:
 
