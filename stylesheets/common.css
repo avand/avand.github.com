@@ -90,6 +90,9 @@ div#content div.box {
   color: #999999;
   text-shadow: 0 1px 1px #000000;
 }
+div#content div.box div.highlight {
+  text-shadow: none;
+}
 div#content div.box a,
 div#content div.box strong {
   color: #DDDDDD;
