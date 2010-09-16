@@ -88,8 +88,9 @@ end
 
 ## All together now!
 
+* Instead of 15-some stylesheets being downloaded at ~50 KB, now I send the client one 8 KB file.
 * **No writing to disk!** So Heroku's happy.
-* **[Varnish][12]** leverages HTTP to just cache the compiled CSS.
+* **[Varnish][12]** leverages HTTP to cache the compiled CSS.
 * **I can sleep again** because all my styles are now served in one tight bundle.
 * You get a nice free [gist][23] of the code to try for yourself.
 
