@@ -106,7 +106,7 @@ end
 [8]: http://code.google.com/speed/page-speed/
 [9]: http://synthesis.sbecker.net/pages/asset_packager
 [10]: http://github.com/dim/sphere
-[11]: http://twitter.com/chrisjpowers
+[11]: http://chrisjpowers.com/
 [12]: http://www.varnish-cache.org/
 [13]: http://www.css3.info/
 [14]: http://www.heroku.com
