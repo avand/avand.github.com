@@ -69,26 +69,35 @@ body#in-a-nutshell dl dd.play ul li.last {
   margin-left: 0;
   margin-right: 1px;
 }
-body#in-a-nutshell dl dd.work ul li.crate-and-barrel {
-  background: transparent url('../images/in_a_nutshell/crate_and_barrel.png') no-repeat;
+body#in-a-nutshell dl dd.work ul li.sqoot,
+body#in-a-nutshell dl dd.work ul li.amiri-fine-arts,
+body#in-a-nutshell dl dd.work ul li.william-lawrence-camp,
+body#in-a-nutshell dl dd.work ul li.piggy-back,
+body#in-a-nutshell dl dd.play ul li.racing,
+body#in-a-nutshell dl dd.play ul li.fashion,
+body#in-a-nutshell dl dd.play ul li.design {
+  background: transparent url('../images/in_a_nutshell/work_and_play.png') no-repeat;
+}
+body#in-a-nutshell dl dd.work ul li.sqoot {
+  background-position: 0 0;
 }
 body#in-a-nutshell dl dd.work ul li.amiri-fine-arts {
-  background: transparent url('../images/in_a_nutshell/amiri_fine_arts.png') no-repeat;
+  background-position: -120px 0;
 }
 body#in-a-nutshell dl dd.work ul li.william-lawrence-camp {
-  background: transparent url('../images/in_a_nutshell/william_lawrence_camp.png') no-repeat;
+  background-position: -240px 0;
 }
 body#in-a-nutshell dl dd.work ul li.piggy-back {
-  background: transparent url('../images/in_a_nutshell/piggy_back.png') no-repeat;
+  background-position: -360px 0;
 }
 body#in-a-nutshell dl dd.play ul li.racing {
-  background: transparent url('../images/in_a_nutshell/racing.png') no-repeat;
+  background-position: -120px -120px;
 }
 body#in-a-nutshell dl dd.play ul li.fashion {
-  background: transparent url('../images/in_a_nutshell/fashion.png') no-repeat;
+  background-position: -240px -120px;
 }
 body#in-a-nutshell dl dd.play ul li.design {
-  background: transparent url('../images/in_a_nutshell/design.png') no-repeat;
+  background-position: -360px -120px;
 }
 body#in-a-nutshell dl dt.write {
   width: 315px;
@@ -135,7 +144,7 @@ body#in-a-nutshell div.lightbox {
   margin: auto 90px;
   padding: 28px;
   position: absolute;
-  top: 121px;
+  top: 130px;
   width: 664px;
 }
 body#in-a-nutshell div.lightbox h1 {
@@ -170,11 +179,11 @@ body#in-a-nutshell div.lightbox div.close {
   margin-left: 28px;
   text-indent: -3000px;
 }
-body#in-a-nutshell div.lightbox.crate-and-barrel img {
+body#in-a-nutshell div.lightbox.sqoot img {
   margin-right: 28px;
   float: left;
 }
-body#in-a-nutshell div.lightbox.crate-and-barrel p.more {
+body#in-a-nutshell div.lightbox.sqoot p.more {
   margin-top: 21px;
 }
 body#in-a-nutshell div.lightbox.william-lawrence-camp img {
