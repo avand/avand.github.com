@@ -31,7 +31,7 @@ Don't lose site of your customers in spite of your test coverage.
 
 <img src="http://farm6.static.flickr.com/5253/5574803627_2129538b6c_m.jpg" alt="Failing at Failing" title="Failing at Failing" class="right">
 
-The tolerance for failure is probably a lot higher than you imagine; your customer is probably much more forgiving than you (or your boss) think.
+The tolerance for failure is probably a lot higher than you imagine; your customer is probably much more forgiving than you (or your boss) think, especially if you [handle it the right way][12].
 
 OK, that's not always true. If you're engineering the rules for credit card approval, the launch sequence for a missle, or the internals of a pacemaker, most of this post is irrelevant. But if you're like me, trying to break through to [meaty part of the adoption curve][4], then isn't the ultimate test simply feedback from your users?
 
@@ -107,3 +107,4 @@ If the line of code you're working on doesn't answer that question with a huge "
 [9]: http://github.com/avand/squawk
 [10]: http://pingdom.com
 [11]: http://hoptoadapp.com
+[12]: http://robots.thoughtbot.com/post/4191116705/updates-on-hoptoad
