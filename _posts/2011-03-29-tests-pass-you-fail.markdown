@@ -17,7 +17,7 @@ Just because your tests look back doesn't mean you should. In fact the exact opp
 
 If you're interested in actually moving the needle, perhaps the better benchmark is not how often your tests pass, but how often they fail.
 
-## You Lose Site of Your Customer
+## You Lose Sight of Your Customer
 
 <img src="http://farm6.static.flickr.com/5265/5574782175_e9b08ab39a_m.jpg" alt="Focusing on Customer Fail" title="Focusing on Customer Fail" class="right">
 
@@ -25,7 +25,7 @@ Passing tests are quite a high. Engineers are always looking for cold hard facts
 
 It can be a good thing. If the problem matters and the tests actually test the right things then it's a great thing. But it's easy to chase that high by writing tests that don't test the right thing, test something that's already tested or, worse, pass despite a feature that still doesn't work correctly.
 
-Don't lose site of your customers in spite of your test coverage.
+Don't lose sight of your customers in spite of your test coverage.
 
 ## You Fear Failure 
 
