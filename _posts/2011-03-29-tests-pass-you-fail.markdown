@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Tests Pass. You Fail.
+hacker_news_link: http://news.ycombinator.com/item?id=2391645
 ---
 Shit breaks. It'd be so much cooler if things just worked the way we expected, but they don't. For better or worse, we live in a world where everything eventually fails. And software is definitely not an exception.
 
