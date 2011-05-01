@@ -47,7 +47,7 @@ a {
   text-decoration: none;
 }
 code {
-  font-family: "Courier New";
+  font-family: 'Monaco', 'Courier New', monospace;
   font-size: 12px;
 }
 ul li {
