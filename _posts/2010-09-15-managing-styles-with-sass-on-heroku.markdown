@@ -3,6 +3,8 @@ layout: blog
 title: Managing Styles with Sass on Heroku
 hacker_news_link: http://news.ycombinator.com/item?id=1698139
 ---
+**UPDATE**: I presented on the topics of this post at [Chicago Ruby][24] and [Refresh][27]. The [video][25] and [slides][26] are now available online. (May 1st, 2011)
+
 I've generally found stylesheets to be the messiest part of any website. And I'm not surprised:
 
 * Cross browser support means kludgy code
@@ -119,3 +121,7 @@ end
 [21]: http://haml-lang.com/
 [22]: http://asciicasts.com/episodes/222-rack-in-rails-3
 [23]: http://gist.github.com/581728
+[24]: http://www.meetup.com/ChicagoRuby
+[25]: http://ontwik.com/javascript/simple-javascript-css-management-with-rack-by-avand-amiri/
+[26]: http://avandamiri.com/slides/css-js-rack.html
+[27]: http://www.refreshchi.org/
