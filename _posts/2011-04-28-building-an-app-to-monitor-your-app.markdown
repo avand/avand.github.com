@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Building an App to Monitor Your App
-hacker_news_link: 
+hacker_news_link: http://news.ycombinator.com/item?id=2518041
 ---
 
 Keeping a web application up and running usually requires lots of moving parts. Since these parts are all codependent, when the whole app goes down, the immediate question is: **what broke?**
