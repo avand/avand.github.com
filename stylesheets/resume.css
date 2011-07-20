@@ -15,26 +15,29 @@ body#resume div#content div.section {
 }
 body#resume div#content h2 {
   font-size: 16px;
+  line-height: 30px;
 }
 body#resume div#content div.section p.technologies,
 body#resume div#content div.section h2 span.url,
 body#resume div#content div.section h2 span.location,
 body#resume div#content div.section h3 span.date {
-  font-family: Verdana;
-  font-size: 10px;
-  color: #898989;
+  font-size: 11px;
+  color: #D5D5D5;
 }
-body#resume div#content div.section h2 span.url,
-body#resume div#content div.section h2 span.location {
-  margin-left: 7px;
+body#resume div#content div.section h2 span.url a {
+  color: #D5D5D5;
 }
 body#resume div#content div.section h3 {
   font-size: 14px;
+  line-height: 26px;
+}
+body#resume div#content div.section h2 span.url,
+body#resume div#content div.section h2 span.location {
+  line-height: 30px;
+  float: right;
+  margin-left: 14px;
 }
 body#resume div#content div.section h3 span.date {
   float: right;
-}
-body#resume div#content div.section p.technologies strong {
-  font-weight: normal;
-  color: #555;
+  line-height: 26px;
 }
