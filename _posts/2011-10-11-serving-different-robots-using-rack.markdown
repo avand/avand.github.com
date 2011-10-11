@@ -3,7 +3,7 @@ layout: blog
 title: Serving Different Robots.txt Using Rack
 ---
 
-While doing an SEO audit for the [daily deal API][1] I'm working on, the subject of the [robots.txt][2] came up. In addition to our production environment (the web servers that everyone uses), we also use an "edge" environment. It's a place we can push the latest and greatest changes and test them before they go live. Edge is an exact copy of production just running on a different domain. Since we didn't want to get dinged with content duplication we had to disallow spiders from crawling our edge environment. Here's how we serve different robots.txt files based on environment using Rack within Rails.
+While doing an SEO audit for the [daily deal API][1] I'm working on, the subject of the [robots.txt][2] came up. In addition to our production environment (what you and everyone else see), we also use an "edge" environment. It's a place we can push the latest and greatest changes and test them before they go live. Edge is an exact copy of production just running on a different domain. Since we didn't want to get dinged with content duplication we had to disallow spiders from crawling our edge environment. Here's how we serve different robots.txt files based on environment using Rack within Rails.
 
 1. Move public/robots.txt to config/robots.txt. This is now your production robots.txt. Any other environment will disallow everything for all user-agents.
 2. Create a `RobotsGenerator` in lib
