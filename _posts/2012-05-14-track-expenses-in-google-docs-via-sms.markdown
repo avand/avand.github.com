@@ -5,7 +5,7 @@ title: Track Expenses in Google Docs via SMS
 
 <img src="http://farm9.staticflickr.com/8145/7199153550_d3a50c9809_n.jpg" alt="Track Expenses in Google Docs via SMS" title="Track Expenses in Google Docs via SMS" class="right">
 
-Tracking expenses is a pain in the butt. At Sqoot, we use Google Docs for almost everything, including expenses, but entering anything on the go is cumbersome. Today, I got frusted and decided to take an hour and hack something together.
+Tracking expenses is a pain in the butt. At [Sqoot][6], we use Google Docs for almost everything, including expenses, but entering anything on the go is cumbersome. Today, I got frusted and decided to take an hour and hack something together.
 
 I wanted to be able to text something like this:
 
@@ -85,3 +85,4 @@ Cheers!
 [3]: https://github.com/twilio/twilio-ruby
 [4]: http://www.sinatrarb.com/
 [5]: https://github.com/avand/brioche
+[6]: http://www.sqoot.com/
