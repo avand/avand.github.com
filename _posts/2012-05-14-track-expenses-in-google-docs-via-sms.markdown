@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Track Expenses in Google Docs via SMS
+hacker_news_link: http://news.ycombinator.com/item?id=3973632
 ---
 
 <img src="http://farm9.staticflickr.com/8145/7199153550_d3a50c9809_n.jpg" alt="Track Expenses in Google Docs via SMS" title="Track Expenses in Google Docs via SMS" class="right">
