@@ -1,3 +1,32 @@
+body#blog #posts .post {
+  margin-bottom: 22px;
+}
+body#blog #posts .post a {
+  background: #3A3A3A;
+  color: #fff;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 18px;
+  display: inline-block;
+  margin-right: 8px;
+}
+body#blog #posts .post a:hover {
+  background: #5B5B5B;
+}
+body#blog #posts .post .date {
+  color: #323232;
+}
+body#blog #subscribe,
+body#blog #comments {
+  text-align: right;
+  font-size: 16px;
+  line-height: 16px;
+}
+body#blog #subscribe a:hover,
+body#blog #comments  a:hover {
+  border-bottom: 1px solid red;
+}
+
 body#blog div.box {
   padding: 18px;
   border-bottom: 22px solid black;
@@ -8,9 +37,10 @@ body#blog div.box h1 {
   line-height: 18px;
   margin-bottom: 10px;
 }
-body#blog div#post {
-  width: 594px;
-  float: left;
+body#blog div#post #date {
+  font-size: 11px;
+  line-height: 11px;
+  margin-bottom: 16px;
 }
 body#blog div#post h2 {
   color: #fff;
@@ -57,69 +87,6 @@ body#blog div#post table.results td {
 body#blog div#post table.results td.percent var {
   color: white;
   text-shadow: none;
-}
-body#blog div#details,
-body#blog div#related-posts,
-body#blog div#subscribe,
-body#blog div#comments {
-  float: right;  
-  background: #1f1f1f;
-  width: 220px;
-  margin-bottom: 22px;
-  padding: 10px;
-}
-body#blog div#details {
-  padding-left: 40px;
-}
-body#blog div#details p {
-  color: #767676;
-  font-family: Verdana;
-  font-size: 10px;
-}
-body#blog div#details p strong {
-  font-weight: normal;
-  color: #363636;
-}
-body#blog div#subscribe,
-body#blog div#related-posts,
-body#blog div#comments {
-  clear: right;
-}
-body#blog div#comments,
-body#blog div#subscribe {
-  background-repeat: no-repeat;
-  background-position: 200px 10px;
-  min-height: 22px;
-  padding-top: 18px;
-}
-body#blog div#subscribe {
-  background-image: url(/images/posts/rss.png);
-}
-body#blog div#comments p {
-  color: #999999;
-  margin-top: 12px;
-}
-body#blog div#comments p a {
-  color: #fff;
-}
-body#blog div#comments {
-  background-image: url(/images/posts/hn.png);
-}
-body#blog div#related-posts h2,
-body#blog div#subscribe h2,
-body#blog div#comments h2 {
-  font-size: 16px;
-  line-height: 16px;
-}
-body#blog div#related-posts h2 {
-  margin-bottom: 8px;
-}
-body#blog div#related-posts p a {
-  color: #999999;
-}
-body#blog div#comments p a:hover,
-body#blog div#related-posts p a:hover {
-  border-bottom: 1px solid red;
 }
 body#blog th {
   font-weight: bold;
