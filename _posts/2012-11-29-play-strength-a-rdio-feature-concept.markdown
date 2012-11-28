@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Play Strength, a Rdio Feature Concept
+hacker_news_link: http://news.ycombinator.com/item?id=4844406
 ---
 
 Music can make or break a party. And picking good music to play is hard. I think it should be easy.
