@@ -8,10 +8,22 @@ stylesheet: blog
   <h1>{{ page.title }}</h1>
 
   <div id="date">
-    {{ page.date | date: "%B %d %Y" }}
+    {{ page.date | date: "%B %d, %Y" }}
+
+    {% if page.guest_blog_name %}
+      <span class="guest-blog">
+        for
+        <a href="{{ post.guest_blog_url }}" target="_blank">
+          {{ page.guest_blog_name }}
+        </a>
+      </span>
+    {% endif %}
   </div>
 
-  {{ content }}
+
+  <div id="body">
+    {{ content }}
+  </div>
 </div>
 
 {% if page.hacker_news_link %}

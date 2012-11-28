@@ -8,7 +8,7 @@ title: Blog
 <div id="posts">
   {% for post in site.posts %}
     <div class="post">
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}" class="permalink">{{ post.title }}</a>
       <span class="date">{{ post.date | date: "%B %Y" }}</span>
     </div>
   {% endfor %}

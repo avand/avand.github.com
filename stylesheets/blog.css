@@ -1,7 +1,7 @@
 body#blog #posts .post {
   margin-bottom: 22px;
 }
-body#blog #posts .post a {
+body#blog #posts .post .permalink {
   background: #3A3A3A;
   color: #fff;
   font-size: 18px;
@@ -14,7 +14,7 @@ body#blog #posts .post a:hover {
   background: #5B5B5B;
 }
 body#blog #posts .post .date {
-  color: #323232;
+  color: #4E4E4F;
 }
 body#blog #subscribe,
 body#blog #comments {
@@ -27,12 +27,11 @@ body#blog #comments  a:hover {
   border-bottom: 1px solid red;
 }
 
-body#blog div.box {
+body#blog div#post {
   padding: 18px;
   border-bottom: 22px solid black;
 }
-body#blog div.box h1 {
-  color: #fff;
+body#blog div#post h1 {
   font-size: 18px;
   line-height: 18px;
   margin-bottom: 10px;
@@ -42,15 +41,37 @@ body#blog div#post #date {
   line-height: 11px;
   margin-bottom: 16px;
 }
-body#blog div#post h2 {
+body#blog div#post hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #000;
+  margin: 1em 0;
+  padding: 0;
+}
+body#blog div#post h1,
+body#blog div#post h2,
+body#blog div#post h3,
+body#blog div#post h4,
+body#blog div#post h5,
+body#blog div#post h6 {
   color: #fff;
+}
+body#blog div#post h2 {
   font-size: 16px;
   line-height: 16px;
   margin-bottom: 10px;
   margin-top: 20px;
 }
+body#blog div#post #body {
+  font-size: 13px;
+  line-height: 22px;
+}
 body#blog div#post p {
-  margin-bottom: 10px;
+  margin-bottom: 14px;
+}
+body#blog div#post p:last-child {
+  margin-bottom: 0;
 }
 body#blog div#post img {
   border: 8px solid #000;
