@@ -9,11 +9,12 @@ layout: default
 
       <div class="byline">
         Written on {{ page.date | date: "%B %d, %Y" }} by
+
         {% if page.guest_blog_name %}
           <a href="/">Avand Amiri</a> for
           <a href="{{ post.guest_blog_url }}" target="_blank">
             {{ page.guest_blog_name }}
-          </a>
+          </a>.
         {% else %}
           <a href="/">Avand Amiri</a>.
         {% endif %}
