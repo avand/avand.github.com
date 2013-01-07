@@ -3,6 +3,7 @@ layout: blog
 title: The Four Hour Sprint
 hacker_news_link: http://news.ycombinator.com/item?id=1672357
 ---
+
 If you want to talk about themes that have dominated the last year of my life, "agile" has got to be one of the most popular. It seems that everyone wants to be agile, and there's a lot of debate about what that means, [if anything][4]. [Agile software development][1] is a group of software development methodologies that are based on iterative and incremental development. It comes in a variety of flavors, the most popular being [Scrum][2].
 
 If you're familiar with Scrum you know the common traits:
@@ -38,5 +39,5 @@ We're very simple creatures. Most projects, probably the one you're working on r
 [5]: http://gettingreal.37signals.com/ch03_Embrace_Constraints.php
 [6]: http://heroku.com
 [7]: http://nvie.com/git-model
-[8]: http://books.google.com/books?id=QmkgwiB7bL8C&lpg=PA50&ots=uII-aE-bRR&dq=nasa%20apollo%20air%20filter%20crises&pg=PA50#v=onepage&q&f=false
+[8]: http://bit.ly/RAHz2P
 [9]: http://en.wikipedia.org/wiki/Getting_Things_Done

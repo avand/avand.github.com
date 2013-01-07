@@ -60,11 +60,9 @@ For what it's worth, I started this exercise before version 2.0.0 of the Rdio iP
 
 When you hear a song, you're less likely to want to hear it again, especially at a party. The interface could indicate when a song has been played. I attempted unsuccessfully to achieve this with icons. Hourglasses were much too hard to read when scaled down and any other simple indicator, like a read/unread dot, lacked sufficient context. I used an opacity reduction instead. To avoid visual clutter, songs that are played together as part of a set would also fade in together. Because songs are tightly grouped by album, this opacity change could bubble up to the album level too. It's a clever implementation but the opacity change still lacks context. Manipulating opacity is always a nuanced design choice and I don't think it works well here.
 
-<p>
-  <a href="http://cloud.avandamiri.com/image/0f2t143k3C0B" title="Rdio Play Indicator Mockup" target="_blank">
-    <img src="http://f.cl.ly/items/0X2j2D070z1t0N0I1s0f/Play%20and%20Fade.png" title="Rdio Play Indicator Mockup" width="849" />
-  </a>
-</p>
+<a href="http://cloud.avandamiri.com/image/0f2t143k3C0B" title="Rdio Play Indicator Mockup" target="_blank">
+  <img src="http://f.cl.ly/items/0X2j2D070z1t0N0I1s0f/Play%20and%20Fade.png" title="Rdio Play Indicator Mockup" />
+</a>
 
 ### 7. Last Played
 
@@ -78,11 +76,9 @@ While I was browsing more unfamiliar albums, it was hard to know which song to p
 
 Starring serves the same utility as popularity but gives me more control. For example, I just re-listened to [The 2nd Law][2nd-law] by [Muse][muse] and [Unsustainable][unsustainable] stood out as a token dubstep track. I'll definitely be hunting it down again soon. It would be nice to call it out from the other songs on that album. On the other hand, stars add clutter and in other applications, like Gmail, they're predominantly underutilized.
 
-<p>
-  <a href="http://cloud.avandamiri.com/image/3q0e2M1T3D46" title="Rdio Stars Mockup" target="_blank">
-    <img src="http://f.cl.ly/items/1F350z270I463A3W0C36/Stars.png" title="Rdio Stars Mockup" width="849" />
-  </a>
-</p>
+<a href="http://cloud.avandamiri.com/image/3q0e2M1T3D46" title="Rdio Stars Mockup" target="_blank">
+  <img src="http://f.cl.ly/items/1F350z270I463A3W0C36/Stars.png" title="Rdio Stars Mockup" />
+</a>
 
 ### 10. Play Strength
 
@@ -92,11 +88,9 @@ Perhaps the solution is more holistic. A great setlist takes into account when a
 
 ## Play Strength Deep Dive
 
-<p>
-  <a href="http://cloud.avandamiri.com/image/2T1B0e2J0Z0V" title="Rdio Play Strength Mockup" target="_blank">
-    <img src="http://f.cl.ly/items/2E3U3h2U340w0v0z0X39/Play%20Strength.png" title="Rdio Play Strength Mockup" width="849" />
-  </a>
-</p>
+<a href="http://cloud.avandamiri.com/image/2T1B0e2J0Z0V" title="Rdio Play Strength Mockup" target="_blank">
+  <img src="http://f.cl.ly/items/2E3U3h2U340w0v0z0X39/Play%20Strength.png" title="Rdio Play Strength Mockup" />
+</a>
 
 Play Strength is a compound index computed for each song for each user based on:
 

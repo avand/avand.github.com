@@ -1,33 +1,91 @@
 ---
 layout: default
-menu: Blog
-body_id: blog
-stylesheet: blog
 ---
-<div id="post" class="box">
-  <h1>{{ page.title }}</h1>
 
-  <div id="date">
-    {{ page.date | date: "%B %d, %Y" }}
+<div class="blog-show">
+  <div class="container">
+    <div class="post">
+      <h1>{{ page.title }}</h1>
 
-    {% if page.guest_blog_name %}
-      <span class="guest-blog">
-        for
-        <a href="{{ post.guest_blog_url }}" target="_blank">
-          {{ page.guest_blog_name }}
+      <div class="byline">
+        Written on {{ page.date | date: "%B %d, %Y" }} by
+        {% if page.guest_blog_name %}
+          <a href="/">Avand Amiri</a> for
+          <a href="{{ post.guest_blog_url }}" target="_blank">
+            {{ page.guest_blog_name }}
+          </a>
+        {% else %}
+          <a href="/">Avand Amiri</a>.
+        {% endif %}
+
+        {% capture words_per_minute %}{{ page.content | number_of_words | divided_by: 200 }}{% endcapture %}
+
+        {% case words_per_minute %}
+        {% when "0" %}
+          Takes less than a minute to read.
+        {% when "1" %}
+          Takes about a minute to read.
+        {% else %}
+          Reads in about {{ words_per_minute }} minutes.
+        {% endcase %}
+      </div>
+
+      <div class="body">
+        {{ content }}
+      </div>
+
+      <div class="footer">
+        <div class="fb-like"
+             data-href="http://avandamiri.com{{ page.url }}"
+             data-send="false"
+             data-width="200"
+             data-show-faces="false"
+             data-layout="button_count">
+        </div>
+
+        <a href="https://twitter.com/avand" class="twitter-follow-button" data-show-count="false">Follow @avand</a>
+
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="avand">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+        {% if page.hacker_news_link %}
+          <div class="comments">
+            <a href="{{ post.hacker_news_link }}" class="meta">
+              Discuss on Hacker News &raquo;
+            </a>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="about-the-author">
+      <div class="headshot">
+        <a href="/">
+          <img src="http://graph.facebook.com/avand/picture?height=200&width=200" height="200" width="200" />
         </a>
-      </span>
-    {% endif %}
-  </div>
+      </div>
 
+      <p class="salutation">
+        Thanks for reading! I'm Avand.
+      </p>
 
-  <div id="body">
-    {{ content }}
+      {% include _bio.html %}
+
+      <p class="valediction">
+        <a href="/blog.html">Find more to read</a> or get in touch:
+      </p>
+
+      {% include _networks.html %}
+    </div>
+
   </div>
 </div>
 
-{% if page.hacker_news_link %}
-  <div id="comments">
-    <a href="{{ page.hacker_news_link }}">Comments on Hacker News</a>
-  </div>
-{% endif %}
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=269964786414321";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>

@@ -61,7 +61,7 @@ PROCESSES.each do |process|
 end
 {% endhighlight %}
 
-Add a couple trivial views, some CSS3 awesome, and voilà, you've got [status.sqoot.com][4]!
+Add a couple trivial views, some CSS3 awesome, and voilà, you've got [health.sqoot.com][4]!
 
 ## Taking a Step Back
 
@@ -76,9 +76,9 @@ Boom!
 [1]: https://gist.github.com/950677
 [2]: https://gist.github.com/950680
 [3]: http://www.sinatrarb.com/
-[4]: http://status.sqoot.com/
+[4]: http://health.sqoot.com/
 [5]: http://www.sqoot.com/
 [6]: http://www.pingdom.com/
 [7]: http://hoptoadapp.com/
 [8]: http://lucene.apache.org/solr/
-[9]: http://status.sqoot.com/solr/
+[9]: http://health.sqoot.com/solr/

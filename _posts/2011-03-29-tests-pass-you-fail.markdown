@@ -3,6 +3,7 @@ layout: blog
 title: Tests Pass. You Fail.
 hacker_news_link: http://news.ycombinator.com/item?id=2391645
 ---
+
 Shit breaks. It'd be so much cooler if things just worked the way we expected, but they don't. For better or worse, we live in a world where everything eventually fails. And software is definitely not an exception.
 
 So we write tests. If 1 + 1 should be 2, we make assertions that that's **always** the case. Seems like an all-upside no-brainer.
@@ -37,9 +38,9 @@ OK, that's not always true. If you're engineering the rules for credit card appr
 
 If you think about your product from that perspective code coverage suddenly becomes less important. Are users signing up? Are they coming back? Are they [raving fans][7]? Is your product a vitamin or a pain-killer? Make **those** tests pass.
 
-> ["90% of coding is debugging. The other 10% is writing bugs"][8]
+> 90% of coding is debugging. The other 10% is writing bugs
 >
-> -- @bramcohen
+> -- [@bramcohen][8]
 
 Show-stopping bugs are easy to prevent. At [Sqoot][6] we use a few tools that I consider just as important as `rake test`. [Squawk][9], a gem I wrote that let's our app tweet, gives us live feedback (good, bad and ugly). [Pingdom][10] hits our endpoints every minute to ensure uptime. [Hoptoad][11] is invaluable to trap and report on errors.
 

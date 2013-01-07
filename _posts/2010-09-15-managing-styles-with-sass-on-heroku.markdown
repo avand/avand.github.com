@@ -3,7 +3,6 @@ layout: blog
 title: Managing Styles with Sass on Heroku
 hacker_news_link: http://news.ycombinator.com/item?id=1698139
 ---
-**UPDATE**: I presented on the topics of this post at [Chicago Ruby][24] and [Refresh][27]. The [video][25] and [slides][26] are now available online. (May 1st, 2011)
 
 I've generally found stylesheets to be the messiest part of any website. And I'm not surprised:
 
@@ -15,7 +14,7 @@ But organizing styles doesn't have to be a mess and here's one strategy that may
 
 ## But First...
 
-Since [REST][17] became the de facto way to design [Rails][18] apps, I've focused on organizing stylesheets by the same patterns. It just seemed natural that if you had a folder <code>/views/users/new.html.erb</code> you should have a similiar folder <code>/stylesheets/users/new.css</code>. Back in 2008, I wrote a [two part post][2] on how to do this nicely with Rails. Three years later, I'm [not the only one][3] who thinks that this is a decent idea.
+Since [REST][17] became the de facto way to design [Rails][18] apps, I've focused on organizing stylesheets by the same patterns. It just seemed natural that if you had a folder `/views/users/new.html.erb` you should have a similiar folder `/stylesheets/users/new.css`. Back in 2008, I wrote a [two part post][2] on how to do this nicely with Rails. Three years later, I'm [not the only one][3] who thinks that this is a decent idea.
 
 But CSS has grown old and weary and is in desperate need of an [update][13]. [Sass][4] is clearly a more expressive way to define styles.
 
@@ -28,7 +27,7 @@ So, it seemed like a great time to refresh the way I manage styles in my Rails a
 Simply put, this was a pain in the ass. Why was it harder than it should have been?
 
 * **I'm masochistic**: I wanted it to work a certain way. I didn't want to wrangle with a [bloated framework][5] or sacrifice on simplicity.
-* **Heroku**: [Heroku][14] has a ([mostly][19]) read-only filesystem. [Waaa, waaa!][15]. Since Sass needs to be compiled, this poses a bit of a problem. There are a [few workarounds][6] that involve serving CSS from <code>/tmp</code>, but I didn't want a hack.
+* **Heroku**: [Heroku][14] has a ([mostly][19]) read-only filesystem. [Waaa, waaa!][15]. Since Sass needs to be compiled, this poses a bit of a problem. There are a [few workarounds][6] that involve serving CSS from `/tmp`, but I didn't want a hack.
 * **Organization**: I resisted Sass for a long time. I think by just organizing your selectors you can get a lot of the same benefits. My new setup had to have the same clarity.
 * **Packages**: [Everyone should know][7] [by now][8] that the HTTP overhead of requesting multiple CSS files degrades client performance. But you can't just pile them all into one file because you need to separate styles for print, screen, IE, or mobile. This problem [had a solution][9], but not with [Git based deployments][16] on Heroku and the [Amazon S3 workaround][10] sounded like trouble.
 * **Javascript**: Javascript and CSS are very very different. I wanted my solution to organizing styles to inspire the way I manage Javascript, not muddle it up.
@@ -37,19 +36,19 @@ Seriously, it shouldn't be this god damn complicated.
 
 ## FTW!
 
-* **Sass**: I was commited to porting to Sass, specifically because you don't have to rewrite all your CSS to get started. [Scss plays nice][20]. It's part of [Haml][21], so throw it in your <code>Gemfile</code>:
+* **Sass**: I was commited to porting to Sass, specifically because you don't have to rewrite all your CSS to get started. [Scss plays nice][20]. It's part of [Haml][21], so throw it in your `Gemfile`:
 
 {% highlight ruby %}
 gem 'haml', '3.0.18'
 {% endhighlight %}
 
-* **Migrate your CSS to Scss**: Using the command line tool <code>sass-convert</code> I migrated all my CSS to Scss. I know it needs a lot of refactoring to take advantage of Sass, but I'll do that later.
+* **Migrate your CSS to Scss**: Using the command line tool `sass-convert` I migrated all my CSS to Scss. I know it needs a lot of refactoring to take advantage of Sass, but I'll do that later.
 
 {% highlight bash %}
 $> sass-convert source.css destination.scss
 {% endhighlight %}
 
-* **Organize**: I wanted stylesheet packages to be derived by how styles were organized - not by a configuration file. So while it made sense to have the Sass files live next to my erb (remember, I have a one-to-one mapping of styles to my templates), [Chris Powers][11] noted that it was cleaner to store them in <code>/app/stylesheets/:package/</code>. For me, <code>:package</code>  was just "desktop." Later, I can easily create packages called "mobile," "print," or "ie" if I need to. See?
+* **Organize**: I wanted stylesheet packages to be derived by how styles were organized - not by a configuration file. So while it made sense to have the Sass files live next to my erb (remember, I have a one-to-one mapping of styles to my templates), [Chris Powers][11] noted that it was cleaner to store them in `/app/stylesheets/:package/`. For me, `:package`  was just "desktop." Later, I can easily create packages called "mobile," "print," or "ie" if I need to. See?
 
 <img src="http://farm5.static.flickr.com/4088/4994576870_31e45aceab_d.jpg" alt="Template and Styles, Happily Ever After" title="Template and Styles, Happily Ever After" />
 
@@ -97,6 +96,7 @@ end
 * **I can sleep again** because all my styles are now served in one tight bundle.
 * You get a nice free [gist][23] of the code to try for yourself.
 
+**UPDATE**: I presented on the topics of this post at [Chicago Ruby][24] and [Refresh][27]. The [video][25] and [slides][26] are now available online. (May 1st, 2011)
 
 [1]: http://video.google.com/videoplay?docid=-4101280286098310645
 [2]: http://avandamiri.com/2008/11/19/css-tricks-2-of-2-using-rails-to-manage-styles.html

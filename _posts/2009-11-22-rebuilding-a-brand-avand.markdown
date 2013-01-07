@@ -3,6 +3,7 @@ layout: blog
 title: Rebuilding a Brand. Avand.
 hacker_news_link: http://news.ycombinator.com/item?id=1093892
 ---
+
 Once again, it's been months since my last post. I've been taking some good and some bad classes at DePaul for the last 10 weeks and as a result haven't really had much time to invest in myself. Even Piggy Back has taken the back burner. The one personal priority I did get around to was my new website avandamiri.com. I thought I would take a moment and reflect on the motivations, goals, and end results of the process.
 
 ## Motivations
@@ -39,10 +40,15 @@ I decided to completely ignore the implementation details at first. I forced mys
 
 I had spent so much time self reflecting that the site actually came together quickly. I did all my drafting in Photoshop, with the exception of exploring some designs with pencil and paper.
 
-Although I had no preference of where the site was hosted, I did know that I wanted full control of the content. [Chris Vanpelt](http://vandev.com/) had once mentioned [Jekyll](http://wiki.github.com/mojombo/jekyll) to me and I decided it was perfect me. Instead of coming to the table with bulky features than simply distract (searching, comments, drafts, etc.) it gave me the perfect blank slate to build just what I wanted.
+Although I had no preference of where the site was hosted, I did know that I wanted full control of the content. [Chris Vanpelt][1] had once mentioned [Jekyll][2] to me and I decided it was perfect me. Instead of coming to the table with bulky features than simply distract (searching, comments, drafts, etc.) it gave me the perfect blank slate to build just what I wanted.
 
-I migrated each post to a markdown based text file and wrote a basic script to copy the files up to a cheap HTML hosting account with GoDaddy. [Wufoo](http://wufoo.com) allowed me to fulfill the "Talk to Me" component without the need for any server side scripting, although getting it to look just right has been a bit time consuming.
+I migrated each post to a markdown based text file and wrote a basic script to copy the files up to a cheap HTML hosting account with GoDaddy. [Wufoo][3] allowed me to fulfill the "Talk to Me" component without the need for any server side scripting, although getting it to look just right has been a bit time consuming.
 
 Finally, I embraced iterative development. I published the PSD for friends to explore so I could get feedback instantly. I deployed early, while major functionality was still pending, and often, to make sure I was always moving forward. Today, I migrated the remaining posts from my old Wordpress account and added syndication, celebrating this major milestone with a fresh post about the process.
 
-Ultimately, I'm really satisfied with the end result. I feel like I actually accomplished what I set out to do a long time ago, and that's really gratifying. At the same time, I'm prepared for the changes to come. I know that what I do, and who I am will develop over time. I look forward to reflecting on those developments here at [avandamiri.com](http://avandamiri.com).
+Ultimately, I'm really satisfied with the end result. I feel like I actually accomplished what I set out to do a long time ago, and that's really gratifying. At the same time, I'm prepared for the changes to come. I know that what I do, and who I am will develop over time. I look forward to reflecting on those developments here at [avandamiri.com][4].
+
+[1]: http://vandev.com
+[2]: http://wiki.github.com/mojombo/jekyll
+[3]: http://wufoo.com
+[4]: http://avandamiri.com

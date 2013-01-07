@@ -1,19 +1,50 @@
 ---
 layout: default
-menu: Blog
-body_id: blog
-stylesheet: blog
 title: Blog
 ---
-<div id="posts">
-  {% for post in site.posts %}
-    <div class="post">
-      <a href="{{ post.url }}" class="permalink">{{ post.title }}</a>
-      <span class="date">{{ post.date | date: "%B %Y" }}</span>
-    </div>
-  {% endfor %}
-</div>
 
-<p id="subscribe">
-  <a href="http://feeds.avandamiri.com/avand">Subscribe</a>
-</p>
+<div class="blog-index">
+  <div class="header">
+    <div class="container">
+      {% include _networks.html %}
+
+      <a href="/">
+        <div class="headshot">
+          <img src="http://graph.facebook.com/avand/picture?height=42&width=42" width="42" height="42" />
+        </div>
+
+        <span class="salutation">
+          Avand
+        </span>
+      </a>
+
+    </div>
+  </div>
+
+  <div class="container">
+    {% for post in site.posts %}
+      <div class="post">
+        <a href="{{ post.url }}">
+          <span class="date meta">
+            {{ post.date | date: "%b %Y" }}
+          </span>
+
+          <div class="title">
+            {{ post.title }}
+          </div>
+
+          <div class="snippet">
+            {{ post.content | strip_html | truncatewords: 50 }}
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+
+    <div class="subscribe">
+      <a href="http://feeds.avandamiri.com/avand">
+        <span class="rss ss-icon">RSS</span>
+        <span class="meta">Subscribe via RSS</span>
+      </a>
+    </div>
+  </div>
+</div>

@@ -32,13 +32,13 @@ private
   end
 {% endhighlight %}
 
-Our custom exception <code>Exceptions::Security::AuthenticationRequired</code> is systematically caught and returns a HTTP 401. Piece of cake. To lock down a controller now, we simply add a <code>before_filter</code> to the actions we'd like restricted to users that are logged in.
+Our custom exception `Exceptions::Security::AuthenticationRequired` is systematically caught and returns a HTTP 401. Piece of cake. To lock down a controller now, we simply add a `before_filter` to the actions we'd like restricted to users that are logged in.
 
 ## Authorization
 
 Authentication was easy, but now that we know we have a user, should they be able to hit that action? To the end user, or a business analyst these may seem like the same question, but as a developer I think it makes sense to separate the concerns.
 
-Because we followed REST conventions in this application, the abstraction for authorization was self apparent: restrict access on a controller/action basis. So we created roles which stored sets of controller action pairs. Then add another <code>before_filter</code> just like only a bit different than our authentication layer.
+Because we followed REST conventions in this application, the abstraction for authorization was self apparent: restrict access on a controller/action basis. So we created roles which stored sets of controller action pairs. Then add another `before_filter` just like only a bit different than our authentication layer.
 
 {% highlight ruby %}
 protected
@@ -55,13 +55,13 @@ private
   end
 {% endhighlight %}
 
-Just like authentication, we add a <code>before_filter</code> and catch the AuthorizationRequired exception, returning a HTTP 403 response to the client.
+Just like authentication, we add a `before_filter` and catch the AuthorizationRequired exception, returning a HTTP 403 response to the client.
 
 ## Permissions
 
 Our entire authorization system now covers us up to the controller action. But there's still one more step. Does that user have permission to do that action _on a particular object_. In our case, can a user edit a specific business?
 
-What we have actually looks a lot like [Ryan Bate's CanCan plugin](http://github.com/ryanb/cancan).
+What we have actually looks a lot like [Ryan Bate's CanCan plugin][1].
 
 ## Testing
 
@@ -97,9 +97,9 @@ class UsersControllerTest < ActionController::TestCase
 end
 {% endhighlight %}
 
-There's a few issues here. First of all, there's a lot of duplication. More importantly, we duplicate the <code>get</code>, which is really a common procedure to all these tests. Secondly, we're retesting that this action <code>should_do_all_sorts_of_great_stuff</code> and binding those assertions to the setup of the test. Gross.
+There's a few issues here. First of all, there's a lot of duplication. More importantly, we duplicate the `get`, which is really a common procedure to all these tests. Secondly, we're retesting that this action `should_do_all_sorts_of_great_stuff` and binding those assertions to the setup of the test. Gross.
 
-[Shoulda controller macros](http://dev.thoughtbot.com/shoulda/classes/Shoulda/ActionController/Macros.html) encourage you to avoid duplicating the setup block over and over again, so I dove into creating a custom macro, designing it by implementation first:
+[Shoulda controller macros][2] encourage you to avoid duplicating the setup block over and over again, so I dove into creating a custom macro, designing it by implementation first:
 
 {% highlight ruby %}
 class UsersControllerTest < ActionController::TestCase
@@ -136,7 +136,7 @@ class ActionController::TestCase
 end
 {% endhighlight %}
 
-Very cool, but if you've been paying close attention there's one more method I haven't touched on yet, <code>login</code>. Let's take a look at the test_helper.
+Very cool, but if you've been paying close attention there's one more method I haven't touched on yet, `login`. Let's take a look at the test_helper.
 
 {% highlight ruby %}
 def login(arg = nil)
@@ -152,6 +152,9 @@ def login(arg = nil)
 end
 {% endhighlight %}
 
-This helper is probably the most robust part of the entire test. If you pass nothing in, as we do in the <code>setup</code> block, it will simply fake it. This is great because the assertions become oblivious to the authorization mechanism. Sweet. But the authentication and authorization assertions do care, so we give ourselves the option to login as a specified role. Our <code>should</code> blocks utilize the <code>:before</code> option to perform the login before anything else happens. Importantly, though, it sets a flag so the second <code>login</code> call (the one in the original <code>setup</code> block) doesn't then screw things up.
+This helper is probably the most robust part of the entire test. If you pass nothing in, as we do in the `setup` block, it will simply fake it. This is great because the assertions become oblivious to the authorization mechanism. Sweet. But the authentication and authorization assertions do care, so we give ourselves the option to login as a specified role. Our `should` blocks utilize the `:before` option to perform the login before anything else happens. Importantly, though, it sets a flag so the second `login` call (the one in the original `setup` block) doesn't then screw things up.
 
 Make sense?
+
+[1]: http://github.com/ryanb/cancan
+[2]: http://dev.thoughtbot.com/shoulda/classes/Shoulda/ActionController/Macros.html

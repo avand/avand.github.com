@@ -2,19 +2,20 @@
 layout: blog
 title: "CSS Tricks (1 of 2): First, Get Down with the OOP"
 ---
+
 ##Introduction##
 
-I recently stumbled upon an [interesting web design blog](http://www.evoart.info/) that featured an article about some [CSS "essentials"](http://www.evoart.info/10-essential-considerations-when-designing-a-website/) and commonly used [CSS code snippets](http://www.evoart.info/7-essential-css-code-snippets/). I read it with a great amount of interest and found that I had a few tricks and tips up my sleeve that I'd like to contribute as well. So this is the first in a two part post about how to improve your CSS and make the design process more fun and less stressful.
+I recently stumbled upon an [interesting web design blog][1] that featured an article about some [CSS "essentials"][2] and commonly used [CSS code snippets][3]. I read it with a great amount of interest and found that I had a few tricks and tips up my sleeve that I'd like to contribute as well. So this is the first in a two part post about how to improve your CSS and make the design process more fun and less stressful.
 
 I immediately found that a lot of my tricks don't actually have anything to do with visual design or CSS at all, but more about structure and design patterns. Funny, how that sort of thing happens when you learn how to code first. I've found that you can bring a lot of the organization and philosophies that come from structuring application code right into the presentation layer. Here's what I've learned...
 
 ##Embrace a Convention Through and Through##
 
-Seriously, if you're not using some kind of structure when it comes to building an application, you should probably [go read some other blog](http://failblog.org/). I'm somewhat infatuated with the MVC pattern these days, but for the sake of what we're doing here I don't know that it matters.
+Seriously, if you're not using some kind of structure when it comes to building an application, you should probably [go read some other blog][4]. I'm somewhat infatuated with the MVC pattern these days, but for the sake of what we're doing here I don't know that it matters.
 
 The idea is that you have various objects or models throughout your code. You may have some Users, Products, or Messages. The problem is that by the time they get to the view part of your application, their meaning has been diluted. Distill it.
 
-You have a fairly [common set of tasks for any object](http://en.wikipedia.org/wiki/Create,_read,_update_and_delete): List (index), view (show), create (new), update (edit), and delete (destroy). Almost all of those require a presentation of some kind, with the exception of delete, usually. There's an obvious Ruby slant in these snippets, but I think you can handle it:
+You have a fairly [common set of tasks for any object][5]: List (index), view (show), create (new), update (edit), and delete (destroy). Almost all of those require a presentation of some kind, with the exception of delete, usually. There's an obvious Ruby slant in these snippets, but I think you can handle it:
 
 Users#index
 
@@ -58,9 +59,9 @@ An example: You may find that you're putting a paragraph that needs a particular
 
 ##Tame the CSS File##
 
-Whether it be in a Controller, Stored Procedure, or CSS, it's not OK for files to just grow to thousands of lines without taking a step back and saying, "woah", what just happened here? To avoid this little conundrum I like to use the [CSS @import function](http://www.cssnewbie.com/css-import-rule/). Group common styles together and import them when the page renders to make the developers lives easier.
+Whether it be in a Controller, Stored Procedure, or CSS, it's not OK for files to just grow to thousands of lines without taking a step back and saying, "woah", what just happened here? To avoid this little conundrum I like to use the [CSS @import function][6]. Group common styles together and import them when the page renders to make the developers lives easier.
 
-I know what you're going to say. There's a significant performance hit for this, and I hear you. It's not OK to go to production using @import, because each file will require [another HTTP request, which isn't cool](http://developer.yahoo.com/performance/rules.html). But, if you're doing anything serious, you'll have a deployment process and you should let that piece of the puzzle take care of grabbing the CSS and compiling it all together into one file.
+I know what you're going to say. There's a significant performance hit for this, and I hear you. It's not OK to go to production using @import, because each file will require [another HTTP request, which isn't cool][7]. But, if you're doing anything serious, you'll have a deployment process and you should let that piece of the puzzle take care of grabbing the CSS and compiling it all together into one file.
 
 ###Be #as .Specific .as:Possible##
 
@@ -70,4 +71,13 @@ Let your CSS selectors follow the DOM as closely as possible. If you look back t
 
 ##Conclusion and What's to Come...##
 
-The approaches here are pretty high level, but in the next part of this post (Part 2, for those you playing at home), I'll talk with about more concrete examples on a line-by-line basis.
+The approaches here are pretty high level, but in the [next part of this post][8] (Part 2, for those you playing at home), I'll talk with about more concrete examples on a line-by-line basis.
+
+[1]: http://www.evoart.info/
+[2]: http://www.evoart.info/10-essential-considerations-when-designing-a-website
+[3]: http://www.evoart.info/7-essential-css-code-snippets
+[4]: http://failblog.org
+[5]: http://en.wikipedia.org/wiki/Create,_read,_update_and_delete
+[6]: http://www.cssnewbie.com/css-import-rule
+[7]: http://developer.yahoo.com/performance/rules.html
+[8]: /2008/11/19/css-tricks-2-of-2-using-rails-to-manage-styles.html

@@ -2,9 +2,10 @@
 layout: blog
 title: "The Race to a Beta Launch: The Trials and Tribulations of Piggy Back"
 ---
-I haven't posted in a while, and here's why: [Piggy Back](http://www.piggybackme.com);. If you follow me on [Twitter](http://www.twitter.com/avand), or are friends with me on [Facebook](http://www.facebook.com/avand), you've probably seen the updates crawling by.
 
-Piggy Back is a web site that helps users manage debts between each other. It was inspired while I was consulting at [Echo Global Logistics](http://www.echo.com/), where Rob Freas, Bryan Dougherty, Antuan Kinnard and I were constantly going out for lunch. One of us invariably didn't have cash, and to make things simpler one person would just always pay. We shared out a spreadsheet and whoever paid would update it.
+I haven't posted in a while, and here's why: [Piggy Back][1];. If you follow me on [Twitter][4], or are friends with me on [Facebook][5], you've probably seen the updates crawling by.
+
+Piggy Back is a web site that helps users manage debts between each other. It was inspired while I was consulting at [Echo Global Logistics][6], where Rob Freas, Bryan Dougherty, Antuan Kinnard and I were constantly going out for lunch. One of us invariably didn't have cash, and to make things simpler one person would just always pay. We shared out a spreadsheet and whoever paid would update it.
 
 The pain: with every new record we added we had to go through the mental anguish of actually figuring out who owed what to whom. Piggy Back was born from that concept. Initially code named "Balancr," in true Web 2.0 style, Piggy Back takes debts between people and nets them out. If Rob owes Bryan and Bryan owes me, well then Rob just owes me. It really is "the shortest distance between two wallets."
 
@@ -14,24 +15,25 @@ I whipped something together over a year ago, using it as more of a sandbox for 
 
 When I cracked open the source code again, there was a lot that had to change. Some were some obligatory upgrades, but in order to take this site from "no" to "pro" the amount of work was a bit overwhelming.
 
-So I decided to focus on only what mattered and that was the balancing algorithm. At the core Piggy Back had to be able to net out debts and find the simplest way for money to exchange hands. I started work on this part of the project solely with tests. Using [Shoulda](http://www.thoughtbot.com/projects/shoulda/) I created a sea of nested contexts describing every possible debt situation I could think of, then I tweaked the algorithm, which was already pretty solid, to make the tests pass.
+So I decided to focus on only what mattered and that was the balancing algorithm. At the core Piggy Back had to be able to net out debts and find the simplest way for money to exchange hands. I started work on this part of the project solely with tests. Using [Shoulda][2] I created a sea of nested contexts describing every possible debt situation I could think of, then I tweaked the algorithm, which was already pretty solid, to make the tests pass.
 
 Then I started pounding it as a test user, building up more and more complicated scenarios. As was expected, but not hoped for, the algorithm buckled. Something was clearly wrong, so I went back to the drawing board.
 
 I created more test cases and found the bug, but now, paranoid that there were other errors, I decided to map out every possible debt scenario I could think of... on paper:
 
-<table>
-  <tr>
-    <td><a href="http://www.flickr.com/photos/amiriav/4125753470/" title="page1 by Avand Amiri, on Flickr"><img src="http://farm3.static.flickr.com/2584/4125753470_557ae0236e_m.jpg" width="209" height="240" alt="page1" /></a></td>
-    <td><a href="http://www.flickr.com/photos/amiriav/4124984705/" title="page2 by Avand Amiri, on Flickr"><img src="http://farm3.static.flickr.com/2766/4124984705_cacdf056a2_m.jpg" width="240" height="229" alt="page2" /></a></td>
-  </tr>
-</table>
+<a href="http://www.flickr.com/photos/amiriav/4125753470/">
+  <img src="http://farm3.staticflickr.com/2584/4125753470_557ae0236e_n.jpg" />
+</a>
+
+<a href="http://www.flickr.com/photos/amiriav/4124984705/">
+  <img src="http://farm3.staticflickr.com/2766/4124984705_cacdf056a2_n.jpg" />
+</a>
 
 There was so many more fun things to work on. I wanted to build the bells and whistles that make it fun to use, pretty, and more useful. But I kept catching myself: no one would use it if it didn't crunch the numbers correctly, including me. Two more late nights, and I was ready to move on to the fun stuff, with my mind at ease that Piggy Back could do the math right, although I'm still keeping my fingers crossed.
 
 ##Racing to Production##
 
-After that little problem was over and done with, it became a sprint to get it live. No marathons here. I got an account with [Slicehost](http://www.slicehost.com), and knocked out all the little annoying things that had to happen before going live: user registration workflow, invitations, [error handling with Hoptoad](http://www.hoptoadapp.com), [Google analytics](http://www.google.com/analytics), hosting, and ultimately deployment. Boom, it was live!
+After that little problem was over and done with, it became a sprint to get it live. No marathons here. I got an account with [Slicehost][3], and knocked out all the little annoying things that had to happen before going live: user registration workflow, invitations, [error handling with Hoptoad][7], [Google analytics][8], hosting, and ultimately deployment. Boom, it was live!
 
 There was so much more that had to happen, but at least it was up and running and I was accountable to my users and immediately started getting feedback.
 
@@ -55,10 +57,19 @@ I've spent a few hours talking to people, and looking over people's shoulders to
 
 For the technical people out there, how well is this application tested? Not really. The part that matters, Debt#balance, is heavily tested, but everything else really hasn't been a priority. There's 73 tests with 81 assertions, and absolutely zero controller testing.
 
-How does that make me feel? Not great. But it's been eye opening to test what actually matters. If I don't test that user's have many debts, I guess I don't really care, because the application will disintegrate if that becomes the case. Seriously, when was the last time a developer on a whim said, "meh, this <code>has_many</code> declaration can't be that important." It doesn't happen. At the end of the day, my tests are the product of necessity. Some new functionality I'm releasing, requires my user registration to be much more robust, and I'm a little scared of the edge cases, so I'll test them.
+How does that make me feel? Not great. But it's been eye opening to test what actually matters. If I don't test that user's have many debts, I guess I don't really care, because the application will disintegrate if that becomes the case. Seriously, when was the last time a developer on a whim said, "meh, this `has_many` declaration can't be that important." It doesn't happen. At the end of the day, my tests are the product of necessity. Some new functionality I'm releasing, requires my user registration to be much more robust, and I'm a little scared of the edge cases, so I'll test them.
 
 So going back then, I guess I'd rather have a product that I use that has a few bugs, than a fully tested product that has yet to ship.
 
 ##Conclusion##
 
 All things considered I'm having a lot of fun building Piggy Back and I think that's because it directly impacts me. It's fun to be user number 1, and it's fun to see user number 10. Getting feedback has been huge, because it's made me think about things I didn't consider important or necessary. More than anything, it's dynamic. Don't get too comfortable with Piggy Back, just yet, there's a lot more to come.
+
+[1]: http://www.piggyback.it
+[2]: http://www.thoughtbot.com/projects/shoulda
+[3]: http://www.slicehost.com
+[4]: http://www.twitter.com/avand
+[5]: http://www.facebook.com/avand
+[6]: http://www.echo.com
+[7]: http://www.hoptoadapp.com
+[8]: http://www.google.com/analytics

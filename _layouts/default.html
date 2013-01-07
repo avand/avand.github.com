@@ -1,66 +1,30 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<html>
   <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  
-  <title>Avand. {{ page.title }}.</title>
-  <link href="/stylesheets/common.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="/stylesheets/syntax.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
-  {% if page.stylesheet %}
-    <link href="/stylesheets/{{ page.stylesheet }}.css" media="screen" rel="stylesheet" type="text/css" />
-  {% endif %}
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-  <meta name="google-site-verification" content="GvOKlbAa5mnejlxPQ2xcBGgk1gv9Q53YvQrrHp0FfvE" />
+    <title>{{ page.title }} &middot; Avand</title>
 
-  <script type="text/javascript" src="/javascripts/jquery-1.3.2.min.js"></script>
-  <script type="text/javascript" src="/javascripts/date.format.js"></script>
-  
-  <link rel="icon" type="image/gif" href="/favicon.ico">
-  
+    <link href="http://fonts.googleapis.com/css?family=Inconsolata|Ubuntu:500|Open+Sans:300italic,400italic,300,400,600" rel="stylesheet" type="text/css">
+
+    <link href="/stylesheets/reset.css"  media="screen" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/syntax.css" media="screen" rel="stylesheet" type="text/css" />
+
+    <link rel="icon" href="/favicon" type="image/gif"> 
+
+    <link href="/webfonts/ss-social.css" rel="stylesheet" />
+
+    <meta name="viewport"                 content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta name="google-site-verification" content="GvOKlbAa5mnejlxPQ2xcBGgk1gv9Q53YvQrrHp0FfvE" />
   </head>
   
-  <body id="{{ page.body_id }}">
-    <div id="header">Avand Amiri</div>
-    
-    <div id="menu">
-      <ul>
-        <li>
-          {% if page.menu == 'In a Nutshell' %}
-          <a href="/index.html" class="active">In a Nutshell</a>
-          {% else %}
-          <a href="/index.html">In a Nutshell</a>
-          {% endif %}
-        </li>
-        <li>
-          {% if page.menu == 'Blog' %}
-          <a href="/blog.html" class="active">Blog</a>
-          {% else %}
-          <a href="/blog.html">Blog</a>
-          {% endif %}
-        </li>
-        <li>
-          {% if page.menu == 'Resume' %}
-          <a href="/resume.html" class="active">Resume</a>
-          {% else %}
-          <a href="/resume.html">Resume</a>
-          {% endif %}
-        </li>
-        <li>
-          {% if page.menu == 'Talk to Me' %}
-          <a href="/talk_to_me.html" class="active">Talk to Me</a>
-          {% else %}
-          <a href="/talk_to_me.html">Talk to Me</a>
-          {% endif %}
-        </li>
-      </ul>
-    </div>
-    
-    <div id="content">
+  <body>
+    <div class="content">
       {{ content }}
     </div>
-    
+
     <script type="text/javascript">
       var _gauges = _gauges || [];
       (function() {

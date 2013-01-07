@@ -36,11 +36,11 @@ div#wrapper div.users.index {
 }
 {% endhighlight %}
 
-The key is to religiously obey these prefixes. In [Part 1 of this CSS series](/2008/09/18/css-tricks-1-of-2-first-get-down-with-the-oop.html) I talked about being as specific as possible with CSS selectors, and this is why. If you're not, you'll spend hours trying to figure out why something is rendering a certain way only to find that it's inheriting something entirely irrelevant. So once you have that sorted you can then make...
+The key is to religiously obey these prefixes. In [Part 1 of this CSS series][1] I talked about being as specific as possible with CSS selectors, and this is why. If you're not, you'll spend hours trying to figure out why something is rendering a certain way only to find that it's inheriting something entirely irrelevant. So once you have that sorted you can then make...
 
 ##2. Many shorter CSS files##
 
-So if you have a controller like UsersController, you'll have a folder, views/users. Within that you'll have files that respond to each action. Do the same thing for your styles. Create a folder public/stylesheets/users and create a stylesheet for each view that warrants its own styles. To follow the example above, you can now take any CSS that starts with <code>div#wrapper div.users.index</code>, and place it in public/stylesheets/users/index.css. Same thing for every other action, and partials too... hell, I even prefix those files with an underscore. I try and make the files stylesheets folder mirror the views.
+So if you have a controller like UsersController, you'll have a folder, views/users. Within that you'll have files that respond to each action. Do the same thing for your styles. Create a folder public/stylesheets/users and create a stylesheet for each view that warrants its own styles. To follow the example above, you can now take any CSS that starts with `div#wrapper div.users.index`, and place it in public/stylesheets/users/index.css. Same thing for every other action, and partials too... hell, I even prefix those files with an underscore. I try and make the files stylesheets folder mirror the views.
 
 You have to get a little more creative when it comes to common styles (those that span multiple controllers or actions). For styles spanning multiple actions, simply create a common.css inside the controllers folder. For styles that span multiple controllers, chances are that a layout exists for that part of the application. For example, navigation that may be common to administration would go in public/stylesheets/admin.css to correspond to app/views/layouts/admin.html.erb. 
 
@@ -65,3 +65,5 @@ This is where it all comes together. With one simple command we can get the web 
 In some cases I'll just bundle every CSS file I create into one sheet, or if the application is a bit more stratified you can create sets of caches. Usually the structure of your layouts will determine how you set these up.
 
 This set up means you as a developer don't have to loose time trying to find the styles that correspond to their respective view HTML, can save time when debugging by eliminating accidental style inheritance, and still send one file to the client. Enjoy.
+
+[1]: /2008/09/18/css-tricks-1-of-2-first-get-down-with-the-oop.html

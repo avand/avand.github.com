@@ -2,6 +2,7 @@
 layout: blog
 title: "In-n-Out Burger: Consistency, Animal Style"
 ---
+
 I recently took a trip out to California and had my first dinning experience with In-n-Out Burger. I really reveled in the experience, because they've really nailed, what in my mind, makes a great product.
 
 Immediately In-n-Out Burger's menu jumped out at me. In my day to day operations I'm often tasked with conveying information quickly. The web is my domain, but regardless of medium, the most easy to convey information is also simple information. I've commented before on how Apple has been successful following this mantra. So when I walked into In-and-Out, expecting to become quickly stressed with an overload of options, sizes, and extras, I was pleasantly surprised to find this instead:

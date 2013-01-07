@@ -4,7 +4,7 @@ title: Track Expenses in Google Docs via SMS
 hacker_news_link: http://news.ycombinator.com/item?id=3973632
 ---
 
-<img src="http://farm9.staticflickr.com/8145/7199153550_d3a50c9809_n.jpg" alt="Track Expenses in Google Docs via SMS" title="Track Expenses in Google Docs via SMS" class="right">
+<img src="http://farm9.staticflickr.com/8145/7199153550_d3a50c9809_n.jpg" alt="Track Expenses in Google Docs via SMS" title="Track Expenses in Google Docs via SMS" />
 
 Tracking expenses is a pain in the butt. At [Sqoot][6], we use Google Docs for almost everything, including expenses, but entering anything on the go is cumbersome. Today, I got frusted and decided to take an hour and hack something together.
 
@@ -15,7 +15,7 @@ I wanted to be able to text something like this:
 
 Those text should become entries in a spreadsheet like this:
 
-<table style="width: 300px">
+<table style="width: 70%">
   <tr>
     <th>Description</th>
     <th>Date</th>

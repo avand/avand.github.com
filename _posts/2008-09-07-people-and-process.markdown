@@ -2,6 +2,7 @@
 layout: blog
 title: People and Process
 ---
+
 Over the last couple of days I've come to an astounding realization. While I had always considered that the culture of a company - its people and practices - made a difference in its day-to-day operations, the scope had eluded me.
 
 This month's issue of Inc. magazine featured an article about a law firm that is changing the way they do business. After noticing depreciating morale, and low outcome they revolutionized the way their office was run by implementing a strategy known as [ROWE, a results-only work environment](http://www.inc.com/magazine/20080801/making-it-work.html). Standing up against the "tried and true" 8-5, more hours is better, work hard play hard, meeting frenzied corporate culture, this approach seems insane. Forget about classic work culture for a moment and think just about how to get work done effectively. It might actually make sense to work when it's most convenient for you, balance your personal affairs the way you need to, and set your own deadlines. These are all practices that ROWE embodies, even down to the receptionists. It's the results that matter, not the logistics. Of course, it requires some discipline, but wait a second, do you want to employee people that need a schedule to be productive? That doesn't really jive with having "passionate" employees, does it?

@@ -3,11 +3,12 @@ layout: blog
 title: School's Out Forever
 hacker_news_link: http://news.ycombinator.com/item?id=1132024
 ---
-Growing up, I was told that the most important ingredient for my future was an education. Do your homework, study hard and the road ahead will lead to a satisfying career and financial security. That was the promise, anyway. But as it turns out, in the kitchen of education, I cooked up concoction that would make even [Andrew Zimmern](http://www.travelchannel.com/TV_Shows/Bizarre_Foods) cringe.
 
-I went to high school at [Boston University Academy](http://www.bu.edu/academy/), a prep-school that essentially guaranteed a fast track through college if you just played by the book. I didn't play by the book. In tenth grade I was held back and junior year wasn't any more promising. My teachers begged me to study, explaining to my parents that I just wasn't applying myself. On the night of my last and deciding final of 11th grade I sealed my fate watching a Seinfeld marathon. Clearly, getting through high school was going to be more trouble than it was worth.
+Growing up, I was told that the most important ingredient for my future was an education. Do your homework, study hard and the road ahead will lead to a satisfying career and financial security. That was the promise, anyway. But as it turns out, in the kitchen of education, I cooked up concoction that would make even [Andrew Zimmern][1] cringe.
 
-After that summer, I was brought out to Chicago and the very next morning, in slacks, shirt and tie, reported for an internship at a financial company in the Loop. It was a complete correction of my downward spiral and the beginning of my career as a software engineer. I completed my GED and started taking night classes at [DePaul](http://www.depaul.edu) maintaining a solid A grade-average.
+I went to high school at [Boston University Academy][2], a prep-school that essentially guaranteed a fast track through college if you just played by the book. I didn't play by the book. In tenth grade I was held back and junior year wasn't any more promising. My teachers begged me to study, explaining to my parents that I just wasn't applying myself. On the night of my last and deciding final of 11th grade I sealed my fate watching a Seinfeld marathon. Clearly, getting through high school was going to be more trouble than it was worth.
+
+After that summer, I was brought out to Chicago and the very next morning, in slacks, shirt and tie, reported for an internship at a financial company in the Loop. It was a complete correction of my downward spiral and the beginning of my career as a software engineer. I completed my GED and started taking night classes at [DePaul][3] maintaining a solid A grade-average.
 
 Everything seemed copasetic until I dropped out.
 
@@ -47,13 +48,19 @@ There's a lot of great things out there to learn, but theory is one thing and pr
 
 ## What About You?
 
-<iframe height="190" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="http://avand.wufoo.com/embed/r7x3p9/"><a href="http://avand.wufoo.com/forms/r7x3p9/" title="Schooling Survey" rel="nofollow">Fill out my Wufoo form!</a></iframe>
+<iframe height="250" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="http://avand.wufoo.com/embed/r7x3p9/"><a href="http://avand.wufoo.com/forms/r7x3p9/" title="Schooling Survey" rel="nofollow">Fill out my Wufoo form!</a></iframe>
 
 ## Update (August 1st, 2010)
 
-Since writing, I've found several articles regarding the flaws in the academic system. [Marty Nemko](http://www.martynemko.com/) of U.S. News describes one's undergraduate education as [America's most overrated product](http://www.martynemko.com/articles/americas-most-overrated-product-undergraduate-education_id1234). I thought it was worth highlighting some of my favorite points:
+Since writing, I've found several articles regarding the flaws in the academic system. [Marty Nemko][4] of U.S. News describes one's undergraduate education as [America's most overrated product][5]. I thought it was worth highlighting some of my favorite points:
 
 * "What percent of students would you guess graduate from college within six years? Forty percent. Six out of ten never graduate."
 * On the social value of attending university: "Fact: 27% of all undergraduate students binge drink regularly"
 * "We need to capitalize on students' desire to learn what they're excited about and motivated to learn at that point in time. When kids are at eighteen or twenty, they're at their most idealistic. It's a great time to teach them about things that are going to foment that idealism. It's a great time to teach them about relationships. It's a great time to teach them about careers."
 * "Colleges produce a shoddy, overpriced product and it's time we held them accountable."
+
+[1]: http://www.travelchannel.com/TV_Shows/Bizarre_Foods
+[2]: http://www.bu.edu/academy
+[3]: http://www.depaul.edu
+[4]: http://www.martynemko.com
+[5]: http://bit.ly/arKigs

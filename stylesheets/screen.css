@@ -1,0 +1,320 @@
+html {
+  color:       #343838;
+  font-family: "Open Sans", sans-serif;
+  font-size:   16px;
+  font-weight: 400;
+  line-height: 28px;
+  background:  url('/images/common/background.png'); }
+  html em {
+    font-style: italic; }
+  html a {
+    color: #008C9E;
+    text-decoration: none;
+    -webkit-transition: color .6s linear;
+    -moz-transition:    color .6s linear;
+    transition:         color .6s linear; }
+  html a:hover {
+    -webkit-transition: color .2s linear;
+    -moz-transition: color .2s linear;
+    transition: color .2s linear;
+    color: #00B4CC; }
+  html pre {
+    display: block;
+    font-family: "Inconsolata", "Monaco", "Courier New", monospace;
+    font-size: 16px;
+    line-height: 20px;
+    overflow-x: scroll;
+    width: 100%; }
+
+.meta {
+  font-weight: 300;
+  text-transform: uppercase; }
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+  overflow: hidden; }
+
+.content {
+  /*box-shadow: 0 0 6px 3px #000;*/
+  /*border-top: 1px solid white;*/
+  text-shadow: 0 1px 0px #FFF;
+  margin-bottom: 3em; }
+
+.networks { }
+  .networks a {
+    margin: 0 .1em;
+    -webkit-transition: color .6s linear;
+    -moz-transition: color .6s linear;
+    transition: color .6s linear;
+    color: #7F7F7F; }
+  .networks a:hover {
+    -webkit-transition: color .2s linear;
+    -moz-transition: color .2s linear;
+    transition: color .2s linear; }
+  .networks .twitter:hover   { color: #3098E6; }
+  .networks .facebook:hover  { color: #3B5998; }
+  .networks .github:hover    { color: #3C3C3C; }
+  .networks .dribbble:hover  { color: #E24FAC; }
+  .networks .rdio:hover      { color: #006ed2; }
+  .networks .vimeo:hover     { color: #1ab7ea; }
+  .networks .pinterest:hover { color: #cb2027; }
+  .networks .linkedin:hover  { color: #4875B4; }
+  .networks .email:hover     { color: #cc3300; }
+  .networks .rss:hover       { color: #cc3300; }
+
+.headshot {
+  border-style: solid;
+  border-color: white;
+  border-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden; }
+
+.homepage {
+  text-align: center;
+  margin-top: 56px; }
+  .homepage .headshot,
+  .homepage .headshot img {
+    height: 200px;
+    width: 200px; }
+  .homepage .headshot {
+    border-width: 5px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    margin: 0 auto 28px; }
+  .homepage p {
+    font-size: 18px;
+    margin: 14px 0; }
+  .homepage .salutation {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px; }
+  .homepage .valediction {
+    font-weight: 600; }
+  .homepage .networks {
+    font-size: 28px;
+    line-height: 28px;
+    margin-top: 28px; }
+
+.blog-index { }
+  .blog-index .header {
+    margin-bottom: 14px;
+    padding: 14px 0; }
+    .blog-index .header .headshot
+    .blog-index .header .headshot img {
+      height: 42px;
+      width:  42px; }
+    .blog-index .header .headshot {
+      float: left;
+      margin-right: 20px;
+      border-width: 2px;
+      border-radius: 21px;
+      -moz-border-radius: 21px;
+      -webkit-border-radius: 21px; }
+    .blog-index .header .salutation {
+      -webkit-transition: color .6s linear;
+      -moz-transition: color .6s linear;
+      transition: color .6s linear;
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 46px;
+      color: #7F7F7F; }
+    .blog-index .header a:hover .salutation {
+      -webkit-transition: color .2s linear;
+      -moz-transition: color .2s linear;
+      transition: color .2s linear;
+      color: #008C9E; }
+    .blog-index .header .networks {
+      float: right;
+      font-size: 22px;
+      line-height: 42px;
+      margin-top: 3px; }
+  .blog-index .post {
+    clear: both;
+    margin-bottom: 28px; }
+  .blog-index .post .title,
+  .blog-index .post .date {
+    line-height: 28px; }
+  .blog-index .post .title {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 80px 7px 0; }
+  .blog-index .post .date,
+  .blog-index .post .snippet {
+    color: #999; }
+  .blog-index .post .date {
+    font-size: 14px;
+    float: right; }
+  .blog-index .post .snippet {
+    font-weight: 400; }
+  .blog-index .subscribe {
+    text-align: center; }
+    .blog-index .subscribe .rss {
+      font-size: 10px; }
+
+.blog-show { }
+  .blog-show .post {
+    padding-bottom: 28px;
+    box-shadow: 0 14px 28px -28px rgba(0, 0, 0, 0.7); }
+    .blog-show .post h1, .blog-show .post h2, .blog-show .post h3,
+    .blog-show .post h4, .blog-show .post h5, .blog-show .post h6,
+    .blog-show .post th {
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 500; }
+    .blog-show .post h1 {
+      text-align: center;
+      font-size: 36px;
+      line-height: 42px;
+      margin: 35px 0 14px; }
+    .blog-show .post h2 {
+      font-size: 26px;
+      line-height: 35px;
+      margin-bottom: 14px; }
+    .blog-show .post h3 {
+      font-size: 18px;
+      line-height: 28px; }
+    .blog-show .post h4,
+    .blog-show .post h5,
+    .blog-show .post h6 {
+      font-size: 14px;
+      line-height: 21px; }
+    .blog-show .post p {
+      text-align: justify; }
+    .blog-show .post p a {
+      font-weight: 600; }
+    .blog-show .post hr {
+      display: block;
+      height: 1px;
+      border: 0;
+      border-top: 1px solid #CCC;
+      border-bottom: 1px solid white;
+      margin: 28px 0;
+      padding: 0; }
+    .blog-show .post img,
+    .blog-show .post object {
+      display: block;
+      border: 10px solid #FFF;
+      box-shadow: 0 0 3px #7F7F7F;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 680px; }
+    .blog-show .post p,
+    .blog-show .post .highlight,
+    .blog-show .post table,
+    .blog-show .post img,
+    .blog-show .post object {
+      margin-bottom: 14px }
+    .blog-show .post .left {
+      float:  left;
+      margin: 0 30px 10px 0; }
+    .blog-show .post .right {
+      float:  right;
+      margin: 0 0 10px 30px; }
+    .blog-show .post blockquote {
+      font-style: italic; }
+    .blog-show .post .highlight,
+    .blog-show .post blockquote {
+      margin: 0 20px; }
+    .blog-show .post .byline {
+      text-align: center;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 21px;
+      margin-bottom: 35px;
+      color: #999; }
+    .blog-show .post .byline a {
+      font-weight: 400; }
+    .blog-show .post .footer {
+      color: #666;
+      margin-top: 14px;
+      min-height: 28px; }
+      .blog-show .post .footer .comments {
+        line-height: 28px;
+        float: right; }
+      .blog-show .post .footer .twitter-share-button,
+      .blog-show .post .footer .twitter-follow-button {
+        vertical-align: text-bottom; }
+  .blog-show .about-the-author {
+    padding-top: 28px; }
+    .blog-show .about-the-author .headshot,
+    .blog-show .about-the-author .headshot img {
+      height: 98px;
+      width: 98px; }
+    .blog-show .about-the-author .headshot {
+      float: left;
+      margin-right: 20px;
+      border-width: 4px;
+      border-radius: 49px;
+      -moz-border-radius: 49px;
+      -webkit-border-radius: 49px; }
+    .blog-show .about-the-author p {
+      display: inline;
+      line-height: 21px;
+      font-size: 13px;
+      font-weight: 300; }
+    .blog-show .about-the-author p a {
+      font-weight: 400; }
+    .blog-show .about-the-author .salutation,
+    .blog-show .about-the-author .valediction {
+      display: block; }
+    .blog-show .about-the-author .salutation {
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 500;
+      font-size: 16px; }
+    .blog-show .about-the-author .networks {
+      clear: both;
+      text-align: center;
+      margin-top: 28px;
+      font-size: 28px; }
+
+/* iPhone (portrait & landscape) */
+@media only screen and (max-width: 480px) {
+  .container {
+    width:  90%;
+    margin: 0 5%; }
+
+  .blog-index .networks {
+    display: none; }
+
+  .blog-show .post img {
+    max-width: 260px; }
+
+  .blog-show .post .footer .comments {
+    line-height: 28px;
+    float: none; }
+  .blog-show .about-the-author {
+    text-align: center; }
+    .blog-show .about-the-author .headshot,
+    .blog-show .about-the-author .headshot img {
+      height: 120px;
+      width: 120px; }
+    .blog-show .about-the-author .headshot {
+      float: none;
+      margin: 0 auto;
+      border-width: 4px;
+      border-radius: 60px;
+      -moz-border-radius: 60px;
+      -webkit-border-radius: 60px; }
+    .blog-show .about-the-author .salutation {
+      font-size: 20px;
+      line-height: 28px;
+      font-weight: 500; }
+    .blog-show .about-the-author p {
+      display: block;
+      text-align: center;
+      margin: 14px 0; }
+    .blog-show .about-the-author .valediction {
+      display: block; }
+
+  .homepage {
+    margin-top: 42px; }
+}
+
