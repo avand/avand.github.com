@@ -4,7 +4,7 @@ html {
   font-size:   16px;
   font-weight: 400;
   line-height: 28px;
-  background:  url('/images/common/background.png'); }
+  background:  #E6E6E6 url('/images/common/background.png'); }
   html em {
     font-style: italic; }
   html a {
