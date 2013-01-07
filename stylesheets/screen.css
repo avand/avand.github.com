@@ -241,6 +241,7 @@ html {
       .blog-show .post .footer .twitter-follow-button {
         vertical-align: text-bottom; }
   .blog-show .about-the-author {
+    line-height: 21px;
     padding-top: 28px; }
     .blog-show .about-the-author .headshot,
     .blog-show .about-the-author .headshot img {
@@ -248,14 +249,13 @@ html {
       width: 98px; }
     .blog-show .about-the-author .headshot {
       float: left;
-      margin-right: 20px;
+      margin: 0 20px 0 3px;
       border-width: 4px;
       border-radius: 49px;
       -moz-border-radius: 49px;
       -webkit-border-radius: 49px; }
     .blog-show .about-the-author p {
       display: inline;
-      line-height: 21px;
       font-size: 13px;
       font-weight: 300; }
     .blog-show .about-the-author p a {
