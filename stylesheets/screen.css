@@ -240,9 +240,10 @@ html {
       .blog-show .post .footer .comments {
         line-height: 28px;
         float: right; }
+      .blow-show .post .footer .fb-like,
       .blog-show .post .footer .twitter-share-button,
       .blog-show .post .footer .twitter-follow-button {
-        vertical-align: text-bottom; }
+        vertical-align: middle; }
   .blog-show .about-the-author {
     line-height: 21px;
     padding-top: 28px; }
