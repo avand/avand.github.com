@@ -255,14 +255,14 @@ html {
       -moz-border-radius: 49px;
       -webkit-border-radius: 49px; }
     .blog-show .about-the-author p {
-      display: inline;
       font-size: 13px;
       font-weight: 300; }
+    .blog-show .about-the-author .bio p {
+      display: inline; }
     .blog-show .about-the-author p a {
       font-weight: 400; }
-    .blog-show .about-the-author .salutation,
     .blog-show .about-the-author .valediction {
-      display: block; }
+      margin-top: 1em; }
     .blog-show .about-the-author .salutation {
       font-family: "Ubuntu", sans-serif;
       font-weight: 500;
