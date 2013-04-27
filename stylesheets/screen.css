@@ -262,7 +262,7 @@ html {
     .blog-show .about-the-author p a {
       font-weight: 400; }
     .blog-show .about-the-author .valediction {
-      margin-top: 1em; }
+      margin: 1em 0 0 129px; }
     .blog-show .about-the-author .salutation {
       font-family: "Ubuntu", sans-serif;
       font-weight: 500;
