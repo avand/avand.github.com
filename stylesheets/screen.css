@@ -66,6 +66,7 @@ html {
   border-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
   margin: 3px;
+  border-radius: 50%;
   overflow: hidden; }
 
 .homepage {
@@ -77,9 +78,6 @@ html {
     width: 200px; }
   .homepage .headshot {
     border-width: 5px;
-    border-radius: 100px;
-    -moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
     margin-bottom: 28px;
     margin-left: auto;
     margin-right: auto; }
@@ -109,10 +107,7 @@ html {
     .blog-index .header .headshot {
       float: left;
       margin-right: 20px;
-      border-width: 2px;
-      border-radius: 21px;
-      -moz-border-radius: 21px;
-      -webkit-border-radius: 21px; }
+      border-width: 2px; }
     .blog-index .header .salutation {
       -webkit-transition: color .6s linear;
       -moz-transition: color .6s linear;
@@ -246,10 +241,7 @@ html {
     .blog-show .about-the-author .headshot {
       float: left;
       margin: 0 20px 0 3px;
-      border-width: 4px;
-      border-radius: 49px;
-      -moz-border-radius: 49px;
-      -webkit-border-radius: 49px; }
+      border-width: 4px; }
     .blog-show .about-the-author p {
       font-size: 13px;
       font-weight: 300; }
@@ -294,10 +286,7 @@ html {
     .blog-show .about-the-author .headshot {
       float: none;
       margin: 0 auto;
-      border-width: 4px;
-      border-radius: 60px;
-      -moz-border-radius: 60px;
-      -webkit-border-radius: 60px; }
+      border-width: 4px; }
     .blog-show .about-the-author .salutation {
       font-size: 20px;
       line-height: 28px;
