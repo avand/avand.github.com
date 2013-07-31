@@ -153,9 +153,7 @@ html {
   .blog-index .post .snippet {
     font-weight: 400; }
   .blog-index .subscribe {
-    text-align: center; }
-    .blog-index .subscribe .rss {
-      font-size: 10px; }
+    text-align: right; }
 
 .blog-show { }
   .blog-show .post {
