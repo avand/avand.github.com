@@ -32,34 +32,33 @@ html {
 
 .container {
   margin: 0 auto;
-  width: 700px;
+  width: 670px;
   overflow: hidden; }
 
 .content {
   text-shadow: 0 1px 0px #FFF;
   margin-bottom: 3em; }
 
-.networks { }
-  .networks a {
+.links { }
+  .links a {
     margin: 0 .1em;
     -webkit-transition: color .6s linear;
     -moz-transition: color .6s linear;
     transition: color .6s linear;
     color: #7F7F7F; }
-  .networks a:hover {
+  .links a:hover {
     -webkit-transition: color .2s linear;
     -moz-transition: color .2s linear;
     transition: color .2s linear; }
-  .networks .twitter:hover   { color: #3098E6; }
-  .networks .facebook:hover  { color: #3B5998; }
-  .networks .github:hover    { color: #3C3C3C; }
-  .networks .dribbble:hover  { color: #E24FAC; }
-  .networks .rdio:hover      { color: #006ed2; }
-  .networks .vimeo:hover     { color: #1ab7ea; }
-  .networks .pinterest:hover { color: #cb2027; }
-  .networks .linkedin:hover  { color: #4875B4; }
-  .networks .email:hover     { color: #cc3300; }
-  .networks .rss:hover       { color: #cc3300; }
+  .links .dribbble:hover   { color: #E24FAC; }
+  .links .email:hover      { color: #000000; }
+  .links .facebook:hover   { color: #3B5998; }
+  .links .github:hover     { color: #3C3C3C; }
+  .links .linkedin:hover   { color: #4875B4; }
+  .links .rdio:hover       { color: #006ed2; }
+  .links .rss:hover        { color: #008C9E; }
+  .links .soundcloud:hover { color: #FF3300; }
+  .links .twitter:hover    { color: #3098E6; }
 
 .headshot {
   border-style: solid;
@@ -94,7 +93,7 @@ html {
     line-height: 42px; }
   .homepage .valediction {
     font-weight: 600; }
-  .homepage .networks {
+  .homepage .links {
     font-size: 28px;
     line-height: 28px;
     margin-top: 28px; }
@@ -128,7 +127,7 @@ html {
       -moz-transition: color .2s linear;
       transition: color .2s linear;
       color: #008C9E; }
-    .blog-index .header .networks {
+    .blog-index .header .links {
       float: right;
       font-size: 22px;
       line-height: 42px;
@@ -267,7 +266,7 @@ html {
       font-family: "Ubuntu", sans-serif;
       font-weight: 500;
       font-size: 16px; }
-    .blog-show .about-the-author .networks {
+    .blog-show .about-the-author .links {
       clear: both;
       text-align: center;
       margin-top: 28px;
@@ -279,7 +278,7 @@ html {
     width:  90%;
     margin: 0 5%; }
 
-  .blog-index .networks {
+  .blog-index .links {
     display: none; }
 
   .blog-show .post img {
