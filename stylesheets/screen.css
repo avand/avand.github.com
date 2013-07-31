@@ -231,11 +231,10 @@ html {
     .blog-show .post .byline a {
       font-weight: 400; }
     .blog-show .post .footer {
-      color: #666;
-      margin-top: 14px;
+      margin-top: 20px;
       min-height: 28px; }
       .blog-show .post .footer .comments {
-        line-height: 28px;
+        line-height: 20px;
         float: right; }
   .blog-show .about-the-author {
     line-height: 21px;
@@ -267,8 +266,9 @@ html {
     .blog-show .about-the-author .links {
       clear: both;
       text-align: center;
-      margin-top: 28px;
-      font-size: 28px; }
+      margin-top: 18px;
+      font-size: 28px;
+      line-height: 36px; }
 
 /* iPhone (portrait & landscape) */
 @media only screen and (max-width: 480px) {
