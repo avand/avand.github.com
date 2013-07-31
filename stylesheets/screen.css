@@ -30,6 +30,10 @@ html {
   font-weight: 300;
   text-transform: uppercase; }
 
+.ubuntu-500 {
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif; }
+
 .container {
   margin: 0 auto;
   width: 670px;
@@ -41,25 +45,35 @@ html {
 
 .links { }
   .links a {
-    margin: 0 .1em;
-    -webkit-transition: color .6s linear;
-    -moz-transition: color .6s linear;
-    transition: color .6s linear;
-    color: #7F7F7F; }
+    margin: 8px 4px;
+    color: #7F7F7F;
+    -webkit-transition: color .4s linear;
+    -moz-transition: color .4s linear;
+    transition: color .4s linear; }
   .links a:hover {
     -webkit-transition: color .2s linear;
     -moz-transition: color .2s linear;
     transition: color .2s linear; }
-  .links .dribbble:hover   { color: #E24FAC; }
-  .links .email:hover      { color: #000000; }
-  .links .facebook:hover   { color: #3B5998; }
-  .links .github:hover     { color: #3C3C3C; }
-  .links .linkedin:hover   { color: #4875B4; }
-  .links .rdio:hover       { color: #006ed2; }
-  .links .rss:hover        { color: #008C9E; }
-  .links .soundcloud:hover { color: #FF3300; }
-  .links .twitter:hover    { color: #3098E6; }
-  .links .vimeo:hover      { color: #1ab7ea; }
+  .links .dribbble:hover,
+  .links .dribbble:active   { color: #E24FAC; }
+  .links .email:hover,
+  .links .email:active      { color: #000000; }
+  .links .facebook:hover,
+  .links .facebook:active   { color: #3B5998; }
+  .links .github:hover,
+  .links .github:active     { color: #3C3C3C; }
+  .links .linkedin:hover,
+  .links .linkedin:active   { color: #4875B4; }
+  .links .rdio:hover,
+  .links .rdio:active       { color: #006ed2; }
+  .links .rss:hover,
+  .links .rss:active        { color: #008C9E; }
+  .links .soundcloud:hover,
+  .links .soundcloud:active { color: #FF3300; }
+  .links .twitter:hover,
+  .links .twitter:active    { color: #3098E6; }
+  .links .vimeo:hover,
+  .links .vimeo:active      { color: #1ab7ea; }
 
 .headshot {
   border-style: solid;
@@ -86,16 +100,14 @@ html {
     font-size: 18px;
     margin: 14px 0; }
   .homepage .salutation {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
     font-size: 28px;
     line-height: 42px; }
   .homepage .valediction {
     font-weight: 600; }
   .homepage .links {
-    font-size: 28px;
-    line-height: 28px;
-    margin-top: 28px; }
+    font-size: 32px;
+    line-height: 32px;
+    margin-top: 16px; }
 
 .blog-index { }
   .blog-index .header {
@@ -113,8 +125,6 @@ html {
       -webkit-transition: color .6s linear;
       -moz-transition: color .6s linear;
       transition: color .6s linear;
-      font-family: "Ubuntu", sans-serif;
-      font-weight: 500;
       font-size: 28px;
       line-height: 46px;
       color: #7F7F7F; }
@@ -135,8 +145,6 @@ html {
   .blog-index .post .date {
     line-height: 28px; }
   .blog-index .post .title {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
     font-size: 18px;
     line-height: 28px;
     margin: 0 80px 7px 0; }
@@ -153,7 +161,8 @@ html {
 
 .blog-show { }
   .blog-show .post {
-    padding-bottom: 28px;
+    margin-bottom: 34px;
+    padding-bottom: 22px;
     box-shadow: 0 14px 28px -28px rgba(0, 0, 0, 0.7); }
     .blog-show .post h1, .blog-show .post h2, .blog-show .post h3,
     .blog-show .post h4, .blog-show .post h5, .blog-show .post h6,
@@ -199,7 +208,7 @@ html {
       -webkit-border-radius: 3px;
       margin-left: auto;
       margin-right: auto;
-      max-width: 675px; }
+      max-width: 644px; }
     .blog-show .post p,
     .blog-show .post .highlight,
     .blog-show .post table,
@@ -233,8 +242,12 @@ html {
         line-height: 20px;
         float: right; }
   .blog-show .about-the-author {
-    line-height: 21px;
-    padding-top: 28px; }
+    line-height: 21px; }
+    .blog-show .about-the-author .salutation,
+    .blog-show .about-the-author .bio,
+    .blog-show .about-the-author .valediction,
+    .blog-show .about-the-author .links {
+      margin-left: 129px; }
     .blog-show .about-the-author .headshot,
     .blog-show .about-the-author .headshot img {
       height: 98px;
@@ -250,21 +263,18 @@ html {
       display: inline; }
     .blog-show .about-the-author p a {
       font-weight: 400; }
-    .blog-show .about-the-author .valediction {
-      margin: 1em 0 0 129px; }
     .blog-show .about-the-author .salutation {
-      font-family: "Ubuntu", sans-serif;
-      font-weight: 500;
-      font-size: 16px; }
+      margin-bottom: .4em; }
+    .blog-show .about-the-author .valediction {
+      margin-top: 1em; }
     .blog-show .about-the-author .links {
       clear: both;
-      text-align: center;
       margin-top: 18px;
       font-size: 28px;
       line-height: 36px; }
 
 /* iPhone (portrait & landscape) */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-device-width: 480px) {
   .container {
     width:  90%;
     margin: 0 5%; }
@@ -279,7 +289,12 @@ html {
     line-height: 28px;
     float: none; }
   .blog-show .about-the-author {
-    text-align: center; }
+    text-align: left; }
+    .blog-show .about-the-author .salutation,
+    .blog-show .about-the-author .bio,
+    .blog-show .about-the-author .valediction,
+    .blog-show .about-the-author .links {
+      margin-left: 0; }
     .blog-show .about-the-author .headshot,
     .blog-show .about-the-author .headshot img {
       height: 120px;
@@ -289,17 +304,15 @@ html {
       margin: 0 auto;
       border-width: 4px; }
     .blog-show .about-the-author .salutation {
-      font-size: 20px;
-      line-height: 28px;
-      font-weight: 500; }
+      text-align: center; }
     .blog-show .about-the-author p {
-      display: block;
-      text-align: center;
       margin: 14px 0; }
-    .blog-show .about-the-author .valediction {
-      display: block; }
+    .blog-show .about-the-author .links {
+      text-align: center; }
 
   .homepage {
     margin-top: 42px; }
+    .homepage .links a {
+      display: inline-block; }
 }
 
