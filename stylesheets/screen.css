@@ -59,6 +59,7 @@ html {
   .links .rss:hover        { color: #008C9E; }
   .links .soundcloud:hover { color: #FF3300; }
   .links .twitter:hover    { color: #3098E6; }
+  .links .vimeo:hover      { color: #1ab7ea; }
 
 .headshot {
   border-style: solid;
