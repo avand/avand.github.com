@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "The Big Bang Rewrite: First Ask Why"
+title: "The Big Bang Rewrite (Part 1): First Ask Why"
 ---
 When it comes to building something, be it a building, a car, or software, there are always imperfections. The first iteration is usually something simple, but eventually as features are added and requirements made more complex, the system starts to become bloated. Even with great agility and the most stubborn resistance to scope creep, technology changes so rapidly that immediately, often even before its conception, a product is out of date. It's a fact of product development; it's a fact of life. Change is the only constant.
 
@@ -16,6 +16,7 @@ Although Fave relies on outside vendors for the bulk of our data, we've come to 
 
 As we filled a whiteboard with requirements, it started to become apparent that we were standing in the shadow of an enormous endeavor. Everything hinged on many very invasive changes to the structure of the data which represented huge risks to the stability of the site. It was no longer a technical change, but a much more fundamental change in focus for the whole company. With a clear goal of superior data, we start shedding extraneous features. Soon the concept of starting from scratch became manageable.
 
-Read [part two][1].
+Read [part two][p2] or [three][p3].
 
-[1]: /2009/12/13/the-big-bang-rewrite-part-2-api-first.html
+[p2]: /2009/12/13/the-big-bang-rewrite-part-2-api-first.html
+[p3]: /2009/12/13/the-big-bang-rewrite-part-3-auth.html

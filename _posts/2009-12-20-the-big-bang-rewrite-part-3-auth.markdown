@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "Rebuilding Fave (Part 3): Authentication, Authorization, and Tests"
+title: "The Big Bang Rewrite (Part 3): Authentication, Authorization, and Tests"
 ---
 One of the biggest deficiencies in the old application was being able to lock down access to the site based on users. Originally, there were two special users, Admin and Guest. The former had complete control, the later had none. Anyone else was a normal user and had the same level of access.
 
@@ -154,7 +154,10 @@ end
 
 This helper is probably the most robust part of the entire test. If you pass nothing in, as we do in the `setup` block, it will simply fake it. This is great because the assertions become oblivious to the authorization mechanism. Sweet. But the authentication and authorization assertions do care, so we give ourselves the option to login as a specified role. Our `should` blocks utilize the `:before` option to perform the login before anything else happens. Importantly, though, it sets a flag so the second `login` call (the one in the original `setup` block) doesn't then screw things up.
 
-Make sense?
+Go back to [part one][p1] or [two][p2].
+
+[p1]: /2009-12-07-the-big-bang-rewrite-first-ask-why.html
+[p2]: /2009/12/13/the-big-bang-rewrite-part-2-api-first.html
 
 [1]: http://github.com/ryanb/cancan
 [2]: http://dev.thoughtbot.com/shoulda/classes/Shoulda/ActionController/Macros.html

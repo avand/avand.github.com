@@ -2,7 +2,7 @@
 layout: blog
 title: "The Big Bang Rewrite (Part 2): API First"
 ---
-As I discussed in my [previous post][1], rebuilding Fave was motivated entirely by the desire for better data. The core focus was not rapid front facing development, but almost entirely back end work. In essence, we started with our API.
+As I discussed in my [previous post][p1], rebuilding Fave was motivated entirely by the desire for better data. The core focus was not rapid front facing development, but almost entirely back end work. In essence, we started with our API.
 
 One of the features Rails boasts as an application framework is that out of the box, it lends itself to API support. Every controller/action that is generated includes responses for XML based requests. I would challenge most applications to try and publicize an API using the default Rails setup. It's likely not even close to the end result you'd expect. But that's OK - no application framework should satisfy that expectation.
 
@@ -36,4 +36,7 @@ For the longest time, the views of the new site were simply a wrapper to the API
 
 All things considered, the API first approach is not one I would recommend to everyone. At Fave, our data is completely core to our business and as a result it seemed appropriate and has paid us in dividends. A site like [Piggy Back](http://piggyback.it) has far simpler data structures with the user interface demanding much more focus. In this case an "API first" approach would likely be the wrong choice. Although even there I will note that through the process of making the interface more accessible, for example from an iPhone or mobile device, I was forced to clean up my controller and think harder about what data they should and should not be passing in and out. It's an exercise that every developer should practice and one that has become our regiment at Fave.
 
-[1]: /2009/12/07/the-big-bang-rewrite-first-ask-why.html
+Go back to [part one][p1] or read [part three][p3].
+
+[p1]: /2009-12-07-the-big-bang-rewrite-first-ask-why.html
+[p3]: /2009/12/13/the-big-bang-rewrite-part-3-auth.html
