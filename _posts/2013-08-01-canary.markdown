@@ -43,7 +43,7 @@ excited to build out all the ideas we have for Canary.
 feedback.
 
 [s]:  http://www.sqoot.com
-[c]:  http://canarup.com
+[c]:  http://canaryup.com
 [tr]: http://www.taskrabbit.com
 [tc]: http://techcrunch.com/2013/07/08/taskrabbit-confirms-layoffs-as-it-realigns-to-focus-on-mobile-and-enterprise/
 [rr]: https://twitter.com/RobRobbins
