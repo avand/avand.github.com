@@ -7,7 +7,8 @@ The last product I built, [Sqoot][s], had a lot of moving parts. We
 had three databases, a search server, an API, website, and a deal
 importing system. It's a marvel that it worked at all! The truth is
 that it went down pretty frequently. Sadly, our customers were often
-the first to find out.
+the first to find out even though we went to great lengths to
+[monitor our apps][1].
 
 After Sqoot, I [briefly][tc] worked at [TaskRabbit][tr]. Because we
 had an operations team I didn't have to think about whether or not
@@ -48,3 +49,4 @@ feedback.
 [rr]: https://twitter.com/RobRobbins
 [sf]: https://github.com/robrobbins/specford
 [bw]: http://brandonweiss.me
+[1]:  /2011/04/28/building-an-app-to-monitor-your-app.html
