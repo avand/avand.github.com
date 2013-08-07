@@ -1,4 +1,9 @@
-# Five Ways to Evaluate New Ideas
+---
+layout: blog
+title: Five Ways to Evaluate New Ideas
+guest_blog_name: TechCocktail
+guest_blog_url: http://tech.co/evaluate-new-ideas-2012-03
+---
 
 It took six years for the novelty of building stuff to wear off. I've worked on huge failing corporate projects, cool weekend hacks, and successful startups. At a certain point, you've proved to yourself that you _can_ build it. Now, _what_ you're building matters. So how do you become selective about the products you work on?
 
