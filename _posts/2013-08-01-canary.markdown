@@ -1,0 +1,50 @@
+---
+layout: blog
+title: Canary
+---
+
+The last product I built, [Sqoot][s], had a lot of moving parts. We
+had three databases, a search server, an API, website, and a deal
+importing system. It's a marvel that it worked at all! The truth is
+that it went down pretty frequently. Sadly, our customers were often
+the first to find out.
+
+After Sqoot, I [briefly][tc] worked at [TaskRabbit][tr]. Because we
+had an operations team I didn't have to think about whether or not
+our code was running. But I did still have to worry about the code
+itself: thousands of lines scattered across a bunch of apps. We
+wrote lots of tests to prevent bugs. The slowest tests were our
+integration tests. These tests actually boot up a server and clicked
+around the site in a browser like a customer would. These tests were
+so frustratingly slow that [Rob Robbins][rr] and I dreamt up
+[Specford][sf]. And still anytime someone on my team wanted to push
+a change, we'd wait 15-20 minutes for the tests to run. Our test
+suite was the biggest adversary to our speed.
+
+Paradoxically, our code still broke in production. If you want to
+know with 100% confidence that things are "up," you just need to
+check production. There are a few services that will do this kind of
+monitoring for you but they’re either hard to use, expensive, or
+both. I want a service that's affordable and well designed. So I'm
+building it.
+
+[Canary][c] is an uptime monitoring service. Canary tells you when
+things go wrong before anyone else does. Currently Canary will
+monitor a URL and send an alert if the URL doesn't respond or
+responds unsuccessfully. There are no usage limits or tiered
+subscriptions; $5/mo gets you everything.
+
+I've teamed up with my friend and previous co-founder,
+[Brandon][bw]. We've built great things in the past and are really
+excited to build out all the ideas we have for Canary.
+
+[Try out Canary][c] free for 14 days. I'd love hear your early
+feedback.
+
+[s]:  http://www.sqoot.com
+[c]:  http://canarup.com
+[tr]: http://www.taskrabbit.com
+[tc]: http://techcrunch.com/2013/07/08/taskrabbit-confirms-layoffs-as-it-realigns-to-focus-on-mobile-and-enterprise/
+[rr]: https://twitter.com/RobRobbins
+[sf]: https://github.com/robrobbins/specford
+[bw]: http://brandonweiss.me
