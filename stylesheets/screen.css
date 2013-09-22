@@ -213,7 +213,8 @@ html {
     .blog-show .post .highlight,
     .blog-show .post table,
     .blog-show .post img,
-    .blog-show .post object {
+    .blog-show .post object,
+    .blog-show .post .highlight {
       margin-bottom: 14px }
     .blog-show .post .left {
       float:  left;
@@ -225,7 +226,8 @@ html {
       font-style: italic; }
     .blog-show .post .highlight,
     .blog-show .post blockquote {
-      margin: 0 20px; }
+      margin-right: 20px;
+      margin-left: 20px; }
     .blog-show .post .byline {
       text-align: center;
       font-size: 14px;
