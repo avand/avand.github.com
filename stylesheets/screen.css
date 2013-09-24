@@ -18,11 +18,14 @@ html {
     -moz-transition: color .2s linear;
     transition: color .2s linear;
     color: #00B4CC; }
-  html pre {
-    display: block;
+  html pre,
+  html code {
     font-family: "Inconsolata", "Monaco", "Courier New", monospace;
+  }
+  html pre {
     font-size: 16px;
     line-height: 20px;
+    display: block;
     overflow-x: scroll;
     width: 100%; }
 
