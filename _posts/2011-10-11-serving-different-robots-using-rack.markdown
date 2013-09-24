@@ -23,11 +23,17 @@ class RobotsGenerator
     end
 
     # Heroku can cache content for free using Varnish
-    headers = { 'Cache-Control' => "public, max-age=#{1.year.seconds.to_i}" }
+    headers = {
+      'Content-Type'  => 'text/plain',
+      'Cache-Control' => "public, max-age=#{1.year.seconds.to_i}"
+    }
 
     [200, headers, [body]]
   rescue Errno::ENOENT
-    [404, {}, ['# A robots.txt is not configured']]
+    headers = { 'Content-Type' => 'text/plain' }
+    body    = '# A robots.txt is not configured'
+
+    [404, headers, [body]]
   end
 end
 {% endhighlight %}
@@ -35,14 +41,22 @@ end
 config/routes.rb
 
 {% highlight ruby %}
+require 'robots_generator'
+
 YourApplication::Application.routes.draw do
   # ...
 
-  match "/robots.txt" => RobotsGenerator
+  match '/robots.txt' => RobotsGenerator
 
   # ...
 end
 {% endhighlight %}
 
+**Update** *(Sept. 23, 2013)*: Thanks to [@michaelbaudino][3] for pointing out that
+routes.rb needs the `require 'robots_generator'` since Rails 3 does not autoload files
+in lib. Additionally, the request headers should always include `Content-Type` to avoid
+a `Rack::Lint::LintError` error. 
+
 [1]: http://www.sqoot.com/
 [2]: http://www.robotstxt.org/
+[3]: https://twitter.com/michaelbaudino
