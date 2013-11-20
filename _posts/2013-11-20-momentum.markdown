@@ -1,0 +1,96 @@
+---
+layout: blog
+title: Momentum
+---
+
+Startups move fast. They're young, loud, and disruptive -- a room full of excited
+twenty-somethings willing to burn the midnight oil to get a release out the door.
+Startups are enticing playgrounds with more Apple hardware and beer on tap you
+can handle. When you're tired, don't go home. Stay, there's still more work to
+be done. The Backlog says so. The blind lead the blind in this "up and to the
+left" landgrab.
+
+"Speed comes from precision," says [Rob Robbins][rob], an engineer at
+[TaskRabbit][tr] and a seasoned musician. You don't get fast by going faster,
+you get fast through repetition. With each iteration, you discover and shortly
+thereafter eliminate nuances that held you back. Though it's said that "practice
+makes perfect," not all practice yields the same results.
+
+Psychologist [K. Anders Ericsson][ericsson] has been a pioneer in the field of
+["deliberate practice."][practice] "The differences between expert performers
+and normal adults reflect a life-long period of deliberate effort to improve
+performance in a specific domain," Ericsson says. Going through the motions is
+not enough. In his book [The Talent Code][ttc], [Daniel Coyle][coyle] says that
+to practice well is to "look at the task as a whole...divide it into its smallest
+possible chunks...\[and then\] play with time, slowing the action down, then
+speeding it up."
+
+When you practice something, you eliminate the frictions that impede you.
+Practice is an accelerant. And the better you practice the more you accelerate.
+Better practice can be achieved through "chunking," like Coyle suggests. It can
+also be improved simply through focus. Obviously, you'll practice better when
+you're not distracted.
+
+But deliberate practice isn't the only way to improve. You can also just practice
+more. I see this evidenced each week at [General Assembly][ga], where I teach
+[front-end web development][fewd]. Some students stay moderately but consistently
+focused for the duration of the 10-week course. And they match up with students
+that practice more intensely but spend less time overall. The highest
+performers practice both frequently and intensely. And perhaps unsurprisingly,
+physical objects obey the same rules.
+
+To determine an object's velocity, that is its speed in a given direction, we can
+use the equation `v = u + at`, where `u` is its inital velocity, `a` is its
+acceleration, and `t` is time. If you accelerate at 10 meters/second/second for
+10 seconds, you'll be moving at 100 meters/second. To double your speed, double
+your acceleration or double the time. But double both and velocity grows by a
+factor of two. Consider:
+
+{% highlight bash %}
+10 * 10 =   100
+20 * 10 =   200
+10 * 20 =   200
+20 * 20 =   400
+40 * 40 = 1,600
+80 * 80 = 6,400
+10 * 80 =   800
+{% endhighlight %}
+
+Velocity is only part of the equation. You can vigorously work on a triviality
+for a lifetime only to be left with a triviality. To make a difference requires
+work of substance, matters of importance and mass. Impact happens when velocity
+and substance meet.
+
+In physical terms, *impact is momentum*, ["the product of the mass and velocity
+of an object."][momentum] Momentum, `p`, is calculated by multiplying mass, `m`,
+by velocity, `v` (`p = mv`). A big idea with little action or execution doesn't
+have a significant impact. Inversely, considerable effort put towards a niche idea
+may have a big impact. As [Derek Sivers][sivers] puts it, ["ideas are just a
+multiplier of execution."][multiply] And startups cluster at the fringes of this
+spectrum, either working vigorously on trivial ideas or apathetically on big ones.
+
+It's hard to make big things move fast -- that's just inertia. After 10 years of
+classical piano, I'm able to play "Träumerei" or "Dreaming" by Robert Schumann:
+
+![Träumerei by Schumann](http://f.cl.ly/items/3w2i3y2n3B412C3y3B43/dreaming.jpg "Träumerei by Schumann")
+
+This one page of music represents years of practice. It's not where I started.
+Practice and time gave me velocity. And as my repertoire gained mass, I gained
+momentum as a pianist.
+
+Now, I think to the future. Of course, I want my work to be meaningful. But dreaming
+of the impact my work may have is just inspiration. Their impact will be come from
+years of practice. The things I work on today will collide into the things on
+work on tomorrow, and one day, years from now, I'll have the velocity and mass
+to make a difference.
+
+[rob]:      https://twitter.com/RobRobbins
+[ericsson]: http://en.wikipedia.org/wiki/K._Anders_Ericsson
+[practice]: http://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice
+[ttc]:      http://amzn.to/1ivraIb
+[coyle]:    https://twitter.com/DanielCoyle
+[momentum]: http://en.wikipedia.org/wiki/Momentum
+[sivers]:   https://twitter.com/sivers
+[multiply]: http://sivers.org/multiply
+[tr]:       http://taskrabbit.com
+[ga]:       http://ga.co
