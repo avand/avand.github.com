@@ -5,9 +5,9 @@ title: Momentum
 
 Startups move fast. They're young, loud, and disruptive -- a room full of excited
 twenty-somethings willing to burn the midnight oil to get a release out the door.
-Startups are enticing playgrounds with more Apple hardware and beer on tap you
-can handle. When you're tired, don't go home. Stay, there's still more work to
-be done. The Backlog says so. The blind lead the blind in this "up and to the
+Startups are enticing playgrounds with more Apple hardware and beer on tap than
+you can handle. When you're tired, don't go home. Stay, there's still more work
+to be done. The Backlog says so. The blind lead the blind in this "up and to the
 left" landgrab.
 
 "Speed comes from precision," says [Rob Robbins][rob], an engineer at
@@ -79,7 +79,7 @@ Practice and time gave me velocity. And as my repertoire gained mass, I gained
 momentum as a pianist.
 
 Now, I think to the future. Of course, I want my work to be meaningful. But dreaming
-of the impact my work may have is just inspiration. Their impact will be come from
+of the impact my work may have is just inspiration. Their impact will come from
 years of practice. The things I work on today will collide into the things on
 work on tomorrow, and one day, years from now, I'll have the velocity and mass
 to make a difference.
