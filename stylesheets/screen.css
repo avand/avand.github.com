@@ -29,6 +29,9 @@ html {
     overflow-x: scroll;
     width: 100%; }
 
+abbr {
+  border-bottom: 1px dotted #343838; }
+
 .meta {
   font-weight: 300;
   text-transform: uppercase; }
