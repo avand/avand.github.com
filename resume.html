@@ -1,253 +1,601 @@
-<!DOCTYPE html>
+---
+layout: default
+title: Resume
+---
 
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" media="all" type="text/css" href="stylesheets/resume.css">
 
-    <title>Resume &middot; Avand</title>
-  </head>
+<script src="javascripts/resume.js"></script>
 
-  <body>
-    <h1>Entrepreneurial Experience</h1>
+<a href="/">
+  <div class="headshot">
+    <img src="http://graph.facebook.com/avand/picture?height=200&width=200" width="42" height="42" />
+  </div>
 
-    <div class="box section">
-      <h2>
-        Sqoot
-        <span class="location">Chicago, IL</span>
-        <span class="url"><a href="http://www.sqoot.com">sqoot.com</a></span>
-      </h2>
+  <p class="salutation ubuntu-500">
+    Avand Amiri
+  </p>
+</a>
 
-      <div class="position">
-        <h3>Founder <span class="date">January 2011 &#8211; Now</span></h3>
+<ul id="toc">
+  <li><a href="#professional-experience">Professional Experience</a></li>
+  <li><a href="#entrepreneurial-experience">Entrepreneurial Experience</a></li>
+  <li><a href="#open-source-contributions">Open Source Contributions</a></li>
+  <li><a href="#presentations">Presentations</a></li>
+  <li><a href="#education">Education</a></li>
+</ul>
 
-        <p class="technologies">Ruby on Rails 3.x, JS, XSS, Solr, Memcached, Mongo, Amazon S3, AJAX, Git, Heroku, Postgres</p>
+<section id="professional-experience">
+  <h1>Professional Experience</h1>
 
-        <p>
-           Sqoot is a local deal tool that makes it easy for online publishers to engage &amp; monetize their audiences.
-           Sqoot's technology makes it easy to search tens of thousands of local deals.
-        </p>
+  <article>
+    <h2>
+      <span class="ubuntu-500">General Assembly</span>
+      <span>
+        <span class="location">San Francisco, CA</span> ·
+        <a href="http://ga.co">ga.co</a>
+      </span>
+    </h2>
 
-        <ul>
-          <li><strong>Cross Side Scripting</strong>: Sqoot features modules that inject HTML on 3rd party sites.</li>
-          <li><strong>Scale</strong>: Sqoot servers tens of thousands of pageviews per day.</li>
-          <li><strong>Data Normalization</strong>: Sqoot integrates with tens of deal providers, each with unique deal and tracking API calls.</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="box section">
-      <h2>
-        PiggyBack.it
-        <span class="location">Chicago, IL</span>
-        <span class="url"><a href="http://piggyback.it">piggyback.it</a></span>
-      </h2>
-
-      <div class="position">
-        <h3>Founder <span class="date">March 2009 &#8211; Now</span></h3>
-
-        <p class="technologies">Ruby on Rails 2.x, Amazon S3, AJAX, Git, Heroku, Postgres, TDD</p>
-
-        <p>
-          PiggyBack.it was hinged on a simple concept: tracking money between friends is an awful experience.
-          It seemed like a problem that software could fix. Initially it was designed to transfer money between friends in the most efficient way possible.
-          After gathering some initial customer feedback, it morphed into a more simple debt tracker still used today by hundreds of people.
-        </p>
-
-        <ul>
-          <li><strong>Test Driven Balancing Algorithm</strong>: Using TDD I designed an algorithm to figure out how to balance money between multiple people in the most efficient way.</li>
-          <li><strong>Design &amp; Marketing</strong>: I produced the logo, site design, and marketing video (<a href="http://bit.ly/rpIVYP">http://bit.ly/rpIVYP</a>).</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="box section">
-      <h2>Presentations and Speaking</h2>
-
-      <div class="position">
-        <h3>Managing CSS &amp; JS with Rack <span class="date">March 23rd, 2011</span></h3>
-
-        <p>
-          In most web apps, JS and CSS are a mess.
-          There are few conventions when it comes to organizing these assets and modularizing them can introduce the HTTP overhead of multiple requests.
-          In this talk, I discuss a new Rack-based approach to packaging assets using a lightweight gem called Stork.
-          I cover organizational conventions, advanced CSS techniques with Sass, and simple ways to modularize your JS all while sending a tightly packaged set of assets to the browser.
-        </p>
-
-        <ul>
-          <li>Stork source code: <a href="http://bit.ly/pkqTR4">http://bit.ly/pkqTR4</a></li>
-          <li>Accompanying blog post: <a href="http://bit.ly/oIQp0g">http://bit.ly/oIQp0g</a></li>
-          <li>Refresh Chicago video: <a href="http://bit.ly/r8oy0d">http://bit.ly/r8oy0d</a></li>
-          <li>Chicago Ruby User Group video: <a href="http://bit.ly/qRL03f">http://bit.ly/qRL03f</a></li>
-        </p>
-      </div>
-
-      <div class="position">
-        <h3>AJAX Form Validation for Rails <span class="date">May 6th, 2008</span></h3>
-
-        <p>
-          I presented at Chicago Ruby User Group, demonstrating an efficient solution to form validation with AJAX.
-          The goal was to utilize exisiting server side validation logic to drive an interactive user experience.
-        </p>
-
-        <ul>
-          <li>Accompanying blog post: <a href="http://bit.ly/pMrptp">http://bit.ly/pMrptp</a></li>
-        </ul>
-      </div>
-
-      <div class="position">
-        <h3>Web 2.0 Graphics &amp; Design <span class="date">November 2nd, 2007</span></h3>
-
-        <p>
-          Delivered a company-wide presentation at Clarity Consulting highlighting the benefits of proper XHTML and CSS,
-          and demonstrating the principles of good web design.
-        </p>
-
-        <ul>
-          <li>Video: <a href="https://vimeo.com/66541708">https://vimeo.com/66541708</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <h1>Professional Experience</h1>
-
-    <div class="box section">
-      <h2>
-        Fave Media, Inc.
-        <span class="location">Chicago, IL</span>
-        <span class="url"><a href="http://getfave.com">getfave.com</a></span>
-      </h2>
-
-      <div class="position">
-        <h3>Technical Lead <span class="date">September 2008 &#8211; January 2010</span></h3>
-
-        <p class="technologies">Ruby on Rails, Sphinx, nginx, Virtualization, Amazon S3, AJAX, Git, Capistrano, MySQL, Scrum</p>
-
-        <p>
-          Fave Media, a national video yellow pages and business directory, launched in 2007 and rapidly grew to be one of the major players in the small business online directory vertical.
-          Their flagship product <a href="http://www.getfave.com">getfave.com</a> drove 20 million requests a month in its prime.
-          I came on board in September of 2008 leading and growing the team from two to five developers.
-        </p>
-
-        <ul>
-          <li>
-            <strong>Data Updates</strong>: Fave used an outside vendor for their 17+ million business listings.
-            Every month this vendor published changesets affecting over 50% of that data.
-            I oversaw the development of a project that fetched, analyzed and crunched these massive sets of changes.
-          </li>
-          <li>
-            <strong>Process</strong>: Using Scrum methodologies, which I learned independently and from other peers,
-            I built the team from two to five developers. We maintained weekly sprints, daily stand-ups and fostered a culture that promoted innovation.
-          </li>
-          <li>
-            <strong>Highrise Integration</strong>: Fave brought in hundreds of new users and businesses every day.
-            The challenge: empowering a team of sales representatives with this data.
-            I took a &#8220;buy vs. build&#8221; approach to the problem and, working with the Highrise API,
-            developed a solution that scaled to tens of thousands of leads.
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="box section">
-      <h2>
-        Gorilla
-        <span class="location">Chicago, IL</span>
-        <span class="url"><a href="http://www.gorillachicago.com">gorillachicago.com</a></span>
-      </h2>
+    <div class="position">
+      <h3>
+        Instructor
+        <time>April, 2012 — Now</time>
+      </h3>
 
       <p>
-        I had a fantastic opportunity to work with a range of exclusively web based technologies at Gorilla.
-        As a small web consultancy, I pushed for and affected the introduction of agile development processes,
-        such as test driven development and pair programming. I also introduced Rails as a viable web platform,
-        and demonstrated its effectiveness with <a href="http://spexchicago.com" target="_blank">spexchicago.com</a>.
+        I’ve taught six ten-week sections of General Assembly’s Front-End
+        Web Development course. Each course meets for six hours each week.
       </p>
-
-      <div class="position">
-        <h3>Engineer <span class="date">February 2008 &#8211; September 2008</span></h3>
-
-        <p class="technologies">Ruby on Rails, C#, ASP.NET 2.0, PHP, ColdFusion, Flash, AJAX, ImageMagick, RMagick, Prototype, Script.aculo.us, JQuery, NHibernate, Subversion, Capistrano, MySQL, SQL Server</p>
-
-        <ul>
-          <li>
-            <strong><a href="http://spexchicago.com/" target="_blank">Spex Chicago</a></strong>:
-            I built this site entirely from scratch using Ruby on Rails 2.1.
-            Working alongside a designer who favored JQuery as opposed to Prototype and Script.aculo.us,
-            we were still able to accomplish elaborate visual animations and AJAX integration throughout the front end.
-            The administrative interface, with which I had the opportunity to express much creative license,
-            includes image size validation with ImageMagick and a clever customization of ActiveRecord.
-          </li>
-          <li>
-            <strong><a href="http://northpointhorizons.com" target="_blank">Northpoint Horizons</a></strong>:
-            I had the opportunity to build this site from front to back with ASP.NET and C#.
-            It features a Microsoft SQL Server back end that uses stored procedures to communicate to a custom data layer.
-            Business objects, consuming that information, feed values to the user interface, which I also constructed from the ground up.
-            Northpoint was another site that exercised my design abilities with a very graphic-heavy front end.
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="box section">
-      <h2>
-        Clarity Consulting
-        <span class="location">Chicago, IL</span>
-        <span class="url"><a href="http://www.claritycon.com">claritycon.com</a></span>
-      </h2>
-
-      <p>
-        I was employed at Clarity as an Engagement Engineer,
-        a position that involved developing software solutions with teams of other Clarity developers at several client engagements.
-        Below are the details of the technology and my role at each client.
-      </p>
-
-      <div class="position">
-        <h3>Engineer: Crate and Barrel &#8211; Point of Sale <span class="date">June, 2007 &#8211; February 2008</span></h3>
-
-        <p class="technologies">C#, .NET 2.0, Windows Forms, Web Services / SOAP, GDI+, Team Foundation Server, Visual SourceSafe</p>
-        <ul>
-          <li>Responsible for major functionality in a national rollout to all Crate and Barrel stores. Product enhancements include development of 8.5” x 11” receipts, a variety of transactional notes and changes to order maintenance functionality.</li>
-          <li>Introduced a robust solution to allow furniture stores to print receipts onto 8.5” x 11” paper in addition to their existing Epson thermal printers.</li>
-        </ul>
-      </div>
-
-      <div class="position">
-        <h3>Engineer: Echo Global Logistics &#8211; EDI Integration &amp; Performance Tuning <span class="date">April, 2007 &#8211; June, 2007</span></h3>
-
-        <p class="technologies">C#, .NET 2.0, ASP.NET 2.0, Windows Services, SQL Server 2005, AJAX, GDI+, Subversion</p>
-
-        <ul>
-          <li>Responsible for an integration between shippers and suppliers that would update Echo’s existing web application with shipping status updates.</li>
-          <li>Took action to improve performance across Echo’s infrastructure, which included SQL Server and ASP .NET profiling.</li>
-        </ul>
-      </div>
-    </div>
-
-    <h1>Open Source Contributions</h1>
-
-    <div class="box section">
-      <h2>Stork <span class="url"><a href="http://github.com/avand/stork">github.com/avand/stork</a></span></h2>
-      <p>Nice and tidy bundles of CSS and JS served by Rack.</p>
-    </div>
-
-    <div class="box section">
-      <h2>Squawk <span class="url"><a href="http://github.com/avand/squawk">github.com/avand/squawk</a></span></h2>
-      <p>Squawk gives you a very simple way to keep track of activity on your site.</p>
-    </div>
-
-    <h1>Education</h1>
-
-    <div class="box section">
-      <h2>
-        DePaul University
-        <span class="location">Chicago, IL</span>
-        <span class="location">Incomplete</span>
-      </h2>
 
       <ul>
-        <li>Bachelors of Information Systems, GPA 3.9</li>
-        <li>Top of the CTI Sophomore Class in 2007</li>
-        <li>Why I dropped out: <a href="http://bit.ly/nypaJG">http://bit.ly/nypaJG</a></li>
+        <li>
+          <strong>Curriculum</strong>: When I joined General Assembly, the
+          curriculum they had developed left a lot to be desired so I
+          developed my own instead from scratch. There are dozens of
+          exercises, quizes, and lessons that I've customized to effectively
+          teach the topics of HTML, CSS, and JS.
+        </li>
+        <li>
+          <strong>High Praise</strong>: For each course, I received consistently
+          high feedback (70+ NPS) both on the quality of instruction and the
+          curriculum. Testimonials and references available upon request.
+        </li>
+        <li>
+          <strong>Video</strong>: I recorded screencasts and full lessons that
+          are publically available on Vimeo
+          (<a href="http://vimeo.com/avand">vimeo.com/avand</a>).
+        </li>
+        <li>
+          <strong>Final Projects</strong>: I collected students’ final projects
+          and made them available for reference and inspiration
+          (<a href="http://bit.ly/fewd-finals">bit.ly/fewd-finals</a>).
       </ul>
     </div>
-  </body>
-</html>
+  </article>
+
+  <article>
+    <h2>
+      <span class="ubuntu-500">TaskRabbit</span>
+      <span>
+        <span class="location">San Francisco, CA</span> ·
+        <a href="http://taskrabbit.com">taskrabbit.com</a>
+      </span>
+    </h2>
+
+    <div class="position">
+      <h3>
+        Sr. Software Engineer
+        <time>January, 2013 — July, 2013</time>
+      </h3>
+
+      <p>
+        I joined TaskRabbit as a Sr. Software Engineer on the Rabbit Web
+        team. Initially, I worked alongside a couple other engineers and
+        designers to build better tools for the people running tasks. In my
+        second quarter, I became the tech lead of the business services team,
+        which built tools for businesses that used TaskRabbit at higher volume.
+        I was laid off in July along with about 15 other great friends and
+        colleagues.
+      </p>
+
+      <ul>
+        <li>
+          <strong>Intellihelp</strong>: The customer support team at
+          TaskRabbit dealt with an enormous amount of inbound inquiries. For
+          a hack-day project, I worked with the support lead to build a
+          tool that reduced inbound inquires by 12%. Intellihelp leveraged
+          Zendesk’s API to help customers find topical support topics.
+        </li>
+        <li>
+          <strong>Task Close Potential</strong>: This project also came out
+          of efforts of my colleages on a hack-day. Task Close Potential (TCP)
+          was a numeric value that helped the company prioritize incoming
+          applications. Applicants in popular areas with open schedules were
+          given a high TCP and reviewed first.
+        </li>
+        <li>
+          <strong>Getting Closer to Your Customers</strong>: I presented to
+          the entire company over lunch about the value of getting closer to
+          customers. I explored some ideas that blurred the lines between
+          support and customer development.
+        </li>
+      </ul>
+    </div>
+  </article>
+
+  <article>
+    <h2>
+      <span class="ubuntu-500">Fave Media, Inc.</span>
+      <span>
+        <span class="location">Chicago, IL</span> ·
+        <a href="http://getfave.com">getfave.com</a>
+      </span>
+    </h2>
+
+    <div class="position">
+      <h3>
+        Technical Lead
+        <time>September, 2008 — January, 2010</time>
+      </h3>
+
+      <p class="technologies">
+        Ruby, Rails 2.x, Sphinx, nginx, Amazon S3, Git, Capistrano, MySQL
+      </p>
+
+      <p>
+        Fave Media, a national “video yellow pages” and business directory,
+        launched in 2007 and rapidly grew to be one of the major players in
+        the space. Their flagship product getfave.com drove 20 million requests
+        per month through organic search. Eventually, search engines changed
+        their algorithms, traffic waned, and Fave Media went out of business. I
+        came on board in September of 2008 leading and growing the team from two
+        to five engineers before leaving to start my own business in January of
+        2010.
+      </p>
+
+      <ul>
+        <li>
+          <strong>Data</strong>: Fave used an outside vendor, Localeze, for
+          their 17+ million business listings. Every month this vendor
+          published changesets affecting over 50% of that data. I oversaw
+          the development of a project that fetched, analyzed and crunched
+          these massive sets of changes.
+        </li>
+        <li>
+          <strong>People</strong>: Using Scrum methodologies, which I
+          learned independently and from other peers, I built the team from
+          two to five engineers. We maintained weekly sprints, daily
+          stand-ups and fostered a culture that promoted innovation.
+        </li>
+        <li>
+          <strong>Sales</strong>: Fave brought in hundreds of new users and
+          businesses every day. The challenge: empowering a team of sales
+          representatives with this data. I took a “buy vs. build” approach
+          to the problem and, working with the Highrise API, developed a
+          solution that scaled to tens of thousands of leads.
+        </li>
+      </ul>
+    </div>
+  </article>
+
+  <article>
+    <h2>
+      <span class="ubuntu-500">Gorilla</span>
+      <span>
+        <span class="location">Chicago, IL</span> ·
+        <a href="http://www.gorillachicago.com">gorillachicago.com</a>
+      </span>
+    </h2>
+
+    <p>
+      I had a fantastic opportunity to work with a range of exclusively
+      web-based technologies at Gorilla. I introduced agile development
+      processes, such as test driven development and pair programming. I also
+      introduced the team to Rails and demonstrated its effectiveness with the
+      development of spexchicago.com.
+    </p>
+
+    <div class="position">
+      <h3>
+        Spex Chicago
+        <time>February, 2008 — May, 2008</time>
+      </h3>
+
+      <p class="technologies">
+        Ruby, Rails 2.x, ImageMagick, RMagick, HTML, CSS, JS, Subversion,
+        Capistrano, MySQL
+      </p>
+
+      <p>
+        I built this site entirely from scratch using Ruby on Rails 2.1.
+        Working alongside a designer who favored jQuery as opposed to
+        Prototype and Script.aculo.us, we implemented elaborate visual
+        animations and AJAX integration throughout the front-end. The
+        administrative interface, where I had the opportunity to express much
+        creative license, featured image size validation with ImageMagick and a
+        clever customization of ActiveRecord. The site has since been
+        redesigned.
+      </p>
+    </div>
+
+    <div class="position">
+      <h3>
+        Northpoint Horizons
+        <time>May 2008 — September 2008</time>
+      </h3>
+
+      <p class="technologies">
+        C#, ASP.NET 2.0, HTML, CSS, JS, NHibernate, Subversion, SQL Server
+      </p>
+
+      <p>
+        I had the opportunity to build this site from front to back with C# and
+        ASP.NET. It featured a Microsoft SQL Server back-end that used stored
+        procedures to communicate to a custom data layer. Business objects,
+        consuming that information, fed values to the user interface, which I
+        also constructed from the ground up. Northpoint was another site that
+        exercised my design abilities with a very graphic-heavy front end. The
+        site has since been redesigned.
+      </p>
+    </div>
+  </article>
+
+  <article>
+    <h2>
+      <span class="ubuntu-500">Clarity Consulting</span>
+      <span>
+        <span class="location">Chicago, IL</span> ·
+        <a href="http://www.claritycon.com">claritycon.com</a>
+      </span>
+    </h2>
+
+    <p>
+      I was employed at Clarity as an Engagement Engineer, a position that
+      involved developing software solutions alongside other Clarity colleagues
+      at several client engagements.
+    </p>
+
+    <div class="position">
+      <h3>
+        Crate and Barrel, Point of Sale
+        <time>June, 2007 — February 2008</time>
+      </h3>
+
+      <p class="technologies">
+        C#, .NET 2.0, Windows Forms, Web Services / SOAP, GDI+, Team
+        Foundation Server, Visual SourceSafe
+      </p>
+
+      <p>
+        I was responsible for major functionality in a national rollout of the
+        point of sale system to all Crate and Barrel stores. Product
+        enhancements included development of 8.5” x 11” receipts, a variety of
+        transactional notes and changes to order maintenance functionality.
+      </p>
+    </div>
+
+    <div class="position">
+      <h3>
+        Echo Global Logistics, EDI Integration & Performance Tuning
+        <time>April, 2007 — June, 2007</time>
+      </h3>
+
+      <p class="technologies">
+        C#, .NET 2.0, ASP.NET 2.0, Windows Services, SQL Server 2005, GDI+,
+        Subversion
+      </p>
+
+      <p>
+        I created an integration between shippers and suppliers that updated
+        Echo’s existing web application with shipping status updates. I also
+        took action to improve performance across Echo’s infrastructure, which
+        included SQL Server and ASP .NET profiling.
+      </p>
+    </div>
+  </article>
+
+  <article>
+    <h2>
+      <span class="ubuntu-500">Peregrine Financial Group</span>
+      <span>
+        <span class="location">Chicago, IL</span>
+      </span>
+    </h2>
+
+    <p class="technologies">
+      Classic ASP, ASP.NET, C#, JS, HTML, CSS
+    </p>
+
+    <p>
+      Right out of high school, I moved to Chicago and started working for
+      Peregrine Financial Group. I started out as a help desk intern, then came
+      on full-time, and eventually transitioned into a junior level engineer.
+      It was these initial experiences that got me interested in technology and
+      engineering.
+    </p>
+
+    <div class="position">
+      <h3>
+        Jr. Web Developer
+        <time>April, 2006 — April, 2007</time>
+      </h3>
+
+      <p>
+        I built and maintained several interal and external websites, including
+        an opt-out service for email marketing, and a customer support
+        dashboard.
+      </p>
+    </div>
+
+    <div class="position">
+      <h3>
+        Help Desk
+        <time>September 2004 — April, 2006</time>
+      </h3>
+
+      <p>
+        My responsibilities included managing company email, fixing hardware
+        issues for the several hundred office computers, and sometimes setting
+        up and tearing down servers.
+      </p>
+    </div>
+  </article>
+</section>
+
+<section id="entrepreneurial-experience">
+  <h1>Entrepreneurial Experience</h1>
+
+  <article>
+    <h2>
+      <span class="ubuntu-500">Canary</span>
+      <span>
+        <span class="location">San Francisco, CA</span> ·
+        <a href="http://www.canaryup.com">canaryup.com</a>
+      </span>
+    </h2>
+
+    <h3>
+      Founder
+      <time>January, 2013 — Now</time>
+    </h3>
+
+    <p class="technologies">
+      Ruby, Rails 4.x, HTML, CSS, JS, Postgres, Sideqik, Heroku, Git
+    </p>
+
+    <p>
+      Canary is a service that notifies you if your website or app goes
+      down. It does this by pinging URLs every minute. If the server fails
+      to respond or responds unsuccessfully, Canary sends email and SMS
+      notifications. The entire product, from design to engineering, has been
+      built by and maintained by myself and my co-founder.
+    </p>
+
+    <ul>
+      <li>
+        <strong>CSS Animation</strong>: Canary is the first project that
+        I’ve had the chance to use CSS animation in a pratical setting. It
+        contributes significantly to the overall design.
+      </li>
+  </article>
+
+  <article>
+    <h2>
+      <span class="ubuntu-500">Sqoot</span>
+      <span>
+        <span class="location">Chicago, IL</span> ·
+        <a href="http://www.sqoot.com">sqoot.com</a>
+      </span>
+    </h2>
+
+    <h3>
+      Founder
+      <time>January, 2011 — December, 2012</time>
+    </h3>
+
+    <p class="technologies">
+      Ruby, Rails 3.x, HTML, CSS, JS, XSS, Solr, Memcached, Mongo, Redis,
+      Amazon S3, Heroku, Postgres, Git
+    </p>
+
+    <p>
+      Sqoot is a local deal API that makes it easy for developers and online
+      publishers to monetize their apps and websites. We integrated with
+      almost 100 local deal providers. For each provider, we would aggregate
+      and normalize deal data, which we’d then expose through our API. The
+      API allows users to filter deals by location, category, and price. The
+      API also allowed customers to track impressions, clicks, and
+      purchases in real-time. Sqoot was acquired by Clutch in 2013.
+    </p>
+
+    <ul>
+      <li>
+        <strong>Cross-site Scripting</strong>: I built a embeddable widget,
+        which loaded local deals from our servers onto publisher websites.
+        We served millions of deals through these widget installations but
+        ultimately ended up scraping the feature because it couldn’t compete
+        with traditional advertising.
+      </li>
+      <li>
+        <strong>Scale</strong>: Every day, our API served tens of thousands
+        of requests. In the background, our import system was continuously
+        downloading and updating deals from almost 100 disparate sources.
+      </li>
+      <li>
+        <strong>Data Normalization</strong>: With almost 100 data sources,
+        the biggest challenge was parsing and normalizing each data set.
+        Background processes would clean, categorize, and localize every
+        deal and merchant as it entered the system.
+      </li>
+    </ul>
+  </article>
+</section>
+
+<section id="open-source-contributions">
+  <h1>Open Source Contributions</h1>
+
+  <article>
+    <h2>
+      <span class="ubuntu-500">Sprinkles</span>
+      <span>
+        <a href="http://github.com/canaryup/sprinkles">
+          github.com/canaryup/sprinkles
+        </a>
+      </span>
+    </h2>
+
+    <p>
+      Sprinkles is the ActiveSupport of vanilla-JS. The goal of the project
+      is to isolate a small collection of helpers and extensions to make the
+      lives of front-end engineers a little easier — just like ActiveSupport
+      has done for Ruby engineers.
+    </p>
+  </article>
+
+  <article>
+    <h2>
+      <span class="ubuntu-500">Brioche</span>
+      <span>
+        <a href="https://github.com/avand/brioche">
+          github.com/avand/brioche
+        </a>
+      </span>
+    </h2>
+
+    <p>
+      Brioche is a Ruby web app that tracks expenses via SMS.
+    </a>
+  </article>
+
+  <article>
+    <h2>
+      <span class="ubuntu-500">Stork</span>
+      <span>
+        <a href="http://github.com/avand/stork">
+          github.com/avand/stork
+        </a>
+      </span>
+    </h2>
+
+    <p>
+      Stork is a Rack app that bundles CSS and JS. I developed before Rails
+      had an asset pipeline.
+    </p>
+  </article>
+
+  <article>
+    <h2>
+      <span class="ubuntu-500">Squawk</span>
+      <span>
+        <a href="http://github.com/avand/squawk">
+          github.com/avand/squawk
+        </a>
+      </span>
+    </h2>
+
+    <p>
+      Squawk is a Ruby gem that uses Twitter to track site activity.
+    </p>
+  </article>
+</section>
+
+<section id="presentations">
+  <h1>Presentations</h1>
+
+  <article>
+    <h2>
+      <span class="ubuntu-500">Getting Closer to Your Customers</span>
+      <time>April 28, 2013</time>
+    </h2>
+
+    <p>
+      When building products it’s so important to be close to your
+      customers. You want to know what they’re thinking and feeling.
+      Customer support is a great channel for that. In this talk I gave over
+      lunch at TaskRabbit, I explored what getting close to your customers
+      might actually look like in a perfect world.
+    </p>
+
+    <ul>
+      <li>Video: <a href="http://bit.ly/1guSVRs">http://bit.ly/1guSVRs</a></li>
+    </ul>
+  </article>
+
+
+  <article>
+    <h2>
+      <span class="ubuntu-500">Managing CSS & JS with Rack</span>
+      <time>March 23rd, 2011</time>
+    </h2>
+
+    <p>
+      In most web apps, JS and CSS are a mess. There are few conventions
+      when it comes to organizing these assets and modularizing them can
+      introduce the HTTP overhead of multiple requests. In this talk, I
+      discuss a Rack-based approach to packaging assets using a lightweight
+      gem called Stork. I covered organizational conventions, advanced CSS
+      techniques with Sass, and simple ways to modularize your JS all while
+      sending a tightly packaged set of assets to the browser.
+    </p>
+
+    <ul>
+      <li>Stork source code: <a href="http://bit.ly/pkqTR4">http://bit.ly/pkqTR4</a></li>
+      <li>Accompanying blog post: <a href="http://bit.ly/oIQp0g">http://bit.ly/oIQp0g</a></li>
+      <li>Refresh Chicago video: <a href="http://bit.ly/r8oy0d">http://bit.ly/r8oy0d</a></li>
+      <li>Chicago Ruby User Group video: <a href="http://bit.ly/qRL03f">http://bit.ly/qRL03f</a></li>
+    </ul>
+  </article>
+
+  <article>
+    <h2>
+      <span class="ubuntu-500">AJAX Form Validation for Rails</span>
+      <time>May 6th, 2008</time>
+    </h2>
+
+    <p>
+      I presented at Chicago Ruby User Group, demonstrating an efficient
+      solution to form validation with AJAX. The goal was to utilize
+      exisiting server side validation logic to drive an interactive user
+      experience.
+    </p>
+
+    <ul>
+      <li>Accompanying blog post: <a href="http://bit.ly/pMrptp">http://bit.ly/pMrptp</a></li>
+    </ul>
+  </article>
+
+  <article>
+    <h2>
+      <span class="ubuntu-500">Web 2.0 Graphics & Design</span>
+      <time>November 2nd, 2007</time>
+    </h2>
+
+    <p>
+      I delivered a company-wide presentation at Clarity Consulting
+      highlighting the benefits of proper XHTML and CSS, and demonstrating
+      the principles of good web design.
+    </p>
+
+    <ul>
+      <li>Video: <a href="https://vimeo.com/66541708">https://vimeo.com/66541708</a></li>
+    </ul>
+  </article>
+</section>
+
+<section id="education">
+  <h1>Education</h1>
+
+  <article>
+    <h2>
+      <span class="ubuntu-500">DePaul University</span>
+      <span class="location">Chicago, IL</span>
+    </h2>
+
+    <ul>
+      <li>Bachelors of Computer Science, GPA 3.9</li>
+      <li>Top of the Sophomore Class in 2007</li>
+      <li>Why I dropped out: <a href="http://bit.ly/nypaJG">http://bit.ly/nypaJG</a></li>
+    </ul>
+  </article>
+</section>
