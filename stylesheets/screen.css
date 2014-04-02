@@ -252,8 +252,9 @@ abbr {
       .blog-show .post .footer .fb-like,
       .blog-show .post .footer .twitter-follow-button {
         margin-right: 0.7em;
-        display: inline-block;
-      }
+        display: inline-block; }
+      .blog-show .post .footer .fb-like span {
+        vertical-align: top !important; }
   .blog-show .about-the-author {
     line-height: 21px; }
     .blog-show .about-the-author .salutation,
