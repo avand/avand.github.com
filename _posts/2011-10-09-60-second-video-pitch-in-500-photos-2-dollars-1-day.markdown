@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Make a 60 Sec Video Pitch in 500 Photos, $2 and 1 Day
-hacker_news_link: http://news.ycombinator.com/item?id=3092516
+discussion: http://news.ycombinator.com/item?id=3092516
 ---
 
 Often the hardest part of building a product is explaining it to people. If it seems complicated, most people just move along. A popular way to grab people's attention is with a short video. They come in a bunch of flavors but the popular ones include 2D & 3D animations, screencasts and live action.

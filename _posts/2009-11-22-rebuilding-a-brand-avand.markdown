@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Rebuilding a Brand. Avand.
-hacker_news_link: http://news.ycombinator.com/item?id=1093892
+discussion: http://news.ycombinator.com/item?id=1093892
 ---
 
 Once again, it's been months since my last post. I've been taking some good and some bad classes at DePaul for the last 10 weeks and as a result haven't really had much time to invest in myself. Even Piggy Back has taken the back burner. The one personal priority I did get around to was my new website avandamiri.com. I thought I would take a moment and reflect on the motivations, goals, and end results of the process.
@@ -32,7 +32,7 @@ I'm fortunate to say that I love what I do. I spend my days building websites an
 
 With every iteration of the old site, I was frustrated that I never expressed myself. I didn't want an "About Me" page. In fact, I didn't want any text at all. I had to find something important about myself that could become part of the "Avand" brand. I finally realized that cycling was a huge part of my life and I felt comfortable sharing that part of me with the world.
 
-Finally, I needed the site to subtly explain myself through the atheistic. This was the most fun part because the only question I had to answer is "what do I like?" Red, black and white are my favorite colors because they're so pure. I embrace simplicity and minimalism in my life, and I integrated those concepts right into the design. 
+Finally, I needed the site to subtly explain myself through the atheistic. This was the most fun part because the only question I had to answer is "what do I like?" Red, black and white are my favorite colors because they're so pure. I embrace simplicity and minimalism in my life, and I integrated those concepts right into the design.
 
 ## Getting There
 

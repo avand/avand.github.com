@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Managing Styles with Sass on Heroku
-hacker_news_link: http://news.ycombinator.com/item?id=1698139
+discussion: http://news.ycombinator.com/item?id=1698139
 ---
 
 I've generally found stylesheets to be the messiest part of any website. And I'm not surprised:
@@ -55,7 +55,7 @@ $> sass-convert source.css destination.scss
 * **Use Rack to do all the heavy lifting**: Compiling Scss isn't hard. Concatinating all the stylesheets isn't hard either. [Ryan Bates' 222nd Railscast][22] helped me write a Rack application that does the work:
 
 {% highlight ruby %}
-class AssetsApp < ActionController::Metal  
+class AssetsApp < ActionController::Metal
   include ActionController::Rendering
 
   def stylesheets

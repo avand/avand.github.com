@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Getting It: What Makes a Great Software Engineer"
-hacker_news_link: http://news.ycombinator.com/item?id=1110200
+discussion: http://news.ycombinator.com/item?id=1110200
 ---
 
 ## Introduction

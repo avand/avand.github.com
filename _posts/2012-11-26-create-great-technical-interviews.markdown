@@ -3,7 +3,7 @@ layout: blog
 title: Create Great Technical Interviews
 guest_blog_name: Take the Interview
 guest_blog_url: http://blog.taketheinterview.com/2012/11/26/create-great-technical-interviews/
-hacker_news_link: http://news.ycombinator.com/item?id=4832429
+discussion: http://news.ycombinator.com/item?id=4832429
 ---
 
 A technical interview or screening is a crucial part of reviewing a candidate

@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Tests Pass. You Fail.
-hacker_news_link: http://news.ycombinator.com/item?id=2391645
+discussion: http://news.ycombinator.com/item?id=2391645
 ---
 
 Shit breaks. It'd be so much cooler if things just worked the way we expected, but they don't. For better or worse, we live in a world where everything eventually fails. And software is definitely not an exception.
@@ -28,7 +28,7 @@ It can be a good thing. If the problem matters and the tests actually test the r
 
 Don't lose sight of your customers in spite of your test coverage.
 
-## You Fear Failure 
+## You Fear Failure
 
 <img src="http://farm6.static.flickr.com/5253/5574803627_2129538b6c_m.jpg" alt="Failing at Failing" title="Failing at Failing" class="right">
 
