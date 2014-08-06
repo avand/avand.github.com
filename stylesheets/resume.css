@@ -32,6 +32,7 @@ section {
   border-radius: 5px;
   border: 1px solid #cacdcd;
   overflow: hidden;
+  background-color: white;
 }
 h1 {
   background: #008C9E;
