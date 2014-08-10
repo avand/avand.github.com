@@ -94,3 +94,4 @@ to make a difference.
 [multiply]: http://sivers.org/multiply
 [tr]:       http://taskrabbit.com
 [ga]:       http://ga.co
+[fewd]:     https://generalassemb.ly/education/front-end-web-development
