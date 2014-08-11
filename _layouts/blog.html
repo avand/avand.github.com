@@ -17,16 +17,15 @@ layout: default
           <a href="/">Avand Amiri</a>.
         {% endif %}
 
-        {% capture words_per_minute %}{{ page.content | number_of_words | divided_by: 200 }}{% endcapture %}
+        {% assign words_per_minute = page.content | number_of_words | divided_by: 200 %}
 
-        {% case words_per_minute %}
-        {% when "0" %}
+        {% if words_per_minute < 1 %}
           Takes less than a minute to read.
-        {% when "1" %}
+        {% elsif words_per_minute < 1.5 %}
           Takes about a minute to read.
         {% else %}
-          Reads in about {{ words_per_minute }} minutes.
-        {% endcase %}
+          Reads in about {{ words_per_minute | ceil }} minutes.
+        {% endif %}
       </div>
 
       <div class="body">
