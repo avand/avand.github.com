@@ -1,0 +1,23 @@
+---
+layout: blog
+title: CSS Spinners
+---
+
+Spinners are really easy to implement with animated GIFs. However, they don't look great when overlayed on top of another image because GIFs only support [index transparency][index-trans]. If they're on a solid background, you can match colors and they'll look fine. Services like [ajaxload.info][ajaxload] make it easy to generate the appropriate image.
+
+To implement a spinner as an overlay requires another approach. [SpiffyGif][spiffygif] turned me onto the idea of using a [translucent PNG sprite spinner][png-sprite]. This technique involves a PNG sprite with every frame drawn out. Some JavaScript code updates the `background-position` of the sprite on an interval, which makes it appear to be spinning. Here's the example they provide:
+
+<p data-height="268" data-theme-id="0" data-slug-hash="dxDmo" data-default-tab="js" class='codepen'>See the Pen <a href='http://codepen.io/avand/pen/dxDmo/'>The Sprite Spinner</a> by Avand (<a href='http://codepen.io/avand'>@avand</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//codepen.io/assets/embed/ei.js"></script>
+
+Initially, I was enamored with the idea but as I started to wire it up, I realized it was heavy-handed. There had to be a way to achieve the same affect without JS. I knew if I animated the `transform: rotate(360deg)` declaration, I knew I could get the PNG to spin around but it looks awkward when the spokes of the graphic actually move. Then I remembered that the [`timing-function`][timing-function] could be given as a number of steps (e.g, [`steps(n)`]). Instead of drawing each frame of the animation, `steps(n)` breaks up the animation into n states. `steps(2)`, for example, would draw the animation when it's 50% complete and then again at 100% ignoring the steps in between. If you set `n` to match the number of spokes in your graphic, you'll rotate the PNG in as many steps, just like a second hand might tick around a clock. Here's a demo:
+
+<iframe width="100%" height="300" src="http://jsfiddle.net/kpj68jox/4/embedded/result,html,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+You could take this idea further and actually generate the graphic with CSS too but personally I think the PNG works just fine.
+
+[index-trans]: http://www.idux.com/2011/02/27/what-are-index-and-alpha-transparency/
+[ajaxload]: http://ajaxload.info
+[spiffygif]: http://spiffygif.com
+[png-sprite]: http://codepen.io/sdholbs/pen/GyEDw
+[timing-function]: https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function
