@@ -102,18 +102,18 @@ abbr {
     margin-bottom: 28px;
     margin-left: auto;
     margin-right: auto; }
+  .homepage .bio {
+    text-align: left; }
   .homepage p {
     font-size: 18px;
     margin: 14px 0; }
   .homepage .salutation {
     font-size: 28px;
     line-height: 42px; }
-  .homepage .valediction {
-    font-weight: 600; }
   .homepage .links {
     font-size: 32px;
     line-height: 32px;
-    margin-top: 16px; }
+    margin-top: 64px; }
 
 .blog-index { }
   .blog-index .header {
