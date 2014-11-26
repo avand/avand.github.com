@@ -29,7 +29,7 @@ class AddSecondsSpentWatchingVideosToViewings < ActiveRecord::Migration
 end
 {% endhighlight %}
 
-Now, you need a method to update that value. You might be inclined to write a `calculate_seconds_spent_watching_videos` method and call it `before_validation` and that will work just fine but it clutters up your model. Here's a pattern that I've used that works really well in these cases:
+Now, you need a method to update that value. You might be inclined to write a `calculate_seconds_spent_watching_videos` method that you call `before_validation`. That approach works just fine but it clutters up your model; consider that there may be more other attributes like this one. Here's a pattern that I've used that works really well in these cases:
 
 {% highlight ruby %}
 class Viewing
@@ -47,7 +47,7 @@ class Viewing
 end
 {% endhighlight %}
 
-Here, I'm overwritting the attribute's accessor method to take options. If you call it normally, `viewing.seconds_spent_watching_videos`, you'll get the value from the database. But if you call it with the reload option, `viewing.seconds_spent_watching_videos(reload: true)`, you'll get the calculated value.
+Here, I'm overwritting the attribute's accessor method to take options. If you call it normally, `viewing.seconds_spent_watching_videos`, you'll get the value from the database. But if you call it with the reload option, `viewing.seconds_spent_watching_videos(reload: true)`, you'll get the calculated value. You still need to `write_attribute` at some point — a callback may still be the right place for that — but I'm of the opinion that your "getter" shouldn't double as a "setter."
 
 I've used this pattern throughout my Rails applications and it's been really useful. Hopefully, it's useful for you as well.
 
