@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Calculated Attribute Pattern for Ruby Models
+discussion: https://news.ycombinator.com/item?id=8754880
 ---
 
 Sometimes in a Rails application a model has attributes whose values need to be computed. For example, at [Mystery Science][1], we have a `Viewing` model that is created when a lesson has been viewed. This model is associated with actions that a teacher took with a lesson (e.g., playing a video, entering full screen mode, etc.). If we want to know how much time the teacher spent watching the videos, we need to calculate the value:
