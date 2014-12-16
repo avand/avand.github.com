@@ -204,8 +204,9 @@ abbr {
       border-bottom: 1px solid white;
       margin: 28px 0;
       padding: 0; }
-    .blog-show .post img,
-    .blog-show .post object {
+    .blog-show .post .body img,
+    .blog-show .post .body object,
+    .blog-show .post .body iframe {
       display: block;
       border: 10px solid #FFF;
       box-shadow: 0 0 3px #7F7F7F;
@@ -215,13 +216,23 @@ abbr {
       margin-left: auto;
       margin-right: auto;
       max-width: 644px; }
-    .blog-show .post p,
-    .blog-show .post .highlight,
-    .blog-show .post table,
-    .blog-show .post img,
-    .blog-show .post object,
-    .blog-show .post .highlight {
+    .blog-show .post .body p,
+    .blog-show .post .body .highlight,
+    .blog-show .post .body table,
+    .blog-show .post .body img,
+    .blog-show .post .body object,
+    .blog-show .post .body iframe,
+    .blog-show .post .body .highlight {
       margin-bottom: 14px }
+    .blog-show .post .body .footnotes {
+      font-size: 12px;
+      line-height: 18px;
+      padding: 1em;
+      margin-top: 2em;
+      background: rgba(0, 0, 0, 0.05);
+      border-radius: 5px; }
+    .blog-show .post .body .footnotes p:last-child {
+      margin-bottom: 0; }
     .blog-show .post .left {
       float:  left;
       margin: 0 30px 10px 0; }
