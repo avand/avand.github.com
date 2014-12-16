@@ -14,9 +14,7 @@ At [Mystery Science][mysci], we recently released this feature to capture feedba
 3. Comments (open-ended feedback)
 4. Done
 
-Each state (except the last one) prompts and subsequently saves user input. The server knows I taught a lesson as soon as I click "yes." The star rating and comments work the same way — all responses are submitted via [XHR][xhr].
-
-**How little JS code can we write to get this feature working?**
+Each state (except the last one) prompts and subsequently saves user input. The server knows I taught a lesson as soon as I click "yes." The star rating and comments work the same way — all responses are submitted via [XHR][xhr]. **How little JS code can we write to get this feature working?**
 
 **The first trick to writing less JS is to find the right abstractions.** Let's explore the two key abstractions here. When a teacher submits a response, JS is advancing the interface's state. This can be accomplished in any number of ways but at the end of the day some elements are being shown (`display: inherit`<sup>[1](#inherit)</sup>) and others are being hidden (`display: none`). JS also has to send the response to the server, which in jQuery-terms eventually means a call to `$.ajax()`.
 
