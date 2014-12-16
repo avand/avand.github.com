@@ -233,16 +233,16 @@ abbr {
       border-radius: 5px; }
     .blog-show .post .body .footnotes p:last-child {
       margin-bottom: 0; }
-    .blog-show .post .left {
+    .blog-show .post .body .left {
       float:  left;
       margin: 0 30px 10px 0; }
-    .blog-show .post .right {
+    .blog-show .post .body .right {
       float:  right;
       margin: 0 0 10px 30px; }
-    .blog-show .post blockquote {
+    .blog-show .post .body blockquote {
       font-style: italic; }
-    .blog-show .post .highlight,
-    .blog-show .post blockquote {
+    .blog-show .post .body .highlight,
+    .blog-show .post .body blockquote {
       margin-right: 20px;
       margin-left: 20px; }
     .blog-show .post .byline {
