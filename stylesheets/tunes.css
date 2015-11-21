@@ -1,0 +1,40 @@
+body {
+  font-family: Arial;
+}
+
+a {
+  font-weight: bold;
+  color: rgba(7, 116, 195, 0.8);
+}
+
+
+.jumps {
+  padding: .6em;
+  margin-bottom: .8em;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: .7em;
+}
+
+.jumps a {
+  padding: .3em .5em;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.jumps a:hover {
+  color: rgba(7, 116, 195, 1);
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.jumps a:active {
+  background-color: white;
+}
+
+.track-details {
+  font-size: 0.6em;
+  text-transform: uppercase;
+  margin: 2em 0;
+}
