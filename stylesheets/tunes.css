@@ -1,5 +1,7 @@
 body {
   font-family: Arial;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 a {
@@ -16,17 +18,12 @@ a {
 }
 
 .jumps a {
-  padding: .3em .5em;
-  border-radius: 5px;
   text-decoration: none;
-  background-color: rgba(0, 0, 0, 0.05);
-  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .jumps a:hover {
   color: rgba(7, 116, 195, 1);
-  background-color: rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .jumps a:active {
