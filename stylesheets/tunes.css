@@ -9,29 +9,29 @@ a {
   color: rgba(7, 116, 195, 0.8);
 }
 
-
-.jumps {
-  padding: .6em;
-  margin-bottom: .8em;
-  color: rgba(0, 0, 0, 0.5);
-  font-size: .7em;
+.track {
+  padding-bottom: .5em;
+  margin: 1.5em 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  box-shadow: 0 -.1em .1em rgba(0, 0, 0, 0.05);
+  padding: 0 1.5em;
 }
 
-.jumps a {
+.track a {
   text-decoration: none;
 }
 
-.jumps a:hover {
+.track a:hover {
   color: rgba(7, 116, 195, 1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 
-.jumps a:active {
+.track a:active {
   background-color: white;
 }
 
 .track-details {
-  font-size: 0.6em;
-  text-transform: uppercase;
-  margin: 2em 0;
+  font-size: 0.7em;
+  margin-top: 1em;
 }
