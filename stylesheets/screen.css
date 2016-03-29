@@ -53,13 +53,9 @@ abbr {
   .links a {
     margin: 8px 4px;
     color: #7F7F7F;
-    -webkit-transition: color .4s linear;
-    -moz-transition: color .4s linear;
-    transition: color .4s linear; }
-  .links a:hover {
-    -webkit-transition: color .2s linear;
-    -moz-transition: color .2s linear;
     transition: color .2s linear; }
+  .links a:hover {
+    transition-duration: .1s; }
   .links .dribbble:hover,
   .links .dribbble:active   { color: #E24FAC; }
   .links .email:hover,
@@ -70,8 +66,8 @@ abbr {
   .links .github:active     { color: #3C3C3C; }
   .links .linkedin:hover,
   .links .linkedin:active   { color: #4875B4; }
-  .links .rdio:hover,
-  .links .rdio:active       { color: #006ed2; }
+  .links .spotify:hover,
+  .links .spotify:active    { color: #61D569; }
   .links .rss:hover,
   .links .rss:active        { color: #008C9E; }
   .links .soundcloud:hover,
@@ -340,4 +336,3 @@ abbr {
     .homepage .links a {
       display: inline-block; }
 }
-
