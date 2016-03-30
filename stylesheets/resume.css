@@ -49,7 +49,7 @@ article {
 h2 {
   font-size: 1.375em;
 }
-h2 span:last-child,
+h2 > span:last-child,
 time {
   font-weight: normal;
   font-size: .725em;
