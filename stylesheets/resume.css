@@ -83,6 +83,11 @@ article li:not(:last-child) {
 article > p {
   margin: .625em 0;
 }
+li li {
+  font-size: 0.9em;
+  line-height: 1.4em;
+  margin: .4em 0;
+}
 
 @media print {
   html {
