@@ -13,7 +13,7 @@ You start with server side validation, then build your form. To validate the inp
 
 Again, start with server side validation and a form. Then use JavaScript not to validate the data, but to facilitate an AJAX request to the server, where you there validate the field and send simple feedback to the user.
 
-I started by searching for solutions for this. As it appears, I’m not the only developer in the room who wants AJAX validation. Here’s what I found: 
+I started by searching for solutions for this. As it appears, I’m not the only developer in the room who wants AJAX validation. Here’s what I found:
 
 * <http://www.davidjrice.co.uk/articles/2006/11/29/inline-ajax-form-validation-plugin-for-ruby-on-rails>
 * <http://www.ineightydays.com/archives/validating-an-ajax-form-in-ruby-on-rails>
@@ -67,7 +67,7 @@ def validate
       output = "#{field.titleize} #{user.errors[field].to_sentence}"
     end
   end
-  
+
   render :text => output
 end
 {% endhighlight %}
