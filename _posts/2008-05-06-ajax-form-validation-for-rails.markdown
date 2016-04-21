@@ -96,4 +96,4 @@ The best part of the whole thing, is it’s really DRY (Don’t Repeat Yourself)
 [3]: http://api.rubyonrails.org/classes/ActionView/Helpers/ActiveRecordHelper.html#M001005
 [4]: http://api.rubyonrails.org/classes/ActionView/Helpers/PrototypeHelper.html#M000966
 [5]: http://api.rubyonrails.org/classes/ActionView/Helpers/TagHelper.html#M001033
-[6]: http://github.com/avand/RailsAjaxFormValidationExample/zipball/master
+[6]: http://cloud.avandamiri.com/3L1z1Y0U2f3P
