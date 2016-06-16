@@ -42,8 +42,8 @@ abbr {
 
 .container {
   margin: 0 auto;
-  width: 670px;
-  overflow: hidden; }
+  width: 620px;
+  padding: 0 5px; }
 
 .content {
   text-shadow: 0 1px 0px #FFF;
@@ -205,7 +205,7 @@ abbr {
     .blog-show .post .body iframe {
       display: block;
       border: 10px solid #FFF;
-      box-shadow: 0 0 3px #7F7F7F;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
       border-radius: 3px;
       -moz-border-radius: 3px;
       -webkit-border-radius: 3px;
