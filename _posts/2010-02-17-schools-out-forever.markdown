@@ -6,11 +6,11 @@ discussion: http://news.ycombinator.com/item?id=1132024
 
 Growing up, I was told that the most important ingredient for my future was an education. Do your homework, study hard and the road ahead will lead to a satisfying career and financial security. That was the promise, anyway. But as it turns out, in the kitchen of education, I cooked up concoction that would make even [Andrew Zimmern][1] cringe.
 
-I went to high school at [Boston University Academy][2], a prep-school that essentially guaranteed a fast track through college if you just played by the book. I didn't play by the book. In tenth grade I was held back and junior year wasn't any more promising. My teachers begged me to study, explaining to my parents that I just wasn't applying myself. On the night of my last and deciding final of 11th grade I sealed my fate watching a Seinfeld marathon. Clearly, getting through high school was going to be more trouble than it was worth.
+I went to high school at [Boston University Academy][2], a prep-school that essentially guaranteed a fast track through college if you just played by the book. I didn't play by the book. In tenth grade I was held back and junior year wasn't any more promising. My teachers begged me to study, explaining to my parents that I just wasn't applying myself. On the night of my last and deciding final of 11th grade, I sealed my fate watching a Seinfeld marathon. Clearly, getting through high school was going to be more trouble than it was worth.
 
-After that summer, I was brought out to Chicago and the very next morning, in slacks, shirt and tie, reported for an internship at a financial company in the Loop. It was a complete correction of my downward spiral and the beginning of my career as a software engineer. I completed my GED and started taking night classes at [DePaul][3] maintaining a solid A grade-average.
+When I came back from camp that summer, I was shipped to Chicago and the very next morning, in slacks, shirt and tie, reported for an internship at a financial company in the Loop. It was a complete correction of my downward spiral and the beginning of my career as a software engineer. I completed my GED and started taking night classes at [DePaul][3]. By my sophomore year, I was in the top of my class.
 
-Everything seemed copasetic until I dropped out.
+Everything seemed copacetic until I dropped out.
 
 ## When School Works
 
@@ -20,7 +20,7 @@ It was an issue of motivation. When I'm told to do something, I ask why. If I do
 
 I think that's bullshit. A lot of what I was told to learn was, in retrospect, totally practical. Study a language and you're given the power of self-expression. The sciences teach you how to manipulate the world around you. History explores human behavior, geography and politics. These are the types of answers that may have satiated my interrogation of academia and could have motivated my intellectual curiosity.
 
-But reflecting on all the classes I've ever taken, there were many that were just arbitrarily required. School works when a student is motivated and motivation is fueled by purpose.
+But reflecting on all the classes I've ever taken, there were many that were just arbitrarily required. Especially at $190/credit, it makes sense to keep you in class. School works when a student is motivated and motivation is fueled by purpose.
 
 ## When It Doesn't
 
@@ -28,11 +28,11 @@ But reflecting on all the classes I've ever taken, there were many that were jus
 
 When I started working, the paradigm completely changed. Now, I was motivated by a paycheck, a career, and my peers. I enjoyed what I was doing and was solving real world problems. Everything I did became practical (although often equally pointless).
 
-It made sense to start taking classes again with this new found motivation and focus. I would spend two nights a week at DePaul, hacking away at a Computer Science degree. I learned a lot, but at a price: $1,688.00 per class. Each class was running me about $150.00 bucks.
+It made sense to start taking classes again with this new found motivation and focus. I would spend two nights a week at DePaul, hacking away at a Computer Science degree. I was learning a lot but at a price.
 
 In the age of information, where a good (free) search can yield more about a topic than you can learn in an entire academic career, that becomes a steep sacrifice. Then there's opportunity cost. My classes ate into precious time I would otherwise spend learning on my own projects. With no other obligations and boundless energy, these years are quite arguably the most valuable of my life.
 
-By the time my peers graduated, I had 4 years of work experience and was cashing in on it. I had quite literally come out ahead. No opportunity had been jeopardized by an incomplete degree and I'm humbly optimistic that it never will.
+By the time my peers graduated, I had 4 years of work experience and was cashing in on it. I had come out ahead. I've never had a career opportunity jeopardized by an incomplete degree and I'm humbly optimistic that it never will.
 
 ## Get Real
 
