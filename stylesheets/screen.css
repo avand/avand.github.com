@@ -118,7 +118,7 @@ abbr {
     width: 360px;
     padding: 0 24px;
     float: left;
-    box-shadow: 14px 0 28px -28px rgba(0, 0, 0, 0.7) }
+    box-shadow: 14px 0 24px -28px rgba(0, 0, 0, 0.7) }
   .homepage .salutation {
     font-size: 24px;
     line-height: 42px;
@@ -212,7 +212,7 @@ abbr {
   .blog-show .post {
     margin-bottom: 34px;
     padding-bottom: 22px;
-    box-shadow: 0 14px 28px -28px rgba(0, 0, 0, 0.7); }
+    box-shadow: 0 14px 24px -28px rgba(0, 0, 0, 0.7); }
     .blog-show .post h1, .blog-show .post h2, .blog-show .post h3,
     .blog-show .post h4, .blog-show .post h5, .blog-show .post h6,
     .blog-show .post th {
@@ -400,7 +400,7 @@ abbr {
       width: 92%;
       padding: 0 4% 32px;
       float: none;
-      box-shadow: 0 14px 28px -28px rgba(0, 0, 0, 0.7) }
+      box-shadow: 0 14px 24px -28px rgba(0, 0, 0, 0.7) }
     .homepage .right-column {
       margin-left: 0;
       padding: 32px 4%; }
