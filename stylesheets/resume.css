@@ -55,6 +55,7 @@ time {
   font-size: .725em;
   float: right;
   opacity: 0.8;
+  margin-left: 15px;
 }
 h3 {
   font-weight: 600;
