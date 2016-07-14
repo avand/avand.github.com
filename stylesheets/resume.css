@@ -89,6 +89,17 @@ li li {
 abbr {
   border: 0;
 }
+cite {
+  display: block;
+  text-align: right;
+  margin-top: 0.2em;
+}
+cite::before {
+  content: "— "
+}
+blockquote:not(:last-child) {
+  margin-bottom: 1em;
+}
 
 @media print {
   html,
@@ -98,7 +109,6 @@ abbr {
   }
   html a {
     color: #343838;
-    text-decoration: underline;
   }
   html a:first-of-type {
     text-decoration: none;
@@ -147,5 +157,8 @@ abbr {
   }
   article ul {
     padding-left: 25px;
+  }
+  #references {
+    page-break-before: always;
   }
 }
