@@ -114,12 +114,6 @@ blockquote:not(:last-child) {
   html a:first-of-type {
     text-decoration: none;
   }
-  .headshot,
-  #toc,
-  #open-source-contributions,
-  #presentations {
-    display: none;
-  }
   .salutation {
     font-size: 24px;
   }
@@ -158,8 +152,5 @@ blockquote:not(:last-child) {
   }
   article ul {
     padding-left: 25px;
-  }
-  #references {
-    page-break-before: always;
   }
 }
