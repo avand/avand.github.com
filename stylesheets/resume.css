@@ -154,3 +154,12 @@ blockquote:not(:last-child) {
     padding-left: 25px;
   }
 }
+
+@media (max-width: 600px) {
+  h2 > span:last-child,
+  time {
+    display: block;
+    float: none;
+    margin-left: 0;
+  }
+}
