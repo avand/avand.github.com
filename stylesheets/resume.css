@@ -155,7 +155,7 @@ blockquote:not(:last-child) {
   }
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   h2 > span:last-child,
   time {
     display: block;
