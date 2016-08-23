@@ -67,7 +67,7 @@ As my good friend [Michael Dwan][5], co-founder of [SnapJoy][8], once told me, "
 [4]: http://www.firstround.com/team/profile/josh_kopelman/
 [5]: http://michaeldwan.com/
 [6]: http://dreamitventures.com/
-[7]: http://en.wikipedia.org/wiki/Dieter_Rams
+[7]: https://www.artsy.net/artist/dieter-rams
 [8]: http://snapjoy.com/
 [9]: http://www.firstround.com/
 [10]: http://37signals.com/
