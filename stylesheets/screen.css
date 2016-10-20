@@ -162,10 +162,13 @@ abbr {
   .blog-index .header {
     margin-bottom: 14px;
     padding: 14px 0; }
+    .blog-index .header .headshot {
+      margin-top: -2px; }
     .blog-index .header .headshot,
     .blog-index .header .headshot img {
-      height: 42px;
-      width:  42px; }
+
+      height: 64px;
+      width:  64px; }
     .blog-index .header .headshot {
       float: left;
       margin-right: 20px;
@@ -175,7 +178,7 @@ abbr {
       -moz-transition: color .6s linear;
       transition: color .6s linear;
       font-size: 28px;
-      line-height: 46px;
+      line-height: 64px;
       color: #7F7F7F; }
     .blog-index .header a:hover .salutation {
       -webkit-transition: color .2s linear;
@@ -185,8 +188,7 @@ abbr {
     .blog-index .header .links {
       float: right;
       font-size: 22px;
-      line-height: 42px;
-      margin-top: 3px; }
+      line-height: 64px; }
   .blog-index .post {
     clear: both;
     margin-bottom: 28px; }
