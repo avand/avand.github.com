@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Salad Box</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <style media="screen">
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        color: rgb(252, 236, 247);
+        background: rgb(193, 178, 136);
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        font-size: 24px;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        line-height: 1.2;
+      }
+      h1, h2, h3 {
+        margin: 0;
+      }
+      p {
+        margin: 0 0 1em 0;
+      }
+      p:last-of-type {
+        margin-bottom: 0;
+      }
+      header {
+        background-image: url(./images/header-background.jpg);
+        background-size: cover;
+        padding: 3em;
+        text-align: center;
+        text-shadow: 0 1px 3px black, 0 0 0.5em rgba(0, 0, 0, 0.5), 0 0.5em 2em rgba(0, 0, 0, 0.5);
+      }
+      h1 {
+        font-size: 64px;
+        font-family: 'Permanent Marker', cursive;
+      }
+      h2 {
+        font-size: 44px;
+        margin-bottom: 0.4em;
+      }
+      h3 {
+        font-size: 32px;
+      }
+      section {
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 1em;
+      }
+      .purple-background {
+        background-image: linear-gradient(10deg, rgb(213, 121, 189), rgb(233, 167, 216))
+      }
+      .green-background {
+        background-image: linear-gradient(10deg, rgb(101, 193, 83), rgb(121, 213, 122))
+      }
+      .yellow-background {
+        background-image: linear-gradient(10deg, rgb(236, 143, 34), rgb(230, 166, 91))
+      }
+      .red-background {
+        background-image: linear-gradient(10deg, rgb(236, 64, 34), rgb(240, 107, 84))
+      }
+      img {
+        border: 5px solid rgba(255, 255, 255, 0.4);
+        border-radius: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Salad Box</h1>
+    </header>
+    <div class="purple-background">
+      <section>
+        <h2>Eat more salad</h2>
+        <img src="./images/ingredients.jpg" width="400" height="400" style="float: right; margin-left: 1em; width: 40%; height: auto;">
+        <p>
+          We all know eating vegetables is good for us. But eating veggies is hard.
+          Salad Box makes it easy.
+        </p>
+        <p>
+          Salad Box is a simple combination of ingredients & instructions that makes
+          eating veggies easy all week long.
+        </p>
+        <div style="clear: both;"></div>
+      </section>
+    </div>
+    <div class="green-background">
+      <section>
+        <h2>Ingredients</h2>
+        <div style="display: flex; gap: 16px;">
+          <div style="flex: 1;">
+            <h3>1. Red leaf kale</h3>
+            <img src="./images/ingredients/red-leaf-kale.jpg" width="400" height="400" style="width: 100%; height: auto;">
+          </div>
+          <div style="flex: 1;">
+            <h3>2. Pepper</h3>
+            <img src="./images/ingredients/pepper.jpg" width="400" height="400" style="width: 100%; height: auto;">
+          </div>
+        </div>
+        <div style="display: flex; gap: 16px; margin-top: 8px;">
+          <div style="flex: 1;">
+            <h3>3. Red cabbage</h3>
+            <img src="./images/ingredients/red-cabbage.jpg" width="400" height="400" style="width: 100%; height: auto;">
+          </div>
+          <div style="flex: 1;">
+            <h3>4. Red onion</h3>
+            <img src="./images/ingredients/red-onion.jpg" width="400" height="400" style="width: 100%; height: auto;">
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="yellow-background">
+      <section>
+        <h2>Instructions</h2>
+        <img src="./images/instructions.gif" width="400" height="400" style="float: right; margin-left: 1em; width: 40%; height: auto;">
+        <p>
+          We all know eating vegetables is good for us. But eating veggies is hard.
+          Salad Box makes it easy.
+        </p>
+        <ol>
+          <li><strong>Wash ingredients</strong> with fruit & veggie wash</li>
+          <li><strong>Chop, chop, chop</strong> and massage the kale with olive oil</li>
+          <li><strong>Layer the veggies</strong> in the box</li>
+        </ol>
+        <div style="clear: both;"></div>
+      </section>
+    </div>
+    <div class="red-background">
+      <section>
+        <h2>Enjoy!</h2>
+        <img src="./images/salad-box.jpg" width="400" height="400" style="float: right; margin-left: 1em; width: 40%; height: auto;">
+        <p>
+          Salad Box keeps your veggies fresh all week. These ingredients are a hearty base
+          for salad, omlettes, soups, sandwiches—whatever your creativity can cook up!
+        </p>
+        <div style="clear: both;"></div>
+      </section>
+    </div>
+    <pre style="font-size: 12px;">
+      The what:
+      - do all your washing and chopping at once
+
+      Time investment:
+      - washing 20 min
+      - Chopping 20 min
+      - About an hour
+
+      Staple ingredients:
+      - red leaf kale (option to sub something
+        hearty like regular kale)
+      - Colorful bell or mini peppers
+      - Red onion
+      - Purple cabbage (option to sub with radicchio)
+      - Optional hearty additions:
+          - Radish
+          - Colorful Carrots
+      The why:
+      - eat with your eyes, color
+      - Versatility
+      - Gift to future self, ease
+      - Great for traveling, lends itself to travel.
+        Weekend getaway? Throw it in a cooler bag,
+        survives in your trunk
+      - Say goodbye to wilted greens
+      - You’ll eat more greens, mom would be proud
+      - Quality bonding time with your veggies
+
+
+      Suggestion division of labor:
+      -
+
+      Do’s:
+      - experiment with your own veggies (remember,
+        the heartier the better)
+      - Do listen to music while making the salad box
+      - Learn how to chop (option to sub partner as chopper)
+          - Tuck your fingertips
+
+      The Don’ts:
+      - dress the salad box
+      - Don’t use vegetables you wouldn’t consider
+        sautéing (ex. Sprouts)
+
+      The how:
+      Slicing 101:
+
+
+      Applications/dressings:
+      Enjoy with, but not limited to:
+      - put on a frozen pizza
+
+      Challenge:
+
+
+      Ratios/per servings
+
+      Cost per salad
+
+
+      — how salad box has served us card
+      - suction cups/magnet for it to go on fridge
+    </pre>
+  </body>
+</html>
