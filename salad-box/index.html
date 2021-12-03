@@ -72,6 +72,30 @@
         border: 5px solid rgba(255, 255, 255, 0.4);
         border-radius: 16px;
       }
+      img.float-right {
+        float: right;
+        margin-left: 1em;
+        width: 40%;
+        height: auto;
+      }
+      .two-col {
+        display: flex;
+        flex: 55% 45%;
+        gap: 16px;
+      }
+      @media (max-width: 800px) {
+        .two-col {
+          display: block;
+        }
+        .two-col img {
+          margin-top: 16px;
+          width: 100%;
+          height: auto;
+        }
+        h3 {
+          font-size: inherit;
+        }
+      }
     </style>
   </head>
   <body>
@@ -81,16 +105,21 @@
     <div class="purple-background">
       <section>
         <h2>Eat more salad</h2>
-        <img src="./images/ingredients.jpg" width="400" height="400" style="float: right; margin-left: 1em; width: 40%; height: auto;">
-        <p>
-          We all know eating vegetables is good for us. But eating veggies is hard.
-          Salad Box makes it easy.
-        </p>
-        <p>
-          Salad Box is a simple combination of ingredients & instructions that makes
-          eating veggies easy all week long.
-        </p>
-        <div style="clear: both;"></div>
+        <div class="two-col">
+          <div>
+            <p>
+              We all know eating vegetables is good for us. But eating veggies is hard.
+              Salad Box makes it easy.
+            </p>
+            <p>
+              Salad Box is a simple combination of ingredients & instructions that makes
+              eating veggies easy all week long.
+            </p>
+          </div>
+          <div>
+            <img src="./images/ingredients.jpg" width="400" height="400">
+          </div>
+        </div>
       </section>
     </div>
     <div class="green-background">
@@ -123,8 +152,7 @@
         <h2>Instructions</h2>
         <img src="./images/instructions.gif" width="400" height="400" style="float: right; margin-left: 1em; width: 40%; height: auto;">
         <p>
-          We all know eating vegetables is good for us. But eating veggies is hard.
-          Salad Box makes it easy.
+          Do all your prep once and in about an hour you’ll have everything you need for the whole week.
         </p>
         <ol>
           <li><strong>Wash ingredients</strong> with fruit & veggie wash</li>
@@ -145,69 +173,5 @@
         <div style="clear: both;"></div>
       </section>
     </div>
-    <pre style="font-size: 12px;">
-      The what:
-      - do all your washing and chopping at once
-
-      Time investment:
-      - washing 20 min
-      - Chopping 20 min
-      - About an hour
-
-      Staple ingredients:
-      - red leaf kale (option to sub something
-        hearty like regular kale)
-      - Colorful bell or mini peppers
-      - Red onion
-      - Purple cabbage (option to sub with radicchio)
-      - Optional hearty additions:
-          - Radish
-          - Colorful Carrots
-      The why:
-      - eat with your eyes, color
-      - Versatility
-      - Gift to future self, ease
-      - Great for traveling, lends itself to travel.
-        Weekend getaway? Throw it in a cooler bag,
-        survives in your trunk
-      - Say goodbye to wilted greens
-      - You’ll eat more greens, mom would be proud
-      - Quality bonding time with your veggies
-
-
-      Suggestion division of labor:
-      -
-
-      Do’s:
-      - experiment with your own veggies (remember,
-        the heartier the better)
-      - Do listen to music while making the salad box
-      - Learn how to chop (option to sub partner as chopper)
-          - Tuck your fingertips
-
-      The Don’ts:
-      - dress the salad box
-      - Don’t use vegetables you wouldn’t consider
-        sautéing (ex. Sprouts)
-
-      The how:
-      Slicing 101:
-
-
-      Applications/dressings:
-      Enjoy with, but not limited to:
-      - put on a frozen pizza
-
-      Challenge:
-
-
-      Ratios/per servings
-
-      Cost per salad
-
-
-      — how salad box has served us card
-      - suction cups/magnet for it to go on fridge
-    </pre>
   </body>
 </html>
