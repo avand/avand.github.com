@@ -60,9 +60,7 @@ multiplier of execution."][multiply] And startups cluster at the fringes of this
 spectrum, either working vigorously on trivial ideas or apathetically on big ones.
 
 It's hard to make big things move fast—that's just inertia. After 10 years of
-classical piano, I'm able to play "Träumerei" or "Dreaming" by Robert Schumann:
-
-![Träumerei by Schumann](http://f.cl.ly/items/3w2i3y2n3B412C3y3B43/dreaming.jpg "Träumerei by Schumann")
+classical piano, I'm able to play "Träumerei" or "Dreaming" by Robert Schumann.
 
 This one page of music represents years of practice. It's not where I started.
 Practice and time gave me velocity. And as my repertoire gained mass, I gained
