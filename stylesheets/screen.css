@@ -1,9 +1,10 @@
 html {
   color:       #343838;
-  font-family: "Open Sans", sans-serif;
-  font-size:   16px;
+  font-family: "Atkinson Hyperlegible", sans-serif;
   font-weight: 400;
-  line-height: 28px;
+  font-style:  normal;
+  font-size:   18px;
+  line-height: 1.7;
   background:  #E6E6E6 url('/images/common/background.png'); }
   html em {
     font-style: italic; }
@@ -36,9 +37,11 @@ abbr {
   font-weight: 300;
   text-transform: uppercase; }
 
-.ubuntu-500 {
-  font-weight: 500;
-  font-family: "Ubuntu", sans-serif; }
+.raleway-600 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+}
 
 .container {
   margin: 0 auto;
@@ -111,8 +114,7 @@ abbr {
   .homepage .bio {
     text-align: left; }
   .homepage .left-column p {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 0.9rem;
     margin: 12px 0; }
   .homepage .left-column {
     width: 360px;
@@ -127,7 +129,7 @@ abbr {
     text-align: center;
     font-size: 20px;
     line-height: 20px;
-    margin-top: 32px; }
+    margin: 32px 0; }
   .homepage .right-column {
     margin-left: 408px;
     padding: 0 24px 0 36px; }
@@ -218,8 +220,8 @@ abbr {
     .blog-show .post h1, .blog-show .post h2, .blog-show .post h3,
     .blog-show .post h4, .blog-show .post h5, .blog-show .post h6,
     .blog-show .post th {
-      font-family: "Ubuntu", sans-serif;
-      font-weight: 500; }
+      font-family: "Raleway", sans-serif;
+      font-weight: 600; }
     .blog-show .post h1 {
       text-align: center;
       font-size: 36px;
@@ -311,8 +313,7 @@ abbr {
         display: inline-block; }
       .blog-show .post .footer .fb-like span {
         vertical-align: top !important; }
-  .blog-show .about-the-author {
-    line-height: 21px; }
+  .blog-show .about-the-author { }
     .blog-show .about-the-author .salutation,
     .blog-show .about-the-author .bio,
     .blog-show .about-the-author .valediction,
@@ -327,8 +328,7 @@ abbr {
       margin: 0 20px 0 3px;
       border-width: 4px; }
     .blog-show .about-the-author p {
-      font-size: 13px;
-      font-weight: 300; }
+      font-size: 0.9rem; }
     .blog-show .about-the-author .bio p {
       display: inline; }
     .blog-show .about-the-author p a {

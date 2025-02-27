@@ -13,7 +13,7 @@ title: Blog
           <img src="/images/avand-2016-10.jpg" width="64" height="64" />
         </div>
 
-        <span class="salutation ubuntu-500">
+        <span class="salutation raleway-600">
           Avand
         </span>
       </a>
@@ -23,21 +23,21 @@ title: Blog
 
   <div class="container">
     {% for post in site.posts %}
-      <div class="post">
-        <a href="{{ post.url }}">
-          <span class="date meta">
-            {{ post.date | date: "%b %Y" }}
-          </span>
+    <div class="post">
+      <a href="{{ post.url }}">
+        <span class="date meta">
+          {{ post.date | date: "%b %Y" }}
+        </span>
 
-          <div class="title ubuntu-500">
-            {{ post.title }}
-          </div>
+        <div class="title raleway-600">
+          {{ post.title }}
+        </div>
 
-          <div class="snippet">
-            {{ post.content | strip_html | truncatewords: 50 }}
-          </div>
-        </a>
-      </div>
+        <div class="snippet">
+          {{ post.content | strip_html | truncatewords: 50 }}
+        </div>
+      </a>
+    </div>
     {% endfor %}
 
     <div class="subscribe">
